@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tune xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" title="mary had a little lamb">
+    <note duration="596" name="B4"/>
+    <note duration="200" name="A4"/>
+    <note duration="363" name="G4"/>
+    <note duration="366" name="A4"/>
+    <note duration="411" name="B4"/>
+    <note duration="313" name="B4"/>
+    <note duration="778" name="B4"/>
+    <note duration="362" name="A4"/>
+    <note duration="399" name="A4"/>
+    <note duration="712" name="A4"/>
+    <note duration="347" name="B4"/>
+    <note duration="349" name="D5"/>
+    <note duration="993" name="D5"/>
+    <note duration="627" name="B4"/>
+    <note duration="232" name="A4"/>
+    <note duration="380" name="G4"/>
+    <note duration="363" name="A4"/>
+    <note duration="299" name="B4"/>
+    <note duration="446" name="B4"/>
+    <note duration="331" name="B4"/>
+    <note duration="380" name="B4"/>
+    <note duration="397" name="A4"/>
+    <note duration="370" name="A4"/>
+    <note duration="341" name="B4"/>
+    <note duration="369" name="A4"/>
+    <note duration="2164" name="G4"/>
+    <note duration="578" name="B4"/>
+    <note duration="647" name="C5"/>
+    <note duration="1625" name="D5"/>
+</tune>

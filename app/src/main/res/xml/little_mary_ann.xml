@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tune xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" title="Little Mary Ann">
+    <note duration="743" name="E5"/>
+    <note duration="836" name="D5"/>
+    <note duration="858" name="C5"/>
+    <note duration="907" name="D5"/>
+    <note duration="867" name="E5"/>
+    <note duration="983" name="E5"/>
+    <note duration="1689" name="E5"/>
+    <note duration="911" name="D5"/>
+    <note duration="875" name="D5"/>
+    <note duration="1716" name="D5"/>
+    <note duration="877" name="E5"/>
+    <note duration="884" name="E5"/>
+    <note duration="1960" name="E5"/>
+    <note duration="760" name="E5"/>
+    <note duration="777" name="D5"/>
+    <note duration="794" name="C5"/>
+    <note duration="795" name="D5"/>
+    <note duration="752" name="E5"/>
+    <note duration="793" name="E5"/>
+    <note duration="860" name="E5"/>
+    <note duration="790" name="E5"/>
+    <note duration="825" name="D5"/>
+    <note duration="897" name="D5"/>
+    <note duration="851" name="E5"/>
+    <note duration="861" name="D5"/>
+    <note duration="3741" name="C5"/>
+</tune>

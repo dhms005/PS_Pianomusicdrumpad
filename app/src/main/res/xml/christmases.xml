@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tune xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" title="Christmases">
+    <note duration="440" name="C3"/>
+    <note duration="443" name="D3"/>
+    <note duration="467" name="E3"/>
+    <note duration="579" name="F3"/>
+    <note duration="468" name="G3"/>
+    <note duration="501" name="G3"/>
+    <note duration="464" name="F3"/>
+    <note duration="473" name="E3"/>
+    <note duration="534" name="D3"/>
+    <note duration="413" name="C3"/>
+    <note duration="437" name="C3"/>
+    <note duration="358" name="D3"/>
+    <note duration="863" name="E3"/>
+    <note duration="3927" name="D3"/>
+</tune>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tune xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" title="Golden">
+    <note duration="611" name="C4"/>
+    <note duration="980" name="E4"/>
+    <note duration="275" name="C4"/>
+    <note duration="521" name="E4"/>
+    <note duration="750" name="A4"/>
+    <note duration="1393" name="G4"/>
+    <note duration="567" name="C4"/>
+    <note duration="596" name="E4"/>
+    <note duration="413" name="C4"/>
+    <note duration="368" name="F4"/>
+    <note duration="704" name="G4"/>
+    <note duration="1270" name="F4"/>
+    <note duration="582" name="C4"/>
+    <note duration="611" name="E4"/>
+    <note duration="322" name="C4"/>
+    <note duration="306" name="E4"/>
+    <note duration="2434" name="F4"/>
+    <note duration="673" name="C4"/>
+    <note duration="750" name="E4"/>
+    <note duration="474" name="A4"/>
+    <note duration="306" name="G4"/>
+    <note duration="536" name="F4"/>
+    <note duration="1178" name="E4"/>
+    <note duration="521" name="C4"/>
+    <note duration="795" name="D4"/>
+    <note duration="2311" name="C4"/>
+</tune>

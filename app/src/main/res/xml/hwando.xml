@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tune xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" title="hwando">
+    <note duration="526" name="D4"/>
+    <note duration="332" name="D4"/>
+    <note duration="531" name="F4"/>
+    <note duration="365" name="A4"/>
+    <note duration="553" name="A3"/>
+    <note duration="337" name="A3"/>
+    <note duration="518" name="C4"/>
+    <note duration="445" name="E4"/>
+    <note duration="505" name="C4"/>
+    <note duration="312" name="C4"/>
+    <note duration="499" name="E4"/>
+    <note duration="311" name="G4"/>
+    <note duration="559" name="G3"/>
+    <note duration="277" name="G3"/>
+    <note duration="450" name="B3"/>
+    <note duration="258" name="D4"/>
+    <note duration="507" name="D4"/>
+    <note duration="306" name="D4"/>
+    <note duration="449" name="F4"/>
+    <note duration="353" name="A4"/>
+    <note duration="471" name="A3"/>
+    <note duration="296" name="A3"/>
+    <note duration="492" name="C4"/>
+    <note duration="250" name="E4"/>
+    <note duration="511" name="C4"/>
+    <note duration="277" name="C4"/>
+    <note duration="429" name="E4"/>
+    <note duration="341" name="G4"/>
+    <note duration="476" name="G3"/>
+    <note duration="292" name="G3"/>
+    <note duration="380" name="B3"/>
+    <note duration="582" name="D4"/>
+</tune>

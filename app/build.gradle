@@ -1,0 +1,124 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+    id 'org.jetbrains.kotlin.android'
+    id "com.google.devtools.ksp"
+}
+
+android {
+    namespace 'com.pianomusicdrumpad.pianokeyboard'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.pianomusicdrumpad.pianokeyboard"
+        minSdk 24
+        targetSdk 34
+        versionCode 8
+        versionName "1.7"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+//    compileOptions {
+//        sourceCompatibility JavaVersion.VERSION_1_8
+//        targetCompatibility JavaVersion.VERSION_1_8
+//    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+    }
+//    kotlinOptions {
+//        jvmTarget = '1.8'
+//    }
+
+    dataBinding {
+        enabled true
+    }
+
+    buildFeatures {
+        viewBinding = true
+//        compose = true
+        buildConfig = true
+    }
+    android {
+        dataBinding {
+            enable = true
+        }
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+//    implementation 'androidx.core:core-ktx:1.16.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0'
+    //  implementation project(path: ':mylibrary')
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+
+   // implementation 'com.amitshekhar.android:android-networking:1.0.2'
+
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
+
+    implementation "androidx.percentlayout:percentlayout:1.0.0"
+
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.google.firebase:firebase-messaging'
+    implementation 'com.google.firebase:firebase-database'
+    implementation 'com.google.firebase:firebase-perf'
+    implementation platform('com.google.firebase:firebase-bom:33.4.0')
+
+
+    def lifecycle_version = "2.0.0"
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-runtime:$lifecycle_version"
+    annotationProcessor "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
+    implementation 'com.ncorti:slidetoact:0.9.0'
+ 
+    implementation 'com.airbnb.android:lottie:3.4.0'
+    implementation 'com.android.volley:volley:1.2.1'
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    implementation 'androidx.work:work-runtime-ktx:2.9.1'
+    implementation 'com.daimajia.androidanimations:library:2.4@aar'
+    implementation "com.android.installreferrer:installreferrer:2.2"
+
+    implementation 'com.intuit.sdp:sdp-android:1.1.1'
+    implementation 'com.intuit.ssp:ssp-android:1.1.1'
+
+    implementation 'com.google.android.play:app-update:2.1.0'
+
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.6.1"
+
+    implementation ("org.greenrobot:eventbus:3.2.0")
+
+    implementation ("androidx.room:room-ktx:2.6.1")
+    implementation("androidx.room:room-runtime:2.5.2")
+    ksp("androidx.room:room-compiler:2.5.2")
+    implementation 'com.google.code.gson:gson:2.8.6'
+}

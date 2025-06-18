@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tune xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" title="black parade MCR">
+    <note duration="930" name="D#5"/>
+    <note duration="703" name="D5"/>
+    <note duration="750" name="G5"/>
+    <note duration="1078" name="C5"/>
+    <note duration="719" name="B4"/>
+    <note duration="726" name="E5"/>
+    <note duration="1180" name="A4"/>
+</tune>

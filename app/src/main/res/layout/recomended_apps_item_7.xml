@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/cardview_VoterCardAdapter"
+        android:layout_width="140dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bt_1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="140.0dip"
+            android:layout_height="170.0dip">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5.0dip"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_RecomendedAppsAdapter"
+                    android:layout_width="65.0dip"
+                    android:layout_height="65.0dip"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/key_RecomendedAppsAdapter"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ads_font_reg"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/value_20"
+                    android:layout_marginTop="6.0dip"
+                    android:layout_marginRight="@dimen/value_20"
+                    android:ellipsize="marquee"
+                    android:gravity="center_horizontal"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:paddingBottom="5.0dip"
+                    android:singleLine="true"
+                    android:text="App Name"
+                    android:textColor="@color/white"
+                    android:textSize="14.0dip" />
+
+                <TextView
+                    android:id="@+id/rate_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="0.0dip"
+                    android:layout_marginBottom="5.0dip"
+                    android:gravity="center"
+                    android:text="★ ★ ★ ★ ★"
+                    android:textColor="#ffffc900"
+                    android:textSize="12.0dip"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/btn_using_ppo_no_click"
+                    android:layout_width="fill_parent"
+                    android:layout_height="25.0dip"
+                    android:layout_below="@+id/tv_title"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/value_5"
+                    android:layout_marginRight="@dimen/value_5"
+                    android:layout_marginBottom="@dimen/value_5"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txtInstall"
+                        android:layout_width="90.0dip"
+                        android:layout_height="20.0dip"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/value_5"
+                        android:background="@drawable/app_button_round_rect"
+                        android:gravity="center"
+                        android:text="Install"
+                        android:textColor="@color/white"
+                        android:textSize="13.0dip"
+                         />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

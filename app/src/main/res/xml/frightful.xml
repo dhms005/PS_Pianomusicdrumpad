@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tune xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" title="Frightful">
+    <note duration="627" name="C4"/>
+    <note duration="585" name="G4"/>
+    <note duration="599" name="F#4"/>
+    <note duration="568" name="C#4"/>
+    <note duration="636" name="C4"/>
+    <note duration="602" name="F4"/>
+    <note duration="611" name="D#4"/>
+    <note duration="608" name="B3"/>
+    <note duration="635" name="C4"/>
+    <note duration="613" name="G4"/>
+    <note duration="693" name="F#4"/>
+    <note duration="545" name="C#4"/>
+    <note duration="660" name="C4"/>
+    <note duration="647" name="F4"/>
+    <note duration="646" name="D#4"/>
+    <note duration="669" name="B3"/>
+    <note duration="620" name="C4"/>
+    <note duration="635" name="G4"/>
+    <note duration="668" name="F#4"/>
+    <note duration="557" name="C#4"/>
+    <note duration="617" name="C4"/>
+    <note duration="663" name="F4"/>
+    <note duration="577" name="D#4"/>
+    <note duration="653" name="B3"/>
+    <note duration="1296" name="C4"/>
+    <note duration="733" name="D#4"/>
+    <note duration="784" name="C4"/>
+    <note duration="2302" name="F#4"/>
+</tune>

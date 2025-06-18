@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tune xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" title="rastafari chapel">
+    <note duration="10" name="C5"/>
+    <note duration="302" name="E5"/>
+    <note duration="33" name="E5"/>
+    <note duration="380" name="C5"/>
+    <note duration="38" name="D5"/>
+    <note duration="385" name="F5"/>
+    <note duration="8" name="E5"/>
+    <note duration="379" name="G5"/>
+    <note duration="26" name="E5"/>
+    <note duration="642" name="G5"/>
+    <note duration="10" name="D5"/>
+    <note duration="191" name="F5"/>
+    <note duration="3" name="E5"/>
+    <note duration="150" name="C5"/>
+    <note duration="26" name="D5"/>
+    <note duration="917" name="F5"/>
+    <note duration="20" name="B4"/>
+    <note duration="358" name="D5"/>
+    <note duration="183" name="D5"/>
+    <note duration="237" name="B4"/>
+    <note duration="175" name="E5"/>
+    <note duration="308" name="C5"/>
+    <note duration="5" name="D5"/>
+    <note duration="276" name="F5"/>
+    <note duration="4" name="D5"/>
+    <note duration="436" name="F5"/>
+    <note duration="44" name="E5"/>
+    <note duration="176" name="C5"/>
+    <note duration="27" name="D5"/>
+    <note duration="126" name="B4"/>
+    <note duration="48" name="C5"/>
+    <note duration="1296" name="F5"/>
+</tune>

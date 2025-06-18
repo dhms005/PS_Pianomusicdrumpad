@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tune xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" title="k-on listen">
+    <note duration="379" name="B5"/>
+    <note duration="461" name="B5"/>
+    <note duration="425" name="B5"/>
+    <note duration="692" name="B5"/>
+    <note duration="236" name="B5"/>
+    <note duration="755" name="B5"/>
+    <note duration="282" name="B5"/>
+    <note duration="783" name="B5"/>
+    <note duration="306" name="G5"/>
+    <note duration="495" name="A5"/>
+    <note duration="388" name="B5"/>
+    <note duration="461" name="A5"/>
+    <note duration="494" name="G5"/>
+    <note duration="1876" name="B5"/>
+    <note duration="465" name="B5"/>
+    <note duration="415" name="B5"/>
+    <note duration="483" name="B5"/>
+    <note duration="773" name="B5"/>
+    <note duration="241" name="B5"/>
+    <note duration="674" name="B5"/>
+    <note duration="267" name="B5"/>
+    <note duration="747" name="B5"/>
+    <note duration="352" name="G5"/>
+    <note duration="482" name="A5"/>
+    <note duration="511" name="B5"/>
+    <note duration="488" name="A5"/>
+    <note duration="517" name="G5"/>
+</tune>

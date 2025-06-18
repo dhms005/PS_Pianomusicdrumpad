@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tune xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" title="2 Chainz- Im Different">
+    <note duration="1070" name="C6"/>
+    <note duration="651" name="B5"/>
+    <note duration="312" name="F5"/>
+    <note duration="291" name="A5"/>
+    <note duration="302" name="A5"/>
+    <note duration="1104" name="F5"/>
+    <note duration="1185" name="E5"/>
+    <note duration="1060" name="C6"/>
+    <note duration="699" name="B5"/>
+    <note duration="302" name="F5"/>
+    <note duration="280" name="A5"/>
+    <note duration="333" name="A5"/>
+    <note duration="1207" name="F5"/>
+    <note duration="1321" name="E5"/>
+</tune>

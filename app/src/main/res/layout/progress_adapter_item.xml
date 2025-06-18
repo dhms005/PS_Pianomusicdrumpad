@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/rounded_corner2">
+
+        <RelativeLayout
+            android:id="@+id/lineItem"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/value_5"
+            android:layout_marginRight="@dimen/value_5"
+            android:padding="@dimen/value_5">
+
+            <TextView
+                android:id="@+id/exerciseHeaderLine"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:lines="1"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="-5dp"
+                android:text="SCALE GAME"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/starImageView"
+                android:layout_width="58dp"
+                android:layout_height="15dp"
+                android:layout_toRightOf="@+id/exerciseHeaderLine"
+                android:contentDescription="starImage"
+                android:paddingLeft="5dp"
+                android:paddingTop="0dp"
+                android:layout_centerVertical="true"
+                android:paddingRight="5dp"
+                android:paddingBottom="-5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/one_star_98x30"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/trendImage"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="4dp"
+                android:layout_centerVertical="true"
+                android:contentDescription="trendImage"
+                android:scaleType="fitXY"
+                android:src="@drawable/up_green_arrow_60x60" />
+
+            <TextView
+                android:id="@+id/percentTextView"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/exerciseHeaderLine"
+                android:layout_marginLeft="10dp"
+                android:layout_toLeftOf="@+id/trendImage"
+                android:gravity="center"
+                android:lines="1"
+                android:paddingLeft="5dp"
+                android:paddingTop="-5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:text=""
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/scoreTextView"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/exerciseHeaderLine"
+                android:layout_marginLeft="10dp"
+                android:layout_toLeftOf="@+id/percentTextView"
+                android:gravity="center"
+                android:lines="1"
+                android:paddingLeft="5dp"
+                android:paddingTop="-5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:text="12/30"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/levelTextView"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/exerciseHeaderLine"
+                android:layout_marginLeft="10dp"
+                android:layout_toLeftOf="@+id/scoreTextView"
+                android:gravity="center"
+                android:lines="2"
+                android:paddingLeft="3dp"
+                android:paddingTop="-5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:text="2 Intervals: Minor 2nd Asc, Major 2nd Asc"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

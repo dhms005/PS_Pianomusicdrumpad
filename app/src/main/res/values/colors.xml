@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+
+    <color name="light_gray">#D3D3D3</color>
+
+    <color name="black">#ff000000</color>
+    <color name="gray_dark">#222222</color>
+    <color name="white">#ffffff</color>
+    <color name="gray_list_bg">#0d000000</color>
+    <color name="colorPrimary">#E52E66</color>
+    <color name="colorPrimaryDark">#E52E66</color>
+    <color name="colorAccent">#E52E66</color>
+    <color name="primary_color">#E0E0E0</color>
+    <color name="secondary_color">#66000000</color>
+    <color name="accent_color">#0073EF</color>
+    <color name="drawer_background">#ffffff</color>
+    <color name="drawer_background_dark">#424242</color>
+    <color name="secondary_color_settings">#9C9C9C</color>
+    <color name="secondary_color_settings_dark">#2E2E2E</color>
+    <color name="hint_text">#BDBDBD</color>
+    <color name="primary_color_dark">#424242</color>
+    <color name="lightgray">#26b1b1b1</color>
+    <color name="divider_dark">#1FFFFFFF</color>
+    <color name="divider_light">#1F000000</color>
+    <color name="selected_dark">#0FFFFFFF</color>
+    <color name="selected_light">#0F000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="icon_light_theme">#8A000000</color>
+    <color name="icon_dark_theme">#FFFFFFFF</color>
+    <color name="icon_light_theme_disabled">#40000000</color>
+    <color name="icon_dark_theme_disabled">#8AFFFFFF</color>
+    <color name="error_red">#F44336</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGreen">#38a32c</color>
+    <color name="grey">#D3D3D3</color>
+<!--    <color name="gray">#C4C4C4</color>-->
+
+    <!--finish Browser-->
+    <color name="colorBg">#fff3f3f3</color>
+    <color name="gray2">#919191</color>
+    <color name="colorFocus">#FFCC80</color>
+    <color name="colorFocus_exit">#C5E1A5</color>
+    <color name="colorBorder_exit">#689F38</color>
+    <color name="default_color_exit">#8BC34A</color>
+    <color name="textcolor">#aa000000</color>
+    <color name="sp">#F5CB5D</color>
+    <color name="md_btn_selected_dark">#40cbcbcb</color>
+    <color name="md_divider_black">#10000000</color>
+    <color name="install_color">#55A929</color>
+    <color name="grean">#FF00FF00</color>
+    <color name="read">#FFFF0000</color>
+    <color name="tran_white">#80FFFFFF</color>
+    <color name="Theatertheme">#403e3e</color>
+    <color name="colorPrimary_light">#96BAFD</color>
+    <color name="green">#66be46</color>
+    <color name="bgcolor">#edeceaea</color>
+    <color name="startorange_color">#F4473B</color>
+    <color name="endorange_color">#FF5722</color>
+
+
+
+
+
+
+
+
+
+
+
+    <color name="colorBlack">#ff000000</color>
+    <color name="color_bg">#FFF</color>
+
+    <color name="color_bg_btnshare">#7CB342</color>
+
+
+    <color name="txt_child_item">#CC306fb2</color>
+
+
+    <color name="main_color_300">#A5B1F5</color>
+    <color name="main_color_100">#5007a4ff</color>
+
+
+    <color name="header_one">#54BAC3</color>
+    <color name="header_two">#EC7480</color>
+    <color name="header_three">#A08AC0</color>
+    <color name="header_four">#FF9900</color>
+    <color name="header_five">#009688</color>
+    <color name="header_six">#3f3f3f</color>
+    <color name="header_seven">#9c27b0</color>
+    <color name="header_eight">#12436c</color>
+    <color name="header_nine">#306ec6</color>
+    <color name="header_ten">#795548</color>
+
+    <color name="main_color_600">#FB8C00</color>
+    <color name="view">#d8e1e0e0</color>
+    <color name="colorBack">#ff1e88e5</color>
+    <color name="colorBg2">#fff3681c</color>
+    <color name="colorListfont">#ff4c4c4c</color>
+    <color name="colorSlider">#ff4c4c4c</color>
+    <color name="colorTitlebar">#ffdedede</color>
+    <color name="colorTitlefont">#ff4c4c4c</color>
+
+
+    <color name="colorBlue">#0E2ACF</color>
+
+
+    <color name="colorYellow">#FFD700</color>
+    <color name="Red">#cc0000</color>
+    <color name="red_color">#ef0909</color>
+    <color name="share">#9CCC65</color>
+    <color name="gray_medium">#cdcdcd</color>
+
+
+    <color name="greenn">#66bb6a</color>
+    <color name="red_alpha_95">#f3e73a3d</color>
+    <color name="light_grey">#0F000000</color>
+    <color name="colorBackground">#CAEFFF</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorSecondText">#ff341c09</color>
+
+    <color name="bottom_bar_background">#e0e0e0</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="white1">#fafafa</color>
+
+
+
+
+
+    <color name="blue_startcolor">#1d90ff</color>
+    <color name="blue_endcolor">#0eebf7</color>
+    <color name="white_tran_light">#80FFFFFF</color>
+
+
+
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+    <color name="bg">#efefef</color>
+
+
+
+
+    <color name="colorGray">#50000000</color>
+    <color name="colorGrayLight">#30000000</color>
+    <color name="grey_sms">#FFDEDCDC</color>
+
+    <color name="colorRed">#F44336</color>
+    <color name="txt_dial">#FFDA44</color>
+    <color name="black_light">#B3000000</color>
+
+
+    <color name="colorMenuTextColor">#ff000000</color>
+    <color name="gray3">#19ac2424</color>
+
+
+    <color name="calc_text_blue_color">#017299</color>
+    <color name="adBorder">#44606060</color>
+    <color name="orengLight">#FFD491</color>
+    <color name="orengDark">#EF6C00</color>
+    //browser
+    <color name="table_Purple_50">#FFF3E0</color>
+    <color name="table_Purple_100">#FFE0B2</color>
+    <color name="table_Purple_200">#FFCC80</color>
+    <color name="table_Purple_300">#FFB74D</color>
+    <color name="table_Purple_500">#FF9800</color>
+
+    <color name="colorPrimaryold">#008577</color>
+    <color name="colorPrimaryDarkold">#00574B</color>
+    <color name="red_light">#F8A3A3</color>
+    <color name="txt_btn_color">#ef6c00</color>
+    <color name="AllMainBackground">#f5f5f5</color>
+    <color name="md_grey_200">#eeeeee</color>
+    <color name="title_bg_20s">#fff2f2f2</color>
+    <color name="bg_color">#FFFFFF</color>
+    <color name="colorPrimary1">#075cd2</color>
+    <color name="md_black_1000">#000000</color>
+    <color name="table_Amber_50">#FFF8E1</color>
+    <color name="table_Amber_100">#FFECB3</color>
+    <color name="table_Amber_51">#F8A3A3</color>
+    <color name="table_Amber_101">#EA5C5C</color>
+    <color name="backgroundGray">@color/md_grey_100</color>
+    <color name="md_grey_100">#f5f5f5</color>
+    <color name="adback">#EDEDED</color>
+    <color name="black_adback">#404040</color>
+    <color name="main_icon_background">#18153A</color>
+    <color name="tra">#9e2b2a3a</color>
+    <color name="all">#2b2a3a</color>
+    <color name="color_display_txt">#25687796</color>
+    <color name="color_gray">#ff989898</color>
+    <color name="background_floating_material_dark">@color/material_grey_800</color>
+    <color name="background_floating_material_light">@android:color/white</color>
+    <color name="background_material_dark">@color/material_grey_850</color>
+    <color name="background_material_light">@color/material_grey_50</color>
+    <color name="lightGrey">#ffd3d3d3</color>
+    <color name="light_black">#ff282626</color>
+    <color name="light_shade">#ffe6e3e4</color>
+    <color name="airline_name">#ff515151</color>
+    <color name="contrast">#ffd9e0ee</color>
+    <color name="trans_White">#80FFFFFF</color>
+    <color name="colorPrimary_tra">#1A54178E</color>
+    <color name="colorGrey">#ff484848</color>
+    <color name="button11">#0cd3eb</color>
+    <color name="button1">#FF7A9F</color>
+    <color name="button2">#EF923F</color>
+    <color name="button3">#F3F028</color>
+    <color name="button4">#10EADD</color>
+    <color name="button5">#F6B658</color>
+    <color name="button6">#77A6F4</color>
+    <color name="button7">#f299c1</color>
+    <color name="button8">#eb9f0c</color>
+    <color name="button9">#0c9aeb</color>
+    <color name="button10">#FF9669</color>
+    <color name="button12">#D5AAA3</color>
+    <color name="button13">#0ceba9</color>
+
+    <color name="ad_bg_color">#f2f2f2</color>
+    <color name="ad_nativebutton">#000000</color>
+    <color name="nativebutton">#0A5DCC</color>
+    <color name="nativecard">#ffffff</color>
+    <color name="nativecard_server_white">#ffffff</color>
+    <color name="nativecard_server_black">#000000</color>
+    <color name="nativetext">#ffffff</color>
+    <color name="nativetext_button">#000000</color>
+    <color name="ad_nativetext_button">#ffffff</color>
+
+
+
+    <color name="main_bg_color">#ffffff</color>
+    <color name="tab_bg">#ffffff</color>
+    <color name="bg_bg">#fafafa</color>
+    <color name="hower_color">#0a84ff</color>
+    <color name="label_color_light_secondary">#993c3c43</color>
+    <color name="label_color_light_primary">#000000</color>
+    <color name="light_transparency">#1f767680</color>
+    <color name="light_navigation_white">#ffffff</color>
+    <color name="light_navigation_white_80">#ccffffff</color>
+    <color name="light_navigation_white_90">#e6ffffff</color>
+    <color name="text_color_language">#000000</color>
+    <color name="light_red">#f2ff453a</color>
+    <color name="dimgray">#696969</color>
+    <color name="darkgray">#93959A</color>
+    <color name="tab_unselected_color">#45516C</color>
+    <color name="white_tran_90">#E6FFFFFF</color>
+
+    <color name="color9">#ff6565</color>
+
+    <color name="app_color">#202432</color>
+    <color name="white_tran">#CCFFFFFF</color>
+    <color name="exit_dialog_bg_color">#1A2B3D</color>
+    <color name="icon">#a4a4ab</color>
+    <color name="gray">#929292</color>
+    <color name="colorLightText">#56A7EA</color>
+    <color name="white_tran_70">#E6FFFFFF</color>
+    <color name="text_color">#1F1F1F</color>
+    <color name="blacktran">#B3000000</color>
+
+</resources>

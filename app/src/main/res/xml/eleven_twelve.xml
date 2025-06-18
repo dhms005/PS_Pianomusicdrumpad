@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tune xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" title="11_12">
+    <note duration="440" name="E5"/>
+    <note duration="479" name="G#4"/>
+    <note duration="451" name="D#5"/>
+    <note duration="450" name="C#5"/>
+    <note duration="458" name="E5"/>
+    <note duration="468" name="G#4"/>
+    <note duration="414" name="D#5"/>
+    <note duration="470" name="C#5"/>
+    <note duration="434" name="E5"/>
+    <note duration="448" name="G#4"/>
+    <note duration="374" name="D#5"/>
+    <note duration="471" name="C#5"/>
+    <note duration="481" name="E5"/>
+    <note duration="467" name="G#4"/>
+    <note duration="432" name="C#5"/>
+    <note duration="506" name="D#5"/>
+    <note duration="470" name="E5"/>
+    <note duration="450" name="G#4"/>
+    <note duration="450" name="D#5"/>
+    <note duration="484" name="C#5"/>
+    <note duration="414" name="E5"/>
+    <note duration="486" name="G#4"/>
+    <note duration="433" name="D#5"/>
+    <note duration="470" name="C#5"/>
+    <note duration="412" name="E5"/>
+    <note duration="35" name="G#4"/>
+    <note duration="486" name="A4"/>
+    <note duration="433" name="D#5"/>
+    <note duration="450" name="C#5"/>
+    <note duration="450" name="E5"/>
+    <note duration="432" name="G#4"/>
+    <note duration="415" name="C#5"/>
+    <note duration="651" name="D#5"/>
+</tune>

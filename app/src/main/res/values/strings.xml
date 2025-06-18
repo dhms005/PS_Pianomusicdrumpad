@@ -1,0 +1,244 @@
+<resources>
+    <string name="app_name">Piano Music Drum Pad : Piano Keyboard</string>
+    <string name="in_app_name" translatable="false">Piano Music Drum Pad : Piano Keyboard</string>
+
+    <string name="Disclaimer" translatable="false"><u>Disclaimer</u></string>
+    <string name="Disclaimer_title" translatable="false">Disclaimer</string>
+
+
+    <string name="disclaimer_discption" translatable="false">- This Application is developed for convenience of app user to get piano keyboard at one place \n\n
+- All the images or sound are copied or downloaded from the internet or free domain , app do not claiming to be an owner of any assets\n\n
+- App not taking any money or will not responsible for any kind of transaction fail or success or any kind of payment issue\n\n
+- For any privacy or copyrights related issue please mail us at :- </string>
+
+    <string name="share_text" translatable="false">"Hi there, I'm using “Piano Music Drum Pad : Piano Keyboard” app , click to get it now:-"</string>
+
+    <string name="Privacy_Policy" translatable="false"><u>Privacy Policy</u></string>
+
+    <string name="Ad_mob_native_advance">ca-app-pub-3135554388384321/7821105260</string>
+    <string name="BottomA">A3</string>
+    <string name="BottomASharp">A#3</string>
+    <string name="BottomB">B3</string>
+    <string name="BottomC">C3</string>
+    <string name="BottomCSharp">C#3</string>
+    <string name="BottomD">D3</string>
+    <string name="BottomDSharp">D#3</string>
+    <string name="BottomE">E3</string>
+    <string name="BottomF">F3</string>
+    <string name="BottomFSharp">F#3</string>
+    <string name="BottomG">G3</string>
+    <string name="BottomGSharp">G#3</string>
+    <string name="DoubleHighC">C6</string>
+    <string name="HighA">A5</string>
+    <string name="HighASharp">A#5</string>
+    <string name="HighB">B5</string>
+    <string name="HighC">C5</string>
+    <string name="HighCSharp">C#5</string>
+    <string name="HighD">D5</string>
+    <string name="HighDSharp">D#5</string>
+    <string name="HighE">E5</string>
+    <string name="HighF">F5</string>
+    <string name="HighFSharp">F#5</string>
+    <string name="HighG">G5</string>
+    <string name="HighGSharp">G#5</string>
+    <string name="MiddleA">A4</string>
+    <string name="MiddleASharp">A#4</string>
+    <string name="MiddleB">B4</string>
+    <string name="MiddleC">C4</string>
+    <string name="MiddleCSharp">C#4</string>
+    <string name="MiddleD">D4</string>
+    <string name="MiddleDSharp">D#4</string>
+    <string name="MiddleE">E4</string>
+    <string name="MiddleF">F4</string>
+    <string name="MiddleFSharp">F#4</string>
+    <string name="MiddleG">G4</string>
+    <string name="MiddleGSharp">G#4</string>
+    <string name="bpm_title">BPM</string>
+    <string name="change_beat">Change Beat</string>
+    <string name="change_sound">Change Sound</string>
+    <string name="check_notes">Check</string>
+    <string name="chip_text">Chip text</string>
+    <string name="choose_tune">Choose Scale</string>
+    <string name="chords_game_help">Tutorial / Help for Chords Game</string>
+    <string name="chords_game_information1">Test your knowledge of Chords with this game. Check your results from the progress button on the main menu.</string>
+    <string name="chords_game_tutorial1">Press the \'Play\' button to start the challenge. The app will randomly choose a chord from the level you selected and root note you chose.</string>
+    <string name="chords_game_tutorial2">Press the \'Check\' button to see if you have played the chord correctly. This will be automated, so really can be used to end the challenge early.</string>
+    <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="close">Close</string>
+    <string name="device_id">8015afdf-bf3f-4e59-89f9-84793d9af045</string>
+    <string name="enter_filename">Type a name for the file:</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="fb_interstitial_1">132923674756672_132923974756642</string>
+    <string name="help">Help</string>
+    <string name="interstitial_full_screen">ca-app-pub-3135554388384321/9134186936</string>
+    <string name="jam_help">Tutorial / Help for Jam</string>
+    <string name="menu">Menu</string>
+    <string name="metronome">Metronome</string>
+    <string name="metronome_settings">Metronome Settings</string>
+    <string name="minus">-</string>
+    <string name="open_tune">Open Tune</string>
+    <string name="options">Options</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="play_tune">Play / Stop</string>
+    <string name="plus">+</string>
+    <string name="recognition_help">Tutorial / Help for Recognition</string>
+    <string name="record_stop">Record / Stop</string>
+    <string name="s1">Save image</string>
+    <string name="s2">Allow Ad to store image in Picture gallery?</string>
+    <string name="s3">Accept</string>
+    <string name="s4">Decline</string>
+    <string name="s5">Create calendar event</string>
+    <string name="s6">Allow Ad to create a calendar event?</string>
+    <string name="s7">Test Ad</string>
+    <string name="scale_highlight">Scale to Show</string>
+    <string name="scales_game_help">Tutorial / Help for Scales Game</string>
+    <string name="search_menu_title">Search</string>
+    <string name="select_beat">Select Beat</string>
+    <string name="select_key_to_highlight">Select Key To Jam To</string>
+    <string name="select_note_count">Select number of notes to play</string>
+    <string name="select_sound">select_sound</string>
+    <string name="select_tune">Select Scale</string>
+    <string name="select_user_tune">Select Tune</string>
+    <string name="sound">Sound</string>
+    <string name="volume">Volume</string>
+    <string name="wrong">WRONG</string>
+
+    <string name="back_arrow">Back Arrow</string>
+    <string name="chords_game_tutorial3">Select the \'Level\' button to change the level. You can program which chords to be included in the \\\'My Focus Group\\\' item.</string>
+    <string name="chords_game_tutorial4">Press the \'Root Note\' button to change the root note (e.g. C, F, Eb etc). This forms the basis for the chords.</string>
+    <string name="chords_information1">Learn your chords. Either play and repeat, or use as a reference.</string>
+
+    <string name="chords_tutorial1">Press the \'Root Note\' button to change the root note (e.g. C, F, Eb etc). This forms the basis for the chords.</string>
+    <string name="chords_tutorial2">Press the \'Choose Chord\' button and select the chord you wish to learn or view as a reference.</string>
+    <string name="chords_tutorial3">Select the \'Play\' button to play the chord. After listening, play the chord back on the keyboard.</string>
+    <string name="chords_tutorial4">Then, select the \'Check\' button to check if you played the chord correctly.</string>
+    <string name="chords_tutorial5">Select the \'Reference\' button to see the pattern of the chords as a reference. You should turn it off when testing yourself on the scales.</string>
+    <string name="chords_help">Tutorial / Help for Chords</string>
+    <string name="beat">Beat</string>
+    <string name="scales_game_information1">Test your knowledge of Scales with this game. Check your results from the progress button on the main menu.</string>
+    <string name="scales_game_tutorial1">Press the \'Play\' button to start the challenge. The app will randomly choose a scale from the level you selected and root note you chose.</string>
+    <string name="scales_game_tutorial2">Press the \'Check\' button to see if you have played the scale correctly. This will be automated, so really can be used to end the challenge early.</string>
+    <string name="scales_game_tutorial3">Select the \'Level\' button to change the level. You can program which scales to be included in the \'My Focus Group\' item.</string>
+    <string name="scales_game_tutorial4">Press the \'Root Note\' button to change the root note (e.g. C, F, Eb etc). This forms the basis for the scales.</string>
+    <string name="scales_game_tutorial5">\'Scale Direction\' if you want to perform the scales descending or both ascending and descending.</string>
+    <string name="scales_help">Tutorial / Help for Scales</string>
+    <string name="scales_information1">Learn your scales. Either play and repeat, or use as a reference.</string>
+    <string name="scales_tutorial1">Press the \'Root Note\' button to change the root note (e.g. C, F, Eb etc). This forms the basis for the scales.</string>
+    <string name="scales_tutorial2">Press the \'Choose Scale\' button and select the scale you wish to learn or view as a reference.</string>
+    <string name="scales_tutorial3">Select the \'Play-Stop\' button to play the scale. After listening, play the scale back on the keyboard.</string>
+    <string name="scales_tutorial4">Then, select the \'Check\' button to check if you played the scale correctly.</string>
+    <string name="scales_tutorial5">Select the \'Reference\' button to see the pattern of the scales as a reference. You should turn it off when testing yourself on the scales.</string>
+    <string name="scales_tutorial6">\'Scale Direction\' if you want to perform the scales descending or both ascending and descending.</string>
+
+    <string name="correct">YOU\\\'VE MASTERED IT!</string>
+    <string name="jam_information1">Learn to jam and improvise in any key. Choose a key and play within the highlighted notes to create a melody or chord progression. Start with the core note of the key with another one and then build up.</string>
+    <string name="jam_tutorial1">Press the \'Root Note\' button to change the root note (e.g. C, F, Eb etc). This forms the basis for the keys.</string>
+    <string name="jam_tutorial2">Press the \'Key\' button and select the key you wish to jam in. (E.g. C Major, C Minor if C was the root note). Then jam away.</string>
+    <string name="jam_tutorial3">Want to record a melody? Select the \'Record\' button and play. Select the \'Record\' button again to stop recording.</string>
+    <string name="jam_tutorial4">Select the \'Play-Stop\' button to play the recording or play a saved recording you have just opened.</string>
+    <string name="jam_tutorial5">Select the \'Open-Save\' button to open a previously saved tune or save the tune you have just recorded.</string>
+    <string name="jam_tutorial6">Select the \'Metronome\' button to start the beat. A long press will go into the metronome settings.</string>
+    <string name="jam_tutorial7">Select a chord button to highlight the main notes in the chord within the key.</string>
+    <string name="jam_tutorial8">Select a recommended chord button. The recommended chord buttons follow the key\'s standard chord progression formula.</string>
+    <string name="user_solos_help">Tutorial / Help for User Solos</string>
+    <string name="user_solos_information1">Listen and learn some of the best user melodies.</string>
+    <string name="user_solos_tutorial1">Press the \'Choose Tune\' button and select the melody you wish to listen to.</string>
+    <string name="user_solos_tutorial2">Select the \'Play-Stop\' button to play the song. After listening, play the song back on the keyboard.</string>
+    <string name="user_solos_tutorial3">Then, select the \'Check\' button to check if you played the song back correctly.</string>
+    <string name="user_solos_tutorial4">Select the \'Numbers\' button to limit the number of notes to play back.</string>
+    <string name="recognition_information1">The app will recognise what scales/chords you play.</string>
+    <string name="recognition_tutorial1">Play a scale or chord then press the \'Record\' button to stop listening. The app will then tell you what you played.</string>
+    <string name="recognition_tutorial2">Press the \'Sharp-Flat\' button to toggle the note names to be a flat or sharp.</string>
+    <string name="recognition_tutorial3">Select the \'Refresh\' button to refresh the screen, and unhighlight the notes.</string>
+    <string name="note_count">Note Count</string>
+
+
+
+    <string name="ad_static_name"></string>
+    <string name="ad_static_disc"></string>
+
+
+    <string name="use_cat">true</string>
+    <string name="str_orange">#fe7b27</string>
+    <string name="basic_action_1">Delete</string>
+    <string name="basic_action_2">Action_2</string>
+    <string name="title_activity_category_selection">Category Selection</string>
+    <string name="ad_attribution">Ad</string>
+
+    <string name="str_green">#3cac69</string>
+    <string name="str_red">#FF4444</string>
+    <string name="str_yellow">#FFBB33</string>
+    <string name="str_sky_blue">#33B5E5</string>
+    <string name="basic_del">Delete</string>
+
+
+    <string name="rate_app">RATE APP</string>
+    <string name="exit_app">EXIT APP</string>
+    <string name="do_you_want_to_exit">Do You Want To Exit?</string>
+
+    <string name="exitscreen">Please spare a moment to rate and give your valuable feedback to us before leaving.</string>
+
+
+    <string name="mobile" >Mobile</string>
+    <string name="incoming_call" >Incoming Call</string>
+    <string name="duration" >Duration</string>
+    <string name="edit_contact" >Edit Contact</string>
+    <string name="message" >Message</string>
+    <string name="send_mail" >Send Mail</string>
+    <string name="web" >WebSite</string>
+    <string name="write_personal_message" >Write personal message</string>
+    <string name="favourites" >Favourites</string>
+    <string name="your_name" >Your Name</string>
+    <string name="your_recent_call_and_meeting_history_is_nnot_here" >Your recent call and meeting history is\10not here</string>
+    <string name="select_sim" >Select SIM</string>
+    <string name="no_sim_card_found" >No sim card found</string>
+    <string name="please_enter_message" >Please Enter Message</string>
+    <string name="contact_app_not_found" >Contact app not found</string>
+    <string name="sendWhatsAppMessage" >Send WhatsApp Message</string>
+
+    <string name="start_video_record" >Start Video Record</string>
+    <string name="start_audio_record" >Start Audio Record</string>
+    <string name="private_number" >Private Number</string>
+
+    <string name="str_after_call_screen" >After Call Screen</string>
+    <string name="others">Others</string>
+
+    <string name="str_fea_title0" >Welcome!</string>
+    <string name="str_fea_des0" >This app comes with an aftercall feature, giving you the ability to access your app after each phone call. To use the aftercall feature the following. permissions are needed</string>
+
+    <string name="str_fea_title4" >Phone Status</string>
+    <string name="str_fea_des4" >Helps identify incoming and outgoing call states.</string>
+
+    <string name="str_fea_title5" >Overlay</string>
+    <string name="str_fea_des5" >Used in order for the aftercall feature to function properly.</string>
+
+    <string name="str_fea_title6" >Notification</string>
+    <string name="str_fea_des6" >To stay updated!</string>
+
+    <string name="str_turm_condition" >\u0020 <u>Terms of Services</u></string>
+    <string name="str_privacy_olicy" ><u>Privacy Policy</u></string>
+    <string name="str_decline" >DECLINE</string>
+    <string name="str_accept" >Continue</string>
+    <string name="str_by_accepting" >By continuing you are agree to </string>
+    <string name="str_and" >\u0020 and </string>
+
+    <string name="str_enable_display_permission" >Enable Display Permission</string>
+    <string name="str_enable_to_unlock_feature" >Enable to Unlock Feature</string>
+    <string name="str_enable_feature_detail" >Enable \'Display over other app (Appear on top) permission.Some devices may name it differently. Use one of the method above.\' </string>
+    <string name="done" >Done</string>
+
+    <string name="numberPick">%s</string>
+    <string name="set_reminder">Set reminder</string>
+    <string name="no_reminders">No reminders</string>
+    <string name="contact">Contact</string>
+    <string name="calendar">Calendar</string>
+    <string name="reminde_me_about">Remind me about</string>
+    <string name="reminder_alert">Reminder Alert!</string>
+    <string name="please_select_a_future_date_and_time">Please select a future date and time!</string>
+    <string name="fill_the_content_of_the_reminder">Fill the content of the reminder</string>
+    <string name="reminder_set_successfully">Reminder set successfully!</string>
+    <string name="reminder_deleted">Reminder deleted!</string>
+
+
+    <string name="str_back_to_close_text" >Press again to exit</string>
+</resources>

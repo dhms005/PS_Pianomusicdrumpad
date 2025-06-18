@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tune xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" title="para ellas 2">
+    <note duration="321" name="D4"/>
+    <note duration="313" name="C5"/>
+    <note duration="307" name="B4"/>
+    <note duration="934" name="A4"/>
+    <note duration="299" name="A4"/>
+    <note duration="284" name="C5"/>
+    <note duration="348" name="D5"/>
+    <note duration="926" name="E5"/>
+    <note duration="302" name="A4"/>
+    <note duration="271" name="F5"/>
+    <note duration="344" name="E5"/>
+    <note duration="945" name="D5"/>
+    <note duration="310" name="A4"/>
+    <note duration="294" name="E5"/>
+    <note duration="329" name="D5"/>
+    <note duration="928" name="C5"/>
+    <note duration="326" name="A4"/>
+    <note duration="346" name="D5"/>
+    <note duration="313" name="C5"/>
+</tune>

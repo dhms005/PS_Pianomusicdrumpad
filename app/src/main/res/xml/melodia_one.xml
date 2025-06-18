@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tune xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" title="melodia 1">
+    <note duration="230" name="C4"/>
+    <note duration="216" name="E4"/>
+    <note duration="338" name="G4"/>
+    <note duration="188" name="C4"/>
+    <note duration="179" name="E4"/>
+    <note duration="337" name="G4"/>
+    <note duration="161" name="C4"/>
+    <note duration="196" name="E4"/>
+    <note duration="361" name="G4"/>
+    <note duration="174" name="C4"/>
+    <note duration="323" name="E4"/>
+    <note duration="505" name="C5"/>
+    <note duration="199" name="C4"/>
+    <note duration="220" name="E4"/>
+    <note duration="368" name="G4"/>
+    <note duration="197" name="C4"/>
+    <note duration="211" name="E4"/>
+    <note duration="406" name="G4"/>
+    <note duration="178" name="C4"/>
+    <note duration="173" name="E4"/>
+    <note duration="397" name="G4"/>
+    <note duration="150" name="C4"/>
+    <note duration="433" name="E4"/>
+    <note duration="1684" name="B4"/>
+</tune>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.pianomusicdrumpad.pianokeyboard.Piano.views.HomeBgView
+                    android:id="@+id/homeBgView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <com.pianomusicdrumpad.pianokeyboard.Piano.viewgroup.HomeViewGroup
+                android:id="@+id/homeViewGroup1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="right|center_vertical|center_horizontal|center"
+                    android:orientation="vertical"
+                    android:paddingRight="20dp">
+
+                    <ImageView
+                        android:id="@+id/album"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:padding="10dp"
+                        android:src="@drawable/btn_recodeing_play_scr_selector" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.4"
+                        android:orientation="horizontal"
+                        android:paddingTop="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/homeAcousticImageView"
+                                android:layout_width="130dp"
+                                android:layout_height="130dp"
+                                android:adjustViewBounds="true"
+                                android:clickable="true"
+                                android:onClick="acousticPressed"
+                                android:src="@drawable/home_acoustic" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/homeElectricPianoImageView"
+                                android:layout_width="130dp"
+                                android:layout_height="130dp"
+                                android:adjustViewBounds="true"
+                                android:clickable="true"
+                                android:onClick="electricPianoPressed"
+                                android:src="@drawable/home_electric_piano_marked" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/homeSynthImageView"
+                                android:layout_width="130dp"
+                                android:layout_height="130dp"
+                                android:adjustViewBounds="true"
+                                android:clickable="true"
+                                android:onClick="synthPressed"
+                                android:src="@drawable/home_synth" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/homeGuitarImageView"
+                                android:layout_width="130dp"
+                                android:layout_height="130dp"
+                                android:adjustViewBounds="true"
+                                android:clickable="true"
+                                android:onClick="guitarPressed"
+                                android:src="@drawable/guitar_button" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.4"
+                        android:orientation="horizontal"
+                        android:paddingTop="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:paddingBottom="5dp">
+
+                            <ImageView
+                                android:id="@+id/homePlayButtonImageView2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:clickable="true"
+                                android:onClick="pianoPlayScreen"
+                                android:padding="8dp"
+                                android:src="@drawable/home_play_button_selector" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.pianomusicdrumpad.pianokeyboard.Piano.viewgroup.HomeViewGroup>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

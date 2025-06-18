@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tune xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" title="hindhy">
+    <note duration="383" name="G4"/>
+    <note duration="402" name="B4"/>
+    <note duration="411" name="A4"/>
+    <note duration="389" name="G4"/>
+    <note duration="379" name="F#4"/>
+    <note duration="2536" name="G4"/>
+    <note duration="419" name="G4"/>
+    <note duration="382" name="B4"/>
+    <note duration="382" name="A4"/>
+    <note duration="406" name="G4"/>
+    <note duration="478" name="F#4"/>
+    <note duration="2083" name="E4"/>
+    <note duration="367" name="C4"/>
+    <note duration="451" name="D4"/>
+    <note duration="450" name="E4"/>
+    <note duration="447" name="F#4"/>
+    <note duration="662" name="G4"/>
+    <note duration="554" name="B4"/>
+    <note duration="1634" name="A4"/>
+    <note duration="432" name="G4"/>
+    <note duration="401" name="B4"/>
+    <note duration="383" name="A4"/>
+    <note duration="377" name="G4"/>
+    <note duration="405" name="F#4"/>
+    <note duration="1918" name="G4"/>
+</tune>

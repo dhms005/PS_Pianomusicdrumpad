@@ -1,0 +1,7 @@
+<paths>
+    <external-path name="TikliVideoStatus" path="."/>
+
+    <external-path name="my_images" path="Android/data/com.tikli.shortvideo.statusforwhatsapp.statussaver/files/Pictures" />
+
+    <external-path name="external_files" path="."/>
+</paths>

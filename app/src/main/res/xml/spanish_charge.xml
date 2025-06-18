@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tune xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" title="Spanish Charge">
+    <note duration="527" name="A4"/>
+    <note duration="614" name="A4"/>
+    <note duration="505" name="A4"/>
+    <note duration="259" name="A4"/>
+    <note duration="388" name="A#4"/>
+    <note duration="516" name="A#4"/>
+    <note duration="527" name="A#4"/>
+    <note duration="581" name="A#4"/>
+    <note duration="269" name="C5"/>
+    <note duration="249" name="A#4"/>
+    <note duration="495" name="A4"/>
+    <note duration="463" name="A4"/>
+    <note duration="474" name="A4"/>
+    <note duration="217" name="A4"/>
+    <note duration="196" name="A#4"/>
+    <note duration="496" name="A#4"/>
+    <note duration="421" name="A#4"/>
+    <note duration="430" name="A#4"/>
+    <note duration="228" name="C5"/>
+    <note duration="218" name="A#4"/>
+    <note duration="421" name="A4"/>
+    <note duration="421" name="A4"/>
+    <note duration="388" name="A4"/>
+    <note duration="206" name="A4"/>
+    <note duration="153" name="A#4"/>
+    <note duration="494" name="A#4"/>
+    <note duration="367" name="A#4"/>
+    <note duration="334" name="A#4"/>
+    <note duration="239" name="C5"/>
+    <note duration="185" name="A#4"/>
+    <note duration="2125" name="A4"/>
+</tune>
