@@ -1,123 +1,26 @@
-  {
+{
   "project_info": {
-    "project_number": "989279812690",
-    "project_id": "pixlersam-205bb",
-    "storage_bucket": "pixlersam-205bb.appspot.com"
+    "project_number": "987355040294",
+    "project_id": "ps-piano",
+    "storage_bucket": "ps-piano.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:989279812690:android:a71882b4fe5339dd58738b",
-        "android_client_info": {
-          "package_name": "com.calculatorlock.vaultphoto.hidevideo.hidephotos.vaultvideos"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "989279812690-8go4sahve2el72qtlb9mnd3l1dc8h4no.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAui-3iIsR8sAjFrNxfDsJIFSZVz0KJ7YE"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "989279812690-8go4sahve2el72qtlb9mnd3l1dc8h4no.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:989279812690:android:03af9461399d81c758738b",
-        "android_client_info": {
-          "package_name": "com.electricdrum.realdrumpads"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "989279812690-8go4sahve2el72qtlb9mnd3l1dc8h4no.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAui-3iIsR8sAjFrNxfDsJIFSZVz0KJ7YE"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "989279812690-8go4sahve2el72qtlb9mnd3l1dc8h4no.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:989279812690:android:1d3defcceba8466358738b",
+        "mobilesdk_app_id": "1:987355040294:android:38dc719d90b53deeb7f4e7",
         "android_client_info": {
           "package_name": "com.pianomusicdrumpad.pianokeyboard"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "989279812690-8go4sahve2el72qtlb9mnd3l1dc8h4no.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAui-3iIsR8sAjFrNxfDsJIFSZVz0KJ7YE"
+          "current_key": "AIzaSyDL6otUevRj3n5h_Y83Btv8E7HFPYoKN2U"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "989279812690-8go4sahve2el72qtlb9mnd3l1dc8h4no.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:989279812690:android:b0fe717a42c8928358738b",
-        "android_client_info": {
-          "package_name": "com.stylishtextforwhatsApp.stylishfont.chatstyles"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "989279812690-8go4sahve2el72qtlb9mnd3l1dc8h4no.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAui-3iIsR8sAjFrNxfDsJIFSZVz0KJ7YE"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "989279812690-8go4sahve2el72qtlb9mnd3l1dc8h4no.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }
