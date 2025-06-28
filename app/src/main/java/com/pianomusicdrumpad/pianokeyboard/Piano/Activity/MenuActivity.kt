@@ -2,6 +2,7 @@ package com.pianomusicdrumpad.pianokeyboard.Piano.Activity
 
 import android.app.Dialog
 import android.content.Intent
+import android.content.IntentSender.SendIntentException
 import android.content.SharedPreferences
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
@@ -14,9 +15,19 @@ import android.view.Gravity
 import android.view.View
 import android.view.WindowManager
 import android.widget.ImageView
+import android.widget.RelativeLayout
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.snackbar.Snackbar
+import com.google.android.play.core.appupdate.AppUpdateInfo
+import com.google.android.play.core.appupdate.AppUpdateManager
+import com.google.android.play.core.appupdate.AppUpdateManagerFactory
+import com.google.android.play.core.install.InstallState
+import com.google.android.play.core.install.InstallStateUpdatedListener
+import com.google.android.play.core.install.model.AppUpdateType
+import com.google.android.play.core.install.model.InstallStatus
+import com.google.android.play.core.install.model.UpdateAvailability
 import com.pianomusicdrumpad.pianokeyboard.Piano.Activity.ProgressListActivity
 import com.pianomusicdrumpad.pianokeyboard.Piano.managers.ProgressHelper
 import com.pianomusicdrumpad.pianokeyboard.Piano.managers.SoundManager
@@ -52,6 +63,10 @@ class MenuActivity : AppCompatActivity(), View.OnClickListener {
     var timer: CountDownTimer? = null
     var doubleBackToExitPressedOnce = false
 
+    private var mAppUpdateManager: AppUpdateManager? = null
+    private val RC_APP_UPDATE = 100
+    private var coordinatorLayout: RelativeLayout? = null
+
     public override fun onCreate(bundle: Bundle?) {
         super.onCreate(bundle)
         if (getString(ConstantAd.AD_NAV_BAR, "1") == "0") {
@@ -86,6 +101,9 @@ class MenuActivity : AppCompatActivity(), View.OnClickListener {
         }
         //        //Log.v("themelodymaster", "size large:" + large + " xlarge:" + xlarge + " isSevenInchTablet:" + isSevenInchTablet + " isTenInchTablet:" + isTenInchTablet + " diagonalInches:" + sqrt);
         initProgressChartEntries()
+
+        coordinatorLayout = findViewById(R.id.coordinatorLayout)
+        checkForUpdate()
     }
 
     private fun bindview() {
@@ -290,6 +308,24 @@ class MenuActivity : AppCompatActivity(), View.OnClickListener {
         Handler(Looper.getMainLooper()).postDelayed({ doubleBackToExitPressedOnce = false }, 2000)
     }
 
+    override fun onResume() {
+        super.onResume()
+        mAppUpdateManager!!.appUpdateInfo.addOnSuccessListener { appUpdateInfo: AppUpdateInfo ->
+            if (appUpdateInfo.updateAvailability() == UpdateAvailability.DEVELOPER_TRIGGERED_UPDATE_IN_PROGRESS) {
+                try {
+                    mAppUpdateManager!!.startUpdateFlowForResult(
+                        appUpdateInfo,
+                        AppUpdateType.IMMEDIATE,
+                        this@MenuActivity,
+                        RC_APP_UPDATE
+                    )
+                } catch (e: SendIntentException) {
+                    e.printStackTrace()
+                }
+            }
+        }
+    }
+
     companion object {
         var DENSITY: Float = 1.0f
         const val KEY_AUTOSCROLL: String = "Key_Autoscroll"
@@ -438,6 +474,69 @@ class MenuActivity : AppCompatActivity(), View.OnClickListener {
             }.start()
         }
         dialog.show()
+    }
+
+    fun checkForUpdate() {
+        mAppUpdateManager = AppUpdateManagerFactory.create(this)
+        mAppUpdateManager!!.registerListener(installStateUpdatedListener)
+        mAppUpdateManager!!.appUpdateInfo.addOnSuccessListener { appUpdateInfo: AppUpdateInfo ->
+            if (appUpdateInfo.updateAvailability() == UpdateAvailability.UPDATE_AVAILABLE && appUpdateInfo.isUpdateTypeAllowed(
+                    AppUpdateType.FLEXIBLE
+                )
+            ) {
+                try {
+                    mAppUpdateManager!!.startUpdateFlowForResult(
+                        appUpdateInfo,
+                        AppUpdateType.FLEXIBLE,
+                        this@MenuActivity,
+                        RC_APP_UPDATE
+                    )
+                } catch (e: SendIntentException) {
+                    e.printStackTrace()
+                }
+            } else if (appUpdateInfo.updateAvailability() == UpdateAvailability.UPDATE_AVAILABLE && appUpdateInfo.isUpdateTypeAllowed(
+                    AppUpdateType.IMMEDIATE
+                )
+            ) {
+                try {
+                    mAppUpdateManager!!.startUpdateFlowForResult(
+                        appUpdateInfo,
+                        AppUpdateType.IMMEDIATE,
+                        this@MenuActivity,
+                        RC_APP_UPDATE
+                    )
+                } catch (e: SendIntentException) {
+                    e.printStackTrace()
+                }
+            } else if (appUpdateInfo.installStatus() == InstallStatus.DOWNLOADED) {
+                popupSnackbarForCompleteUpdate()
+            }
+        }
+    }
+
+    var installStateUpdatedListener: InstallStateUpdatedListener =
+        object : InstallStateUpdatedListener {
+            override fun onStateUpdate(state: InstallState) {
+                if (state.installStatus() == InstallStatus.DOWNLOADED) {
+                    popupSnackbarForCompleteUpdate()
+                } else if (state.installStatus() == InstallStatus.INSTALLED) {
+                    if (mAppUpdateManager != null) {
+                        mAppUpdateManager!!.unregisterListener(this)
+                    }
+                }
+            }
+        }
+
+    private fun popupSnackbarForCompleteUpdate() {
+        val snackbar =
+            Snackbar.make(coordinatorLayout!!, "New app is ready!", Snackbar.LENGTH_INDEFINITE)
+        snackbar.setAction("Install") {
+            if (mAppUpdateManager != null) {
+                mAppUpdateManager!!.completeUpdate()
+            }
+        }
+        snackbar.setActionTextColor(resources.getColor(R.color.install_color))
+        snackbar.show()
     }
 
 }
