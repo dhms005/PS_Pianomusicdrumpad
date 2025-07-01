@@ -3,6 +3,9 @@ plugins {
     id 'com.google.gms.google-services'
     id 'org.jetbrains.kotlin.android'
     id "com.google.devtools.ksp"
+    id("com.google.firebase.firebase-perf")
+    // Add the Crashlytics Gradle plugin
+    id 'com.google.firebase.crashlytics'
 }
 
 android {
@@ -83,13 +86,16 @@ dependencies {
 
     implementation "androidx.percentlayout:percentlayout:1.0.0"
 
+    implementation platform('com.google.firebase:firebase-bom:33.4.0')
     implementation 'com.google.firebase:firebase-analytics'
     implementation 'com.google.firebase:firebase-auth'
     implementation 'com.google.firebase:firebase-firestore'
     implementation 'com.google.firebase:firebase-messaging'
     implementation 'com.google.firebase:firebase-database'
     implementation 'com.google.firebase:firebase-perf'
-    implementation platform('com.google.firebase:firebase-bom:33.4.0')
+    implementation("com.google.firebase:firebase-crashlytics")
+    implementation("com.google.firebase:firebase-crashlytics-ndk")
+
 
 
     def lifecycle_version = "2.0.0"
