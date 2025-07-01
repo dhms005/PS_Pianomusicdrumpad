@@ -168,10 +168,10 @@ class CallCutRecordFragment : Fragment() {
 
 
     fun deleteRecord(position: Int) {
-        val a = SQLiteHelper.m113a(this as Context)
+        val a = SQLiteHelper.m113a(callCutPopupActivity)
         this.sQLiteHelper = a
         this.f138o = a.mo19506a("recordingTable")
-        val create = AlertDialog.Builder(this).create()
+        val create = AlertDialog.Builder(callCutPopupActivity).create()
         create.setMessage("Delete recording?")
         create.setButton(
             -1, "      Yes      "
