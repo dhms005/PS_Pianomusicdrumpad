@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<defaults>
+
+    <entry>
+        <key>ac_name</key>
+        <value>PixlerSam</value>
+    </entry>
+    <entry>
+        <key>email</key>
+        <value>pixlersam@gmail.com</value>
+    </entry>
+    <entry>
+        <key>alternate_ads</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>qureka_url</key>
+        <value>https://play528.atmegame.com/games/brick-breaker-bash</value>
+    </entry>
+</defaults>

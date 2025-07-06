@@ -116,7 +116,40 @@ object ConstantAd {
     var SPLASH_OPEN: Boolean = false
 
     @JvmField
-    var CALL_END_SCREEN_BANNER = "ca-app-pub-9250364214390481/4648890082"
+    var AD_CONSTENT_ENABLE = "ad_consent_enable"
+
+    @JvmField
+    var IS_PURCHASE = "is_purchase"
+
+    @JvmField
+    var AD_SPLASH_OPEN = "ca-app-pub-2864503288124171/3957797939"
+
+    @JvmField
+    var AD_LANG_BANNER_NATIVE = "ca-app-pub-2864503288124171/8106578895"
+
+    @JvmField
+    var AD_INTER = "ca-app-pub-2864503288124171/4101268168"
+
+    @JvmField
+    var AD_HOME_BANNER = ""
+
+    @JvmField
+    var AD_INTRO_NATIVE = ""
+
+    @JvmField
+    var AD_HOME_NATIVE = ""
+
+    @JvmField
+    var AD_BANNER = ""
+
+    @JvmField
+    var AD_APP_OPEN = ""
+
+    @JvmField
+    var AD_BANNER_RECTANGLE = ""
+
+    @JvmField
+    var CALL_END_SCREEN_BANNER = "ca-app-pub-2864503288124171/2644716262"
 
     @JvmField
     var FIRST_AFTER_CALL = "first_aftercall"
@@ -125,5 +158,9 @@ object ConstantAd {
     var AGREE_SCREEN = "agree_screen"
     @JvmField
     var LANGUAGE_CODE = "language_code"
+
+    var AUTO_NOTI_ENABLE = "auto_notification_enable"
+    @JvmField
+    var QUREKA_URL = "qureka_url"
 }
 

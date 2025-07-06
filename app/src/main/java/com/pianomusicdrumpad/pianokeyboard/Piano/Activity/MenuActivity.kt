@@ -35,6 +35,8 @@ import com.pianomusicdrumpad.pianokeyboard.R
 import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils.getString
+import com.pianomusicdrumpad.pianokeyboard.ads.MainInterfaceV2
+import org.json.JSONObject
 import java.util.TreeMap
 import kotlin.math.sqrt
 
@@ -104,6 +106,12 @@ class MenuActivity : AppCompatActivity(), View.OnClickListener {
 
         coordinatorLayout = findViewById(R.id.coordinatorLayout)
         checkForUpdate()
+
+        MainInterfaceV2.initMain(this@MenuActivity, object : MainInterfaceV2.LoadData {
+            override fun reLoad(reloadTxt: String?) {}
+            override fun onSuccess() {}
+            override fun onExtraData(extData: JSONObject?) {}
+        })
     }
 
     private fun bindview() {

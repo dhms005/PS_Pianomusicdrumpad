@@ -21,6 +21,7 @@ import com.pianomusicdrumpad.pianokeyboard.R
 import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils
 import com.pianomusicdrumpad.pianokeyboard.Utils.Utility
+import com.pianomusicdrumpad.pianokeyboard.ads.AppOpenAdManager
 import com.pianomusicdrumpad.pianokeyboard.callafterscreen.common.CommonUtils
 import java.util.Arrays
 import java.util.Random
@@ -34,6 +35,10 @@ class Splash_Screen : AppCompatActivity() {
     var Start_screen_repeat: Int = 0
     private val vpn_countrycode_list = ArrayList<String>()
     private val secondsRemaining: Long = 0
+
+    // 6-second timeout for ad loading
+    private val AD_TIMEOUT_MS: Long = 6000
+    private lateinit var appOpenAdManager: AppOpenAdManager
 
     val permissions = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
         arrayOf(
@@ -52,11 +57,20 @@ class Splash_Screen : AppCompatActivity() {
             Manifest.permission.CALL_PHONE,
         )
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash__screen)
 
-        createTimer()
+//        createTimer()
+        if (!SharePrefUtils.getBoolean(ConstantAd.IS_PURCHASE, false)) {
+            appOpenAdManager = AppOpenAdManager(this)
+            appOpenAdManager.loadAndShowAd(this) {
+                nextcall()
+            }
+        } else {
+            nextcall()
+        }
         // Create a timer so the SplashActivity will be displayed for a fixed amount of time.
     }
 
@@ -171,6 +185,8 @@ class Splash_Screen : AppCompatActivity() {
             startActivity(Intent(this@Splash_Screen, AgreeScreenActivity::class.java))
             finish()
         }
+
+
     }
 
     override fun onStart() {

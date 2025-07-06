@@ -11,6 +11,12 @@ import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModelProvider
+import com.facebook.shimmer.ShimmerFrameLayout
+import com.google.android.gms.ads.AdListener
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.AdSize
+import com.google.android.gms.ads.AdView
+import com.google.android.gms.ads.LoadAdError
 import com.pianomusicdrumpad.pianokeyboard.callafterscreen.ViewModel.RecentCallViewModel
 import com.pianomusicdrumpad.pianokeyboard.callafterscreen.adapter.MyFragmentStatePagerAdapter
 import com.pianomusicdrumpad.pianokeyboard.callafterscreen.common.CommonUtils
@@ -33,8 +39,9 @@ class CallCutPopupActivity : AppCompatActivity() {
     lateinit var sharedPreferences: SharedPreferences
     lateinit var viewModelRecentAllCall: RecentCallViewModel
     private lateinit var adContainerView: FrameLayout
-//    private var adView: AdView? = null
+    private var adView: AdView? = null
     private lateinit var mFirebaseAnalytics: FirebaseAnalytics
+
 
     companion object {
         @SuppressLint("StaticFieldLeak")
@@ -65,7 +72,7 @@ class CallCutPopupActivity : AppCompatActivity() {
 //        adContainerView.removeAllViews()
 //        adContainerView.addView(MainInterfaceV2.loadCacheBanner(this@CallCutPopupActivity))
 
-//        loadBanner()
+        loadBanner()
         viewModelRecentAllCall = ViewModelProvider(this)[RecentCallViewModel::class.java]
 
         val onBackPressedCallback = object : OnBackPressedCallback(true) {
@@ -151,6 +158,7 @@ class CallCutPopupActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
+        adView?.resume()
         val window = window
         window.statusBarColor = ContextCompat.getColor(this, R.color.colorPrimary)
 
@@ -161,9 +169,15 @@ class CallCutPopupActivity : AppCompatActivity() {
         }
     }
 
+    override fun onPause() {
+        super.onPause()
+        adView?.pause()
+    }
+
     override fun onDestroy() {
-        super.onDestroy()
         ConstantAd.SPLASH_OPEN = true
+        adView?.destroy()
+        super.onDestroy()
     }
 
     private fun navigateToHome() {
@@ -174,81 +188,81 @@ class CallCutPopupActivity : AppCompatActivity() {
         finish()
     }
 
-//    private fun loadBanner() {
-//        // [START create_ad_view]
-//        // Create a new ad view.
-//
-//        Utils.trackEvent(mFirebaseAnalytics, "ac_ad_shown")
-//
-//        adContainerView = binding.AdmobNativeFrameTwo
-//
-//        val adViewShimmer = layoutInflater.inflate(
-//            R.layout.ad_native_rectangle_adaptive_banner_simmer, adContainerView, false
-//        ) as ShimmerFrameLayout
-//        adContainerView.removeAllViews()
-//        adContainerView.addView(adViewShimmer)
-//        adViewShimmer.startShimmer()
-//        adView = callCutPopupActivity?.let { AdView(it) }
-//        adView?.adUnitId = ConstantAd.CALL_END_SCREEN_BANNER
-//
-//        val displayMetrics = resources.displayMetrics
-//        val screenWidthPx = displayMetrics.widthPixels
-//        val screenWidthDp = (screenWidthPx / (displayMetrics.densityDpi / 160f)).toInt()
-//        val adSize = AdSize.getLandscapeInlineAdaptiveBannerAdSize(this, screenWidthDp)
-//
-////        adView.setAdSize(adSize)
-//
-//        adView?.setAdSize(adSize)
-//
-////        adContainerView.addView(adView)
-//
-//        // Start loading the ad in the background.
-//        val adRequest = AdRequest.Builder().build()
-////        adView?.loadAd(adRequest)
-//
-//
-//        // [START load_ad]
-//        // Start loading the ad in the background.
-////        AdRequest adRequest = new AdRequest.Builder().build();
+    private fun loadBanner() {
+        // [START create_ad_view]
+        // Create a new ad view.
+
+        CommonUtils.trackEvent(mFirebaseAnalytics, "ac_ad_shown")
+
+        adContainerView = binding.AdmobNativeFrameTwo
+
+        val adViewShimmer = layoutInflater.inflate(
+            R.layout.ad_native_rectangle_adaptive_banner_simmer, adContainerView, false
+        ) as ShimmerFrameLayout
+        adContainerView.removeAllViews()
+        adContainerView.addView(adViewShimmer)
+        adViewShimmer.startShimmer()
+        adView = callCutPopupActivity?.let { AdView(it) }
+        adView?.adUnitId = ConstantAd.CALL_END_SCREEN_BANNER
+
+        val displayMetrics = resources.displayMetrics
+        val screenWidthPx = displayMetrics.widthPixels
+        val screenWidthDp = (screenWidthPx / (displayMetrics.densityDpi / 160f)).toInt()
+        val adSize = AdSize.getLandscapeInlineAdaptiveBannerAdSize(this, screenWidthDp)
+
+//        adView.setAdSize(adSize)
+
+        adView?.setAdSize(adSize)
+
+//        adContainerView.addView(adView)
+
+        // Start loading the ad in the background.
+        val adRequest = AdRequest.Builder().build()
 //        adView?.loadAd(adRequest)
-//        // [END load_ad]
-//        adView?.adListener = object : AdListener() {
-//            override fun onAdClicked() {
-//                // Code to be executed when the user clicks on an ad.
-//                Utils.trackEvent(mFirebaseAnalytics, "ad_clicked")
-//            }
-//
-//            override fun onAdClosed() {
-//                // Code to be executed when the user is about to return
-//                // to the app after tapping on an ad.
-//            }
-//
-//            override fun onAdFailedToLoad(adError: LoadAdError) {
-//                // Code to be executed when an ad request fails.
+
+
+        // [START load_ad]
+        // Start loading the ad in the background.
+//        AdRequest adRequest = new AdRequest.Builder().build();
+        adView?.loadAd(adRequest)
+        // [END load_ad]
+        adView?.adListener = object : AdListener() {
+            override fun onAdClicked() {
+                // Code to be executed when the user clicks on an ad.
+                CommonUtils.trackEvent(mFirebaseAnalytics, "ad_clicked")
+            }
+
+            override fun onAdClosed() {
+                // Code to be executed when the user is about to return
+                // to the app after tapping on an ad.
+            }
+
+            override fun onAdFailedToLoad(adError: LoadAdError) {
+                // Code to be executed when an ad request fails.
+                adContainerView.removeAllViews()
+            }
+
+            override fun onAdImpression() {
+                // Code to be executed when an impression is recorded
+                // for an ad.
 //                adContainerView.removeAllViews()
-//            }
-//
-//            override fun onAdImpression() {
-//                // Code to be executed when an impression is recorded
-//                // for an ad.
-////                adContainerView.removeAllViews()
-//                //                adContainerView.setVisibility(View.GONE);
-//                Utils.trackEvent(mFirebaseAnalytics, "av_ad_impression")
-//            }
-//
-//            override fun onAdLoaded() {
-//                // Code to be executed when an ad finishes loading.
-//                // Replace ad container with new ad view.
-//                adContainerView.removeAllViews()
-//                adContainerView.addView(adView)
-//                // [END create_ad_view]
-//            }
-//
-//            override fun onAdOpened() {
-//                // Code to be executed when an ad opens an overlay that
-//                // covers the screen.
-//            }
-//        }
-//    }
+                //                adContainerView.setVisibility(View.GONE);
+                CommonUtils.trackEvent(mFirebaseAnalytics, "av_ad_impression")
+            }
+
+            override fun onAdLoaded() {
+                // Code to be executed when an ad finishes loading.
+                // Replace ad container with new ad view.
+                adContainerView.removeAllViews()
+                adContainerView.addView(adView)
+                // [END create_ad_view]
+            }
+
+            override fun onAdOpened() {
+                // Code to be executed when an ad opens an overlay that
+                // covers the screen.
+            }
+        }
+    }
 
 }
