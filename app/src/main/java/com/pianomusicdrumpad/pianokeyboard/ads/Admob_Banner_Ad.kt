@@ -2,6 +2,7 @@ package com.pianomusicdrumpad.pianokeyboard.ads
 
 import android.app.Activity
 import android.os.Build
+import android.view.WindowInsets
 import android.widget.FrameLayout
 import com.facebook.shimmer.ShimmerFrameLayout
 import com.google.android.gms.ads.AdListener
@@ -51,6 +52,7 @@ class Admob_Banner_Ad {
 
             override fun onAdFailedToLoad(adError: LoadAdError) {
                 // Code to be executed when an ad request fails.
+                adViewShimmer.stopShimmer()
                 adContainer.removeAllViews()
             }
 
@@ -64,6 +66,7 @@ class Admob_Banner_Ad {
             override fun onAdLoaded() {
                 // Code to be executed when an ad finishes loading.
                 // Replace ad container with new ad view.
+                adViewShimmer.stopShimmer()
                 adContainer.removeAllViews()
                 adContainer.addView(adView)
                 // [END create_ad_view]
@@ -78,17 +81,43 @@ class Admob_Banner_Ad {
     }
 
     // Get the ad size with screen width.
+//    private fun getAdSize(context: Activity): AdSize {
+//        val displayMetrics = context.resources.displayMetrics
+//        var adWidthPixels = displayMetrics.widthPixels
+//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+//            val windowMetrics = context.windowManager.currentWindowMetrics
+//            adWidthPixels = windowMetrics.bounds.width()
+//        }
+//        val density = displayMetrics.density
+//        val adWidth = (adWidthPixels / density).toInt()
+//        return AdSize.getCurrentOrientationAnchoredAdaptiveBannerAdSize(context, adWidth)
+//    }
+
+//    @SuppressLint("ObsoleteSdkInt")
     private fun getAdSize(context: Activity): AdSize {
+        val windowManager = context.windowManager
         val displayMetrics = context.resources.displayMetrics
-        var adWidthPixels = displayMetrics.widthPixels
+        var adWidthPixels: Int
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-            val windowMetrics = context.windowManager.currentWindowMetrics
-            adWidthPixels = windowMetrics.bounds.width()
+            val windowMetrics = windowManager.currentWindowMetrics
+            val insets = windowMetrics.windowInsets
+                .getInsetsIgnoringVisibility(
+                    WindowInsets.Type.navigationBars()
+                            or WindowInsets.Type.displayCutout()
+                )
+            val bounds = windowMetrics.bounds
+            adWidthPixels = bounds.width() - insets.left - insets.right
+        } else {
+            // Fallback for < API 30
+            adWidthPixels = displayMetrics.widthPixels
         }
+
         val density = displayMetrics.density
         val adWidth = (adWidthPixels / density).toInt()
         return AdSize.getCurrentOrientationAnchoredAdaptiveBannerAdSize(context, adWidth)
     }
+
 
 
     companion object {

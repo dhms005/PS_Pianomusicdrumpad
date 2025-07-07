@@ -27,6 +27,9 @@ import com.pianomusicdrumpad.pianokeyboard.Piano.views.SoundVolumeSeekBarView
 import com.pianomusicdrumpad.pianokeyboard.Piano.views.TimeView
 import com.pianomusicdrumpad.pianokeyboard.Piano.views.a
 import com.pianomusicdrumpad.pianokeyboard.R
+import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
+import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils
+import com.pianomusicdrumpad.pianokeyboard.ads.MainInterfaceV2
 import java.io.File
 import java.io.FileNotFoundException
 import java.io.FileOutputStream
@@ -454,6 +457,13 @@ class PianoPlayScreen : Activity() {
             this.aObject
         )
         volumeSeekBaar()
+
+        val homeAdShow =
+            SharePrefUtils.getString(ConstantAd.HOME_AD_SHOW, "1")
+
+        if (homeAdShow == "1") {
+            loadBanner()
+        }
     }
 
 
@@ -519,5 +529,14 @@ class PianoPlayScreen : Activity() {
         fun getAppFolder(activity: Context): String {
             return activity.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS)!!.path
         }
+    }
+
+    private fun loadBanner() {
+        MainInterfaceV2.loadBanner(
+            this,
+            findViewById(R.id.Admob_Native_Frame_two),
+            adNativeBannerSimmer = R.layout.ad_native_adptive_banner_simmer,
+            bannerId = ConstantAd.AD_HOME_BANNER
+        )
     }
 }
