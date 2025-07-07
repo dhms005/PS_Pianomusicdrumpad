@@ -51,7 +51,6 @@
                 android:textSize="@dimen/_11sdp" />
 
 
-
             <TextView
                 android:id="@+id/tv_title2"
                 android:layout_width="wrap_content"
@@ -77,11 +76,23 @@
     </ScrollView>
 
 
+    <FrameLayout
+        android:id="@+id/Admob_Native_Frame_two"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:layout_marginRight="@dimen/_1sdp"
+        android:layout_marginBottom="@dimen/_1sdp"
+        android:orientation="vertical"
+        android:visibility="visible" />
+
     <LinearLayout
         android:id="@+id/tv_bottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/Admob_Native_Frame_two"
         android:layout_marginStart="@dimen/_15sdp"
         android:layout_marginEnd="@dimen/_15sdp"
         android:layout_marginBottom="@dimen/_15sdp"
@@ -91,8 +102,8 @@
             android:id="@+id/cb_check"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:visibility="gone"
-            android:checked="true">
+            android:checked="true"
+            android:visibility="gone">
 
         </CheckBox>
 

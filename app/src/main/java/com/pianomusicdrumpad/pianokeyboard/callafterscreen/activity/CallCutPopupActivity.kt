@@ -72,7 +72,14 @@ class CallCutPopupActivity : AppCompatActivity() {
 //        adContainerView.removeAllViews()
 //        adContainerView.addView(MainInterfaceV2.loadCacheBanner(this@CallCutPopupActivity))
 
-        loadBanner()
+
+        val callEndAdsShow =
+            SharePrefUtils.getString(ConstantAd.CALL_END_ADS_SHOW, "1")
+
+        if (callEndAdsShow == "1") {
+            loadBanner()
+        }
+
         viewModelRecentAllCall = ViewModelProvider(this)[RecentCallViewModel::class.java]
 
         val onBackPressedCallback = object : OnBackPressedCallback(true) {

@@ -16,6 +16,8 @@ import com.airbnb.lottie.utils.Utils
 import com.pianomusicdrumpad.pianokeyboard.Piano.Activity.MenuActivity
 import com.pianomusicdrumpad.pianokeyboard.R
 import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
+import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils
+import com.pianomusicdrumpad.pianokeyboard.ads.MainInterfaceV2
 import com.pianomusicdrumpad.pianokeyboard.callafterscreen.common.CommonUtils
 import com.pianomusicdrumpad.pianokeyboard.exit.Utility
 
@@ -59,6 +61,15 @@ class OverlayScreenActivity : AppCompatActivity() {
 
         findViews()
         clickListeners()
+
+        val permissionScreenAdsShow =
+            SharePrefUtils.getString(ConstantAd.PERMISSION_SCREEN_ADS_SHOW, "1")
+
+        if (permissionScreenAdsShow == "1") {
+            loadBanner()
+        }
+
+
     }
 
     private fun clickListeners() {
@@ -221,5 +232,14 @@ class OverlayScreenActivity : AppCompatActivity() {
             startActivity(i)
         }
 
+    }
+
+    private fun loadBanner() {
+        MainInterfaceV2.loadBanner(
+            this,
+            findViewById(R.id.Admob_Native_Frame_two),
+            adNativeBannerSimmer = R.layout.ad_native_adptive_banner_simmer,
+            bannerId = ConstantAd.AD_PERMISSION_BANNER
+        )
     }
 }

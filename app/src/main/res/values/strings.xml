@@ -15,45 +15,45 @@
 
     <string name="Privacy_Policy" translatable="false"><u>Privacy Policy</u></string>
 
-    <string name="Ad_mob_native_advance">ca-app-pub-3135554388384321/7821105260</string>
-    <string name="BottomA">A3</string>
-    <string name="BottomASharp">A#3</string>
-    <string name="BottomB">B3</string>
-    <string name="BottomC">C3</string>
-    <string name="BottomCSharp">C#3</string>
-    <string name="BottomD">D3</string>
-    <string name="BottomDSharp">D#3</string>
-    <string name="BottomE">E3</string>
-    <string name="BottomF">F3</string>
-    <string name="BottomFSharp">F#3</string>
-    <string name="BottomG">G3</string>
-    <string name="BottomGSharp">G#3</string>
-    <string name="DoubleHighC">C6</string>
-    <string name="HighA">A5</string>
-    <string name="HighASharp">A#5</string>
-    <string name="HighB">B5</string>
-    <string name="HighC">C5</string>
-    <string name="HighCSharp">C#5</string>
-    <string name="HighD">D5</string>
-    <string name="HighDSharp">D#5</string>
-    <string name="HighE">E5</string>
-    <string name="HighF">F5</string>
-    <string name="HighFSharp">F#5</string>
-    <string name="HighG">G5</string>
-    <string name="HighGSharp">G#5</string>
-    <string name="MiddleA">A4</string>
-    <string name="MiddleASharp">A#4</string>
-    <string name="MiddleB">B4</string>
-    <string name="MiddleC">C4</string>
-    <string name="MiddleCSharp">C#4</string>
-    <string name="MiddleD">D4</string>
-    <string name="MiddleDSharp">D#4</string>
-    <string name="MiddleE">E4</string>
-    <string name="MiddleF">F4</string>
-    <string name="MiddleFSharp">F#4</string>
-    <string name="MiddleG">G4</string>
-    <string name="MiddleGSharp">G#4</string>
-    <string name="bpm_title">BPM</string>
+    <string name="BottomA" translatable="false">A3</string>
+    <string name="BottomASharp" translatable="false">A#3</string>
+    <string name="BottomB" translatable="false">B3</string>
+    <string name="BottomC" translatable="false">C3</string>
+    <string name="BottomCSharp" translatable="false">C#3</string>
+    <string name="BottomD" translatable="false">D3</string>
+    <string name="BottomDSharp" translatable="false">D#3</string>
+    <string name="BottomE" translatable="false">E3</string>
+    <string name="BottomF" translatable="false">F3</string>
+    <string name="BottomFSharp" translatable="false">F#3</string>
+    <string name="BottomG" translatable="false">G3</string>
+    <string name="BottomGSharp" translatable="false">G#3</string>
+    <string name="DoubleHighC" translatable="false">C6</string>
+    <string name="HighA" translatable="false">A5</string>
+    <string name="HighASharp" translatable="false">A#5</string>
+    <string name="HighB" translatable="false">B5</string>
+    <string name="HighC" translatable="false">C5</string>
+    <string name="HighCSharp" translatable="false">C#5</string>
+    <string name="HighD" translatable="false">D5</string>
+    <string name="HighDSharp" translatable="false">D#5</string>
+    <string name="HighE" translatable="false">E5</string>
+    <string name="HighF" translatable="false">F5</string>
+    <string name="HighFSharp" translatable="false">F#5</string>
+    <string name="HighG" translatable="false">G5</string>
+    <string name="HighGSharp" translatable="false">G#5</string>
+    <string name="MiddleA" translatable="false">A4</string>
+    <string name="MiddleASharp" translatable="false">A#4</string>
+    <string name="MiddleB" translatable="false">B4</string>
+    <string name="MiddleC" translatable="false">C4</string>
+    <string name="MiddleCSharp" translatable="false">C#4</string>
+    <string name="MiddleD" translatable="false">D4</string>
+    <string name="MiddleDSharp" translatable="false">D#4</string>
+    <string name="MiddleE" translatable="false">E4</string>
+    <string name="MiddleF" translatable="false">F4</string>
+    <string name="MiddleFSharp" translatable="false">F#4</string>
+    <string name="MiddleG" translatable="false">G4</string>
+    <string name="MiddleGSharp" translatable="false">G#4</string>
+    <string name="bpm_title" translatable="false">BPM</string>
+
     <string name="change_beat">Change Beat</string>
     <string name="change_sound">Change Sound</string>
     <string name="check_notes">Check</string>
@@ -65,12 +65,9 @@
     <string name="chords_game_tutorial2">Press the \'Check\' button to see if you have played the chord correctly. This will be automated, so really can be used to end the challenge early.</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
     <string name="close">Close</string>
-    <string name="device_id">8015afdf-bf3f-4e59-89f9-84793d9af045</string>
     <string name="enter_filename">Type a name for the file:</string>
     <string name="error_icon_content_description">Error</string>
-    <string name="fb_interstitial_1">132923674756672_132923974756642</string>
     <string name="help">Help</string>
-    <string name="interstitial_full_screen">ca-app-pub-3135554388384321/9134186936</string>
     <string name="jam_help">Tutorial / Help for Jam</string>
     <string name="menu">Menu</string>
     <string name="metronome">Metronome</string>
@@ -151,11 +148,6 @@
     <string name="recognition_tutorial2">Press the \'Sharp-Flat\' button to toggle the note names to be a flat or sharp.</string>
     <string name="recognition_tutorial3">Select the \'Refresh\' button to refresh the screen, and unhighlight the notes.</string>
     <string name="note_count">Note Count</string>
-
-
-
-    <string name="ad_static_name"></string>
-    <string name="ad_static_disc"></string>
 
 
     <string name="use_cat">true</string>

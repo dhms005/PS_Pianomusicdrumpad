@@ -4,6 +4,7 @@ object ConstantAd {
     @JvmField
     var MEDIATION: String = "Mediation"
     var START_SCREEN_COUNT: String = "START_SCREEN_COUNT"
+
     @JvmField
     var START_SCREEN_TEXTs: String = "START_SCREEN_TEXTs"
 
@@ -34,6 +35,7 @@ object ConstantAd {
     var GOOGLE_NATIVE_BANNER: String = "Google_banner_Native"
     var MOPUB_FULL_AD: String = "mopub_full"
     var MOPUB_BANNER_AD: String = "mopub_banner"
+
     @JvmField
     var AD_CHECK_RESUME: String = "ad_check_resume"
     var APPMEXT_FULL_AD: String = "appnext_full"
@@ -131,7 +133,7 @@ object ConstantAd {
     var AD_INTER = "ca-app-pub-2864503288124171/4101268168"
 
     @JvmField
-    var AD_HOME_BANNER = ""
+    var AD_HOME_BANNER = "ca-app-pub-2864503288124171/3174472951"
 
     @JvmField
     var AD_INTRO_NATIVE = ""
@@ -143,7 +145,10 @@ object ConstantAd {
     var AD_BANNER = ""
 
     @JvmField
-    var AD_APP_OPEN = ""
+    var AD_PERMISSION_BANNER = "ca-app-pub-2864503288124171/4509968873"
+
+    @JvmField
+    var AD_APP_OPEN = "ca-app-pub-2864503288124171/4487554620"
 
     @JvmField
     var AD_BANNER_RECTANGLE = ""
@@ -156,11 +161,29 @@ object ConstantAd {
 
     @JvmField
     var AGREE_SCREEN = "agree_screen"
+
     @JvmField
     var LANGUAGE_CODE = "language_code"
 
     var AUTO_NOTI_ENABLE = "auto_notification_enable"
+
     @JvmField
     var QUREKA_URL = "qureka_url"
+
+
+    @JvmField
+    var CALL_END_ADS_SHOW = "call_end_ads_show"
+
+    @JvmField
+    var HOME_AD_SHOW = "home_ad_show"
+
+    @JvmField
+    var PERMISSION_SCREEN_ADS_SHOW = "permission_screen_ads_show"
+
+    @JvmField
+    var SPLASH_OPEN_ADS_SHOW = "splash_open_ad_show"
+
+    @JvmField
+    var APP_OPEN_RECENT_ADS_SHOW = "app_open_recent_ad_show"
 }
 

@@ -116,6 +116,31 @@ object GetDataApi {
             FirebaseRemoteConfig.getInstance().getString("qureka_url")
         )
 
+        SharePrefUtils.putString(
+            ConstantAd.CALL_END_ADS_SHOW,
+            FirebaseRemoteConfig.getInstance().getString("call_end_ads_show")
+        )
+
+        SharePrefUtils.putString(
+            ConstantAd.HOME_AD_SHOW,
+            FirebaseRemoteConfig.getInstance().getString("home_ad_show")
+        )
+
+        SharePrefUtils.putString(
+            ConstantAd.PERMISSION_SCREEN_ADS_SHOW,
+            FirebaseRemoteConfig.getInstance().getString("permission_screen_ads_show")
+        )
+
+        SharePrefUtils.putString(
+            ConstantAd.SPLASH_OPEN_ADS_SHOW,
+            FirebaseRemoteConfig.getInstance().getString("splash_open_ad_show")
+        )
+
+        SharePrefUtils.putString(
+            ConstantAd.APP_OPEN_RECENT_ADS_SHOW,
+            FirebaseRemoteConfig.getInstance().getString("app_open_recent_ad_show")
+        )
+
 
         //       SharePrefUtils.putString(ConstantAd.START_SCREEN_COUNT, FirebaseRemoteConfig.getInstance().getString("start_screen"));
 //         SharePrefUtils.putString(ConstantAd.QUREKA_BTN, FirebaseRemoteConfig.getInstance().getString("qureka_btn"));

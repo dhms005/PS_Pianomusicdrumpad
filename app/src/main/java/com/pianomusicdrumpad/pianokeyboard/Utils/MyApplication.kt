@@ -49,7 +49,11 @@ class MyApplication : Application(), ActivityLifecycleCallbacks, DefaultLifecycl
                     ConstantAd.IS_PURCHASE, false
                 )
             ) {
-                appOpenAdManager!!.loadAd(this, false)
+                val appOpenRecentAdsShow =
+                    SharePrefUtils.getString(ConstantAd.APP_OPEN_RECENT_ADS_SHOW, "1")
+                if (appOpenRecentAdsShow == "1") {
+                    appOpenAdManager!!.loadAd(this, false)
+                }
             }
         }
     }
@@ -69,7 +73,13 @@ class MyApplication : Application(), ActivityLifecycleCallbacks, DefaultLifecycl
                     ConstantAd.IS_PURCHASE, false
                 )
             ) {
-                appOpenAdManager!!.showAdIfAvailable(currentActivity!!)
+                val appOpenRecentAdsShow =
+                    SharePrefUtils.getString(ConstantAd.APP_OPEN_RECENT_ADS_SHOW, "1")
+
+                if (appOpenRecentAdsShow == "1") {
+                    appOpenAdManager!!.showAdIfAvailable(currentActivity!!)
+                }
+
             }
         }
     }

@@ -22,7 +22,9 @@ import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils
 import com.pianomusicdrumpad.pianokeyboard.Utils.Utility
 import com.pianomusicdrumpad.pianokeyboard.ads.AppOpenAdManager
+import com.pianomusicdrumpad.pianokeyboard.ads.MainInterfaceV2
 import com.pianomusicdrumpad.pianokeyboard.callafterscreen.common.CommonUtils
+import org.json.JSONObject
 import java.util.Arrays
 import java.util.Random
 import java.util.concurrent.TimeUnit
@@ -63,14 +65,35 @@ class Splash_Screen : AppCompatActivity() {
         setContentView(R.layout.activity_splash__screen)
 
 //        createTimer()
-        if (!SharePrefUtils.getBoolean(ConstantAd.IS_PURCHASE, false)) {
-            appOpenAdManager = AppOpenAdManager(this)
-            appOpenAdManager.loadAndShowAd(this) {
-                nextcall()
+
+        MainInterfaceV2.initMain(this@Splash_Screen, object : MainInterfaceV2.LoadData {
+            override fun reLoad(reloadTxt: String?) {}
+            override fun onSuccess() {
+
+
+                val splashOpenAdsShow =
+                    SharePrefUtils.getString(ConstantAd.SPLASH_OPEN_ADS_SHOW, "1")
+
+                if (splashOpenAdsShow == "1") {
+                    if (!SharePrefUtils.getBoolean(ConstantAd.IS_PURCHASE, false)) {
+                        appOpenAdManager = AppOpenAdManager(this@Splash_Screen)
+                        appOpenAdManager.loadAndShowAd(this@Splash_Screen) {
+                            nextcall()
+                        }
+                    } else {
+                        nextcall()
+                    }
+                } else {
+                    createTimer()
+                }
+
+
             }
-        } else {
-            nextcall()
-        }
+
+            override fun onExtraData(extData: JSONObject?) {}
+        })
+
+
         // Create a timer so the SplashActivity will be displayed for a fixed amount of time.
     }
 

@@ -1,40 +1,95 @@
 package com.pianomusicdrumpad.pianokeyboard.ads
 
 import android.app.Activity
-import android.content.Context
-import android.util.Log
+import android.os.Build
 import android.widget.FrameLayout
-import com.google.android.gms.ads.AdError
+import com.facebook.shimmer.ShimmerFrameLayout
+import com.google.android.gms.ads.AdListener
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdSize
 import com.google.android.gms.ads.AdView
-import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
+import com.google.android.gms.ads.LoadAdError
 
 class Admob_Banner_Ad {
     var adView: AdView? = null
 
-    fun loadBanner(context: Context) {
-        adView = AdView(context)
-        adView?.adUnitId = ConstantAd.CALL_END_SCREEN_BANNER
+    fun loadBanner(
+        context: Activity,
+        adContainer: FrameLayout,
+        adNativeBannerSimmer: Int,
+        bannerId: String
+    ) {
 
-        val displayMetrics = context.resources.displayMetrics
-        val screenWidthPx = displayMetrics.widthPixels
-        val screenWidthDp = (screenWidthPx / (displayMetrics.densityDpi / 160f)).toInt()
-        val adSize = AdSize.getLandscapeInlineAdaptiveBannerAdSize(context, screenWidthDp)
+        val adViewShimmer = context.layoutInflater.inflate(
+            adNativeBannerSimmer,
+            adContainer,
+            false
+        ) as ShimmerFrameLayout
+
+        adContainer.addView(adViewShimmer)
+        adViewShimmer.startShimmer()
+
+        adView = AdView(context)
+        adView?.adUnitId = bannerId
+
 
 //        adView.setAdSize(adSize)
-
-        adView?.setAdSize(adSize)
+        adView?.setAdSize(getAdSize(context))
 
         val adRequest = AdRequest.Builder().build()
         adView?.loadAd(adRequest)
+
+        adView?.adListener = object : AdListener() {
+            override fun onAdClicked() {
+                // Code to be executed when the user clicks on an ad.
+            }
+
+            override fun onAdClosed() {
+                // Code to be executed when the user is about to return
+                // to the app after tapping on an ad.
+            }
+
+            override fun onAdFailedToLoad(adError: LoadAdError) {
+                // Code to be executed when an ad request fails.
+                adContainer.removeAllViews()
+            }
+
+            override fun onAdImpression() {
+                // Code to be executed when an impression is recorded
+                // for an ad.
+//                adContainerView.removeAllViews()
+                //                adContainerView.setVisibility(View.GONE);
+            }
+
+            override fun onAdLoaded() {
+                // Code to be executed when an ad finishes loading.
+                // Replace ad container with new ad view.
+                adContainer.removeAllViews()
+                adContainer.addView(adView)
+                // [END create_ad_view]
+            }
+
+            override fun onAdOpened() {
+                // Code to be executed when an ad opens an overlay that
+                // covers the screen.
+            }
+        }
+
     }
 
-
-    fun showBanner(adContainer: FrameLayout) {
-        adContainer.removeAllViews()
-        adContainer.addView(adView)
+    // Get the ad size with screen width.
+    private fun getAdSize(context: Activity): AdSize {
+        val displayMetrics = context.resources.displayMetrics
+        var adWidthPixels = displayMetrics.widthPixels
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            val windowMetrics = context.windowManager.currentWindowMetrics
+            adWidthPixels = windowMetrics.bounds.width()
+        }
+        val density = displayMetrics.density
+        val adWidth = (adWidthPixels / density).toInt()
+        return AdSize.getCurrentOrientationAnchoredAdaptiveBannerAdSize(context, adWidth)
     }
+
 
     companion object {
 

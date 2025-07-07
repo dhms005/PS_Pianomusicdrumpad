@@ -1,9 +1,7 @@
 package com.pianomusicdrumpad.pianokeyboard.ads
 
 import android.app.Activity
-import android.content.Context
 import android.widget.FrameLayout
-import android.widget.Toast
 import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils
 import org.json.JSONObject
@@ -15,8 +13,9 @@ object MainInterfaceV2 {
             GetDataApi.getRemoteConfig(activity, loadData)
         } else {
 //            Toast.makeText(activity, "No Internet", Toast.LENGTH_SHORT).show()
+            loadData.onSuccess()
         }
-        //        loadData.onSuccess();
+//                loadData.onSuccess();
     }
 
     fun showInter(activity: Activity, interAdListener: InterAdListener) {
@@ -41,22 +40,28 @@ object MainInterfaceV2 {
         }
     }
 
-    fun loadCacheBanner(context: Context) {
+    fun loadBanner(
+        context: Activity,
+        adContainer: FrameLayout,
+        adNativeBannerSimmer: Int,
+        bannerId: String
+    ) {
         if (!SharePrefUtils.getBoolean(
                 ConstantAd.IS_PURCHASE, false
             )
         ) {
-            Admob_Banner_Ad.getInstance().loadBanner(context)
-        } else {
-        }
-    }
+//            Admob_Banner_Ad.getInstance().loadBanner(
+//                context,
+//                adContainer = FrameLayout(context),
+//                R.layout.ad_native_adptive_banner_simmer
+//            )
 
-    fun showCacheBanner(adContainer: FrameLayout) {
-        if (!SharePrefUtils.getBoolean(
-                ConstantAd.IS_PURCHASE, false
+            Admob_Banner_Ad.getInstance().loadBanner(
+                context,
+                adContainer,
+                adNativeBannerSimmer,
+                bannerId
             )
-        ) {
-            Admob_Banner_Ad.getInstance().showBanner(adContainer)
         } else {
         }
     }
