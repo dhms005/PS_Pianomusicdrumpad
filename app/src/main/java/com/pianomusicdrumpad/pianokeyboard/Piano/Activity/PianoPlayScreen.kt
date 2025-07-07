@@ -36,6 +36,9 @@ import java.io.FileOutputStream
 import java.io.IOException
 import java.io.ObjectOutputStream
 import java.io.StreamCorruptedException
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
 import java.util.Vector
 
 class PianoPlayScreen : Activity() {
@@ -157,16 +160,22 @@ class PianoPlayScreen : Activity() {
         val editText = dialog.findViewById<View>(R.id.recordNameEditText) as EditText
         val textView = dialog.findViewById<View>(R.id.fileNotExistText) as TextView
         val str2 = str
+        val formatter = SimpleDateFormat("dd-MM-yyyy HH:mm:ss", Locale.getDefault())
+        val currentTime: String = formatter.format(Date())
+        editText.setText(currentTime)
         val dialog2 = dialog
         (dialog.findViewById<View>(R.id.saveImageView) as ImageView).setOnClickListener(
             View.OnClickListener {
                 textView.visibility = View.GONE
                 val obj = editText.text.toString()
-                if (obj.trim { it <= ' ' }.equals("", ignoreCase = true)) {
-                    textView.visibility = View.VISIBLE
-                    textView.text = "File Name Can Not Be Empty"
-                    return@OnClickListener
-                }
+//                val formatter = SimpleDateFormat("dd-MM-yyyy HH:mm:ss", Locale.getDefault())
+//                val currentTime: String = formatter.format(Date())
+
+//                if (obj.trim { it <= ' ' }.equals("", ignoreCase = true)) {
+//                    textView.visibility = View.VISIBLE
+//                    textView.text = "File Name Can Not Be Empty"
+//                    return@OnClickListener
+//                }
                 val str = "$str2/$obj"
 
                 Log.e("getpath", str)

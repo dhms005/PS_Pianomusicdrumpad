@@ -92,30 +92,18 @@ class MyApplication : Application(), ActivityLifecycleCallbacks, DefaultLifecycl
     override fun onActivityCreated(activity: Activity, bundle: Bundle?) {
     }
 
-    fun loadAd(activity: Activity) {
-        if (!SharePrefUtils.getBoolean(
-                ConstantAd.IS_PURCHASE, false
-            )
-        ) {
-            appOpenAdManager!!.loadAd(activity, false)
-        }
-    }
-
     fun showAdIfAvailable(
-        activity: Activity, onShowAdCompleteListener: OnShowAdCompleteListener
+        activity: Activity
     ) {
         // We wrap the showAdIfAvailable to enforce that other classes only interact with MyApplication
         // class.
-        appOpenAdManager!!.showAdIfAvailable(activity, onShowAdCompleteListener)
+        appOpenAdManager!!.showAdIfAvailable(activity)
     }
 
     /**
      * Interface definition for a callback to be invoked when an app open ad is complete (i.e.
      * dismissed or fails to show).
      */
-    interface OnShowAdCompleteListener {
-        fun onShowAdComplete()
-    }
 
     override fun onActivityResumed(activity: Activity) {
     }
@@ -163,6 +151,9 @@ class MyApplication : Application(), ActivityLifecycleCallbacks, DefaultLifecycl
          */
         fun loadAd(context: Context, isFirstTime: Boolean) {
             // Do not load ad if there is an unused ad or one is already loading.
+
+
+            Log.d(Companion.LOG_TAG, "onAdFailedToLoad: " + isLoadingAd + isAdAvailable)
             if (isLoadingAd || isAdAvailable) {
                 return
             }
@@ -232,12 +223,7 @@ class MyApplication : Application(), ActivityLifecycleCallbacks, DefaultLifecycl
          * @param activity the activity that shows the app open ad
          */
         fun showAdIfAvailable(
-            activity: Activity,
-            onShowAdCompleteListener: OnShowAdCompleteListener = object : OnShowAdCompleteListener {
-                override fun onShowAdComplete() {
-                    // Empty because the user will go back to the activity that shows the ad.
-                }
-            }
+            activity: Activity
         ) {
             // If the app open ad is already showing, do not show the ad again.
             if (isShowingAd) {
@@ -248,10 +234,10 @@ class MyApplication : Application(), ActivityLifecycleCallbacks, DefaultLifecycl
             // If the app open ad is not available yet, invoke the callback then load the ad.
             if (!isAdAvailable) {
                 Log.d(Companion.LOG_TAG, "The app open ad is not ready yet.")
-                onShowAdCompleteListener.onShowAdComplete()
-                if (googleMobileAdsConsentManager.canRequestAds()) {
-                    currentActivity?.let { loadAd(it, false) }
-                }
+//                if (googleMobileAdsConsentManager.canRequestAds()) {
+//
+//                }
+                currentActivity?.let { loadAd(it, false) }
                 return
             }
 
@@ -270,10 +256,10 @@ class MyApplication : Application(), ActivityLifecycleCallbacks, DefaultLifecycl
                     )
 
                     //                            Toast.makeText(activity, "onAdDismissedFullScreenContent", Toast.LENGTH_SHORT).show();
-                    onShowAdCompleteListener.onShowAdComplete()
-                    if (googleMobileAdsConsentManager.canRequestAds()) {
-                        loadAd(activity, false)
-                    }
+//                    if (googleMobileAdsConsentManager.canRequestAds()) {
+//
+//                    }
+                    loadAd(activity, false)
                 }
 
                 /** Called when fullscreen content failed to show.  */
@@ -288,10 +274,10 @@ class MyApplication : Application(), ActivityLifecycleCallbacks, DefaultLifecycl
 
                     //                            Toast.makeText(activity, "onAdFailedToShowFullScreenContent", Toast.LENGTH_SHORT)
                     //                                    .show();
-                    onShowAdCompleteListener.onShowAdComplete()
-                    if (googleMobileAdsConsentManager.canRequestAds()) {
+//                    onShowAdCompleteListener.onShowAdComplete()
+//                    if (googleMobileAdsConsentManager.canRequestAds()) {
                         loadAd(activity, false)
-                    }
+//                    }
                 }
 
                 /** Called when fullscreen content is shown.  */

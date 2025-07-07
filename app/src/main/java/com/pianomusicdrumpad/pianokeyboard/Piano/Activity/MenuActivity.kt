@@ -107,11 +107,11 @@ class MenuActivity : AppCompatActivity(), View.OnClickListener {
         coordinatorLayout = findViewById(R.id.coordinatorLayout)
         checkForUpdate()
 
-        MainInterfaceV2.initMain(this@MenuActivity, object : MainInterfaceV2.LoadData {
-            override fun reLoad(reloadTxt: String?) {}
-            override fun onSuccess() {}
-            override fun onExtraData(extData: JSONObject?) {}
-        })
+//        MainInterfaceV2.initMain(this@MenuActivity, object : MainInterfaceV2.LoadData {
+//            override fun reLoad(reloadTxt: String?) {}
+//            override fun onSuccess() {}
+//            override fun onExtraData(extData: JSONObject?) {}
+//        })
     }
 
     private fun bindview() {
@@ -160,12 +160,20 @@ class MenuActivity : AppCompatActivity(), View.OnClickListener {
 
         piano = findViewById<View>(R.id.piano) as ImageView
         piano.setOnClickListener {
-            startActivity(
-                Intent(
-                    this@MenuActivity,
-                    PianoMain::class.java
-                )
-            )
+//            startActivity(
+//                Intent(
+//                    this@MenuActivity,
+//                    PianoMain::class.java
+//                )
+//            )
+            MainInterfaceV2.showInter(
+                this,
+                object : MainInterfaceV2.InterAdListener {
+                    override fun onAdClosed() {
+                        val intent = Intent(this@MenuActivity, PianoMain::class.java)
+                        startActivity(intent)
+                    }
+                })
         }
 
 
@@ -218,37 +226,136 @@ class MenuActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(view: View) {
         val id = view.id
         if (id == R.id.btn1) {
-            startActivity(Intent(this@MenuActivity, ScalesHelpActivity::class.java))
-
+            MainInterfaceV2.showInter(
+                this,
+                object : MainInterfaceV2.InterAdListener {
+                    override fun onAdClosed() {
+                        val intent = Intent(this@MenuActivity, ScalesHelpActivity::class.java)
+                        startActivity(intent)
+                    }
+                })
             return
         } else if (id == R.id.btn10) {
-            startActivity(Intent(this@MenuActivity, UserSolosActivity::class.java))
-
+            MainInterfaceV2.showInter(
+                this,
+                object : MainInterfaceV2.InterAdListener {
+                    override fun onAdClosed() {
+                        val intent = Intent(this@MenuActivity, UserSolosActivity::class.java)
+                        startActivity(intent)
+                    }
+                })
             return
         } else if (id == R.id.btn11) {
-            startActivity(Intent(this@MenuActivity, RecognitionHelpActivity::class.java))
+            MainInterfaceV2.showInter(
+                this,
+                object : MainInterfaceV2.InterAdListener {
+                    override fun onAdClosed() {
+                        val intent = Intent(this@MenuActivity, RecognitionHelpActivity::class.java)
+                        startActivity(intent)
+                    }
+                })
         } else if (id == R.id.btn12) {
-            startActivity(Intent(this@MenuActivity, RecognitionActivity::class.java))
+            MainInterfaceV2.showInter(
+                this,
+                object : MainInterfaceV2.InterAdListener {
+                    override fun onAdClosed() {
+                        val intent = Intent(this@MenuActivity, RecognitionActivity::class.java)
+                        startActivity(intent)
+                    }
+                })
         } else if (id == R.id.btn13) {
-            startActivity(Intent(this@MenuActivity, ProgressListActivity::class.java))
+            MainInterfaceV2.showInter(
+                this,
+                object : MainInterfaceV2.InterAdListener {
+                    override fun onAdClosed() {
+                        val intent = Intent(this@MenuActivity, ProgressListActivity::class.java)
+                        startActivity(intent)
+                    }
+                })
         } else if (id == R.id.btn14) {
-            startActivity(Intent(this@MenuActivity, SettingsActivity::class.java))
+            MainInterfaceV2.showInter(
+                this,
+                object : MainInterfaceV2.InterAdListener {
+                    override fun onAdClosed() {
+                        val intent = Intent(this@MenuActivity, SettingsActivity::class.java)
+                        startActivity(intent)
+                    }
+                })
         } else if (id == R.id.btn2) {
-            startActivity(Intent(this@MenuActivity, ScalesActivity::class.java))
+            MainInterfaceV2.showInter(
+                this,
+                object : MainInterfaceV2.InterAdListener {
+                    override fun onAdClosed() {
+                        val intent = Intent(this@MenuActivity, ScalesActivity::class.java)
+                        startActivity(intent)
+                    }
+                })
         } else if (id == R.id.btn3) {
-            startActivity(Intent(this@MenuActivity, ScalesGameHelpActivity::class.java))
+            MainInterfaceV2.showInter(
+                this,
+                object : MainInterfaceV2.InterAdListener {
+                    override fun onAdClosed() {
+                        val intent = Intent(this@MenuActivity, ScalesGameHelpActivity::class.java)
+                        startActivity(intent)
+                    }
+                })
+
         } else if (id == R.id.btn4) {
-            startActivity(Intent(this@MenuActivity, ScalesGameActivity::class.java))
+            MainInterfaceV2.showInter(
+                this,
+                object : MainInterfaceV2.InterAdListener {
+                    override fun onAdClosed() {
+                        val intent = Intent(this@MenuActivity, ScalesGameActivity::class.java)
+                        startActivity(intent)
+                    }
+                })
         } else if (id == R.id.btn5) {
-            startActivity(Intent(this@MenuActivity, ChordsHelpActivity::class.java))
+            MainInterfaceV2.showInter(
+                this,
+                object : MainInterfaceV2.InterAdListener {
+                    override fun onAdClosed() {
+                        val intent = Intent(this@MenuActivity, ChordsHelpActivity::class.java)
+                        startActivity(intent)
+                    }
+                })
         } else if (id == R.id.btn6) {
-            startActivity(Intent(this@MenuActivity, ChordsActivity::class.java))
+            MainInterfaceV2.showInter(
+                this,
+                object : MainInterfaceV2.InterAdListener {
+                    override fun onAdClosed() {
+                        val intent = Intent(this@MenuActivity, ChordsActivity::class.java)
+                        startActivity(intent)
+                    }
+                })
         } else if (id == R.id.btn7) {
-            startActivity(Intent(this@MenuActivity, ChordsGameHelpActivity::class.java))
+            MainInterfaceV2.showInter(
+                this,
+                object : MainInterfaceV2.InterAdListener {
+                    override fun onAdClosed() {
+                        val intent = Intent(this@MenuActivity, ChordsGameHelpActivity::class.java)
+                        startActivity(intent)
+                    }
+                })
+
         } else if (id == R.id.btn8) {
-            startActivity(Intent(this@MenuActivity, ChordsGameActivity::class.java))
+            MainInterfaceV2.showInter(
+                this,
+                object : MainInterfaceV2.InterAdListener {
+                    override fun onAdClosed() {
+                        val intent = Intent(this@MenuActivity, ChordsGameActivity::class.java)
+                        startActivity(intent)
+                    }
+                })
+
         } else if (id == R.id.btn9) {
-            startActivity(Intent(this@MenuActivity, UserSolosHelpActivity::class.java))
+            MainInterfaceV2.showInter(
+                this,
+                object : MainInterfaceV2.InterAdListener {
+                    override fun onAdClosed() {
+                        val intent = Intent(this@MenuActivity, UserSolosHelpActivity::class.java)
+                        startActivity(intent)
+                    }
+                })
         }
     }
 
