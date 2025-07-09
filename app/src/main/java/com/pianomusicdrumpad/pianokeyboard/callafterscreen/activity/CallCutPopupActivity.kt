@@ -55,6 +55,7 @@ class CallCutPopupActivity : AppCompatActivity() {
         binding = ActivityCallCutPopupBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+//        ConstantAd.SPLASH_OPEN = false
         callCutPopupActivity = this
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this)
 

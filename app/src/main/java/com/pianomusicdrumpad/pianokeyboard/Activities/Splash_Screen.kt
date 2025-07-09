@@ -65,7 +65,7 @@ class Splash_Screen : AppCompatActivity() {
         setContentView(R.layout.activity_splash__screen)
 
 //        createTimer()
-
+        ConstantAd.SPLASH_OPEN = false
         MainInterfaceV2.initMain(this@Splash_Screen, object : MainInterfaceV2.LoadData {
             override fun reLoad(reloadTxt: String?) {}
             override fun onSuccess() {

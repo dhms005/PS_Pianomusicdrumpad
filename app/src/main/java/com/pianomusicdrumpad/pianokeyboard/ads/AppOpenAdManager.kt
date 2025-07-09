@@ -16,7 +16,7 @@ import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
 
 class AppOpenAdManager(private val context: Context) : LifecycleObserver {
 
-    private val TAG = "AppOpenAdManager"
+    private val TAG = "AppOpenAdManagerSplash"
 
     // Test App Open ad unit ID
     private val AD_UNIT_ID = ConstantAd.AD_SPLASH_OPEN
