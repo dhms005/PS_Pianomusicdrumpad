@@ -56,10 +56,14 @@
             android:name=".Activities.Privacypolicy_Action"
             android:theme="@style/Theme.AppCompat.NoActionBar" /> <!-- Start Browser -->
 
-        <meta-data
-            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
-            android:value="true" />
+<!--        <meta-data-->
+<!--            android:name="com.google.android.gms.ads.AD_MANAGER_APP"-->
+<!--            android:value="true" />-->
 
+        <property
+            android:name="android.adservices.AD_SERVICES_CONFIG"
+            android:resource="@xml/gma_ad_services_config"
+            tools:replace="android:resource" />
 
         <activity
             android:name=".Piano.Activity.RecordedSound"

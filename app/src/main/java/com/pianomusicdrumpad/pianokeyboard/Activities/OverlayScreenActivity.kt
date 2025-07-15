@@ -66,7 +66,7 @@ class OverlayScreenActivity : AppCompatActivity() {
             SharePrefUtils.getString(ConstantAd.PERMISSION_SCREEN_ADS_SHOW, "1")
 
         if (permissionScreenAdsShow == "1") {
-//            loadBanner()
+            loadBanner()
         }
 
 

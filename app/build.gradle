@@ -10,14 +10,14 @@ plugins {
 
 android {
     namespace 'com.pianomusicdrumpad.pianokeyboard'
-    compileSdk 34
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.pianomusicdrumpad.pianokeyboard"
         minSdk 24
-        targetSdk 34
-        versionCode 10
-        versionName "1.9"
+        targetSdk 35
+        versionCode 11
+        versionName "2.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -129,4 +129,5 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.6'
 
     implementation("com.google.android.gms:play-services-ads:23.6.0")
+
 }

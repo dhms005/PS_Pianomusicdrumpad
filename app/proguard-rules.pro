@@ -383,3 +383,20 @@
     public static int d(...);
     public static int e(...);
 }
+
+# Keep Daimajia Animation library
+-keep class com.daimajia.** { *; }
+
+# Keep Glider and Skill classes
+-keep class com.daimajia.easing.** { *; }
+
+# Keep AnnotatedType and related reflection classes
+-keepclassmembers class java.lang.reflect.AnnotatedType { *; }
+
+# Optional: If using Guava or reflection-heavy libraries
+-keepattributes Signature,InnerClasses,EnclosingMethod,Annotation,RuntimeVisibleAnnotations,RuntimeInvisibleAnnotations
+-keep class com.google.common.** { *; }
+
+-dontwarn com.daimajia.easing.Glider
+-dontwarn com.daimajia.easing.Skill
+-dontwarn java.lang.reflect.AnnotatedType
