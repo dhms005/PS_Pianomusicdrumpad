@@ -7,6 +7,7 @@ import com.pianomusicdrumpad.pianokeyboard.R
 import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils.getString
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils.putString
+import com.pianomusicdrumpad.pianokeyboard.Utils.Utility.setLocale
 
 class ScalesGameHelpActivity : Activity(), View.OnClickListener {
     override fun onClick(view: View) {
@@ -22,7 +23,7 @@ class ScalesGameHelpActivity : Activity(), View.OnClickListener {
                 View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or
                         View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
         }
-
+        setLocale(this, getString(ConstantAd.LANGUAGE_CODE, "en"))
         setContentView(R.layout.scales_game_help)
 
         findViewById<View>(R.id.back_arrow_view).setOnClickListener(this)
@@ -41,5 +42,6 @@ class ScalesGameHelpActivity : Activity(), View.OnClickListener {
     override fun onResume() {
         super.onResume()
         putString(ConstantAd.AD_CHECK_RESUME, "1")
+        setLocale(this, getString(ConstantAd.LANGUAGE_CODE, "en"))
     }
 }

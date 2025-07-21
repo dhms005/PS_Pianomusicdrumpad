@@ -42,6 +42,7 @@ import com.pianomusicdrumpad.pianokeyboard.Piano.managers.TuneManager;
 import com.pianomusicdrumpad.pianokeyboard.Piano.models.Note;
 import com.pianomusicdrumpad.pianokeyboard.Piano.models.Tune;
 import com.pianomusicdrumpad.pianokeyboard.R;
+import com.pianomusicdrumpad.pianokeyboard.Utils.Utility;
 
 public class UserSolosActivity extends Activity implements View.OnClickListener, View.OnTouchListener, SeekBar.OnSeekBarChangeListener {
     private static int HIGHLIGHT_HEIGHT = 0;
@@ -1069,6 +1070,7 @@ public class UserSolosActivity extends Activity implements View.OnClickListener,
 
     public void onPause() {
         SharePrefUtils.putString(ConstantAd.AD_CHECK_RESUME, "0");
+        Utility.setLocale(this, SharePrefUtils.getString(ConstantAd.LANGUAGE_CODE, "en"));
         isStopDesired = true;
         SoundManager soundManager2 = this.soundManager;
         if (soundManager2 != null) {

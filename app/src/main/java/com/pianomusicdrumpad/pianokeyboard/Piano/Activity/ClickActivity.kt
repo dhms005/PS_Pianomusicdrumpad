@@ -17,6 +17,9 @@ import android.widget.SeekBar.OnSeekBarChangeListener
 import android.widget.TextView
 import com.pianomusicdrumpad.pianokeyboard.Piano.managers.SoundManager
 import com.pianomusicdrumpad.pianokeyboard.R
+import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
+import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils.getString
+import com.pianomusicdrumpad.pianokeyboard.Utils.Utility.setLocale
 import java.util.Arrays
 
 class ClickActivity : Activity(), View.OnClickListener, OnLongClickListener,
@@ -289,6 +292,7 @@ class ClickActivity : Activity(), View.OnClickListener, OnLongClickListener,
 
     public override fun onResume() {
         super.onResume()
+        setLocale(this, getString(ConstantAd.LANGUAGE_CODE, "en"))
         bringInDefaultPrefs()
     }
 

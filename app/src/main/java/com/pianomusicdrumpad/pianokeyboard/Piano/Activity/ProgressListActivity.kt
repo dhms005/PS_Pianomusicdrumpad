@@ -10,6 +10,7 @@ import com.pianomusicdrumpad.pianokeyboard.R
 import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils.getString
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils.putString
+import com.pianomusicdrumpad.pianokeyboard.Utils.Utility.setLocale
 
 class ProgressListActivity : ListActivity(), View.OnClickListener {
     private var adapter: ProgressListAdapter? = null
@@ -49,6 +50,7 @@ class ProgressListActivity : ListActivity(), View.OnClickListener {
     public override fun onResume() {
         super.onResume()
         putString(ConstantAd.AD_CHECK_RESUME, "1")
+        setLocale(this, getString(ConstantAd.LANGUAGE_CODE, "en"))
         ProgressListAdapter.readProgressMap(applicationContext)
         adapter!!.notifyDataSetChanged()
     }

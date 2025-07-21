@@ -44,6 +44,9 @@ import com.pianomusicdrumpad.pianokeyboard.Piano.managers.ScalesManager
 import com.pianomusicdrumpad.pianokeyboard.Piano.managers.SoundManager
 import com.pianomusicdrumpad.pianokeyboard.Piano.models.Note
 import com.pianomusicdrumpad.pianokeyboard.R
+import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
+import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils.getString
+import com.pianomusicdrumpad.pianokeyboard.Utils.Utility.setLocale
 import java.io.BufferedReader
 import java.io.File
 import java.io.FileInputStream
@@ -3289,6 +3292,7 @@ class JamActivity : Activity(), View.OnClickListener, OnLongClickListener,
 
     public override fun onResume() {
         super.onResume()
+        setLocale(this, getString(ConstantAd.LANGUAGE_CODE, "en"))
         bringInDefaultPrefs()
         populateChordButtons()
         disableClickButton = false

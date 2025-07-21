@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Disclaimer" ><u>Disclaimer</u></string>
+    <string name="Disclaimer_title">免责声明</string>
+
+
+    <string name="disclaimer_discption" >- This Application is developed for convenience of app user to get piano keyboard at one place \n\n
+- All the images or sound are copied or downloaded from the internet or free domain , app do not claiming to be an owner of any assets\n\n
+- App not taking any money or will not responsible for any kind of transaction fail or success or any kind of payment issue\n\n
+- For any privacy or copyrights related issue please mail us at :- </string>
+
+    <string name="share_text" translatable="false">“您好，我正在使用“钢琴音乐鼓垫：钢琴键盘”应用程序，单击立即获取：-”</string>
+
+    <string name="Privacy_Policy" ><u>Privacy Policy</u></string>
+
+    <string name="change_beat">改变节拍</string>
+    <string name="change_sound">改变声音</string>
+    <string name="check_notes">查看</string>
+    <string name="chip_text">芯片文本</string>
+    <string name="choose_tune">选择比例</string>
+    <string name="chords_game_help">和弦游戏教程/帮助</string>
+    <string name="chords_game_information1">用这个游戏测试一下你对和弦的掌握程度。点击主菜单上的进度按钮查看你的成绩。</string>
+    <string name="chords_game_tutorial1">按下“播放”按钮开始挑战。应用程序会根据你选择的级别和根音随机选择一个和弦。</string>
+    <string name="chords_game_tutorial2">按下“检查”按钮，检查你弹奏的和弦是否正确。这将自动进行，因此可以用来提前结束挑战。</string>
+    <string name="clear_text_end_icon_content_description">明文</string>
+    <string name="close">关闭</string>
+    <string name="enter_filename">输入文件的名称：</string>
+    <string name="error_icon_content_description">错误</string>
+    <string name="help">帮助</string>
+    <string name="jam_help">Jam 教程/帮助</string>
+    <string name="menu">菜单</string>
+    <string name="metronome">节拍器</string>
+    <string name="metronome_settings">节拍器设置</string>
+    <string name="minus">-</string>
+    <string name="open_tune">开放式曲调</string>
+    <string name="options">选项</string>
+    <string name="password_toggle_content_description">显示密码</string>
+    <string name="play_tune">播放/停止</string>
+    <string name="plus">+</string>
+    <string name="recognition_help">教程/识别帮助</string>
+    <string name="record_stop">录制/停止</string>
+
+    <string name="scale_highlight">缩放显示</string>
+    <string name="scales_game_help">Scales 游戏教程/帮助</string>
+    <string name="search_menu_title">搜索</string>
+    <string name="select_beat">选择节拍</string>
+    <string name="select_key_to_highlight">选择要卡住的键</string>
+    <string name="select_note_count">选择要演奏的音符数</string>
+    <string name="select_sound">选择声音</string>
+    <string name="select_tune">选择比例</string>
+    <string name="select_user_tune">选择调音</string>
+    <string name="sound">声音</string>
+    <string name="volume">体积</string>
+    <string name="wrong">错误的</string>
+
+    <string name="back_arrow">后退箭头</string>
+    <string name="chords_game_tutorial3">选择“级别”按钮更改级别。您可以编程将哪些和弦包含在“我的焦点小组”项目中。</string>
+    <string name="chords_game_tutorial4">按下“根音”按钮更改根音（例如 C、F、Eb 等）。这构成了和弦的基础。</string>
+    <string name="chords_information1">学习和弦。可以弹奏并重复，也可以用作参考。</string>
+
+    <string name="chords_tutorial1">按下“根音”按钮更改根音（例如 C、F、Eb 等）。这构成了和弦的基础。</string>
+    <string name="chords_tutorial2">按下“选择和弦”按钮并选择您想要学习或查看作为参考的和弦。</string>
+    <string name="chords_tutorial3">选择“播放”按钮播放和弦。聆听后，在键盘上弹奏和弦。</string>
+    <string name="chords_tutorial4">然后，选择“检查”按钮来检查您是否正确弹奏了和弦。</string>
+    <string name="chords_tutorial5">选择“参考”按钮，查看和弦模式作为参考。测试音阶时，请关闭该按钮。</string>
+    <string name="chords_help">和弦教程/帮助</string>
+    <string name="beat">打</string>
+    <string name="scales_game_information1">用这个游戏测试一下你对音阶的掌握程度。点击主菜单上的进度按钮查看你的成绩。</string>
+    <string name="scales_game_tutorial1">按下“播放”按钮开始挑战。应用程序会根据你选择的级别和根音随机选择一个音阶。</string>
+    <string name="scales_game_tutorial2">点击“检查”按钮，检查你是否正确弹奏了音阶。该操作将自动执行，因此可以用来提前结束挑战。</string>
+    <string name="scales_game_tutorial3">选择“级别”按钮可更改级别。您可以设置要包含在“我的焦点小组”项目中的量表。</string>
+    <string name="scales_game_tutorial4">按下“根音”按钮可更改根音（例如 C、F、Eb 等）。这构成了音阶的基础。</string>
+    <string name="scales_game_tutorial5">如果您想按降序或升序和降序执行音阶，请选择“Scale Direction”。</string>
+    <string name="scales_help">教程/帮助</string>
+    <string name="scales_information1">学习音阶。可以弹奏并重复，也可以用作参考。</string>
+    <string name="scales_tutorial1">按下“根音”按钮可更改根音（例如 C、F、Eb 等）。这构成了音阶的基础。</string>
+    <string name="scales_tutorial2">按下“选择音阶”按钮并选择您想要学习或查看作为参考的音阶。</string>
+    <string name="scales_tutorial3">选择“播放-停止”按钮播放音阶。聆听后，在键盘上重新弹奏音阶。</string>
+    <string name="scales_tutorial4">然后，选择“检查”按钮来检查您是否正确演奏了音阶。</string>
+    <string name="scales_tutorial5">选择“参考”按钮，查看体重秤的图案作为参考。在体重秤上测试自己时，请关闭此功能。</string>
+    <string name="scales_tutorial6">如果您想按降序或升序和降序执行音阶，请选择“Scale Direction”。</string>
+
+    <string name="correct">你已经掌握它了！</string>
+    <string name="jam_information1">学习用任意调即兴演奏。选择一个调，并在突出的音符内演奏，创作旋律或和弦进行。从该调的核心音开始，再用另一个音符演奏，然后逐渐增加。</string>
+    <string name="jam_tutorial1">按下“根音”按钮可更改根音（例如 C、F、Eb 等）。这将构成调性的基础。</string>
+    <string name="jam_tutorial2">按下“Key”按钮，选择你想弹奏的调。（例如，如果 C 是根音，则选择 C 大调，C 小调）。然后开始弹奏吧。</string>
+    <string name="jam_tutorial3">想录制旋律吗？点击“录音”按钮即可播放。再次点击“录音”按钮即可停止录音。</string>
+    <string name="jam_tutorial4">选择“播放-停止”按钮播放录音或播放刚刚打开的已保存的录音。</string>
+    <string name="jam_tutorial5">选择“打开-保存”按钮打开之前保存的曲调或保存刚刚录制的曲调。</string>
+    <string name="jam_tutorial6">选择“节拍器”按钮开始节拍。长按即可进入节拍器设置。</string>
+    <string name="jam_tutorial7">选择一个和弦按钮来突出显示该调内和弦的主要音符。</string>
+    <string name="jam_tutorial8">选择推荐的和弦按钮。推荐的和弦按钮遵循调的标准和弦进行公式。</string>
+    <string name="user_solos_help">用户 Solos 的教程/帮助</string>
+    <string name="user_solos_information1">聆听并学习一些最佳的用户旋律。</string>
+    <string name="user_solos_tutorial1">按下“选择曲调”按钮并选择您想要听的旋律。</string>
+    <string name="user_solos_tutorial2">选择“播放-停止”按钮播放歌曲。听完后，在键盘上重新播放歌曲。</string>
+    <string name="user_solos_tutorial3">然后，选择“检查”按钮来检查您是否正确播放了歌曲。</string>
+    <string name="user_solos_tutorial4">选择“数字”按钮来限制要播放的音符数量。</string>
+    <string name="recognition_information1">该应用程序将识别您演奏的音阶/和弦。</string>
+    <string name="recognition_tutorial1">弹奏一个音阶或和弦，然后按下“录音”按钮停止聆听。应用程序会显示你弹奏的内容。</string>
+    <string name="recognition_tutorial2">按下“Sharp-Flat”按钮可将音符名称切换为降号或升号。</string>
+    <string name="recognition_tutorial3">选择“刷新”按钮刷新屏幕，并取消突出显示注释。</string>
+    <string name="note_count">笔记计数</string>
+
+
+    <string name="use_cat">真的</string>
+    <string name="str_orange">#fe7b27</string>
+    <string name="basic_action_1">删除</string>
+    <string name="basic_action_2">动作_2</string>
+    <string name="title_activity_category_selection">类别选择</string>
+    <string name="ad_attribution">广告</string>
+
+    <string name="str_green">#3cac69</string>
+    <string name="str_red">#FF4444</string>
+    <string name="str_yellow">#FFBB33</string>
+    <string name="str_sky_blue">#33B5E5</string>
+    <string name="basic_del">删除</string>
+
+
+    <string name="rate_app">评价应用程序</string>
+    <string name="exit_app">退出应用程序</string>
+    <string name="do_you_want_to_exit">您想退出吗？</string>
+
+    <string name="exitscreen">请在离开之前花一点时间给我们评分并提供宝贵的反馈。</string>
+
+
+    <string name="mobile" >移动的</string>
+    <string name="incoming_call" >来电</string>
+    <string name="duration" >期间</string>
+    <string name="edit_contact" >编辑联系方式</string>
+    <string name="message" >信息</string>
+    <string name="send_mail" >发送邮件</string>
+    <string name="web" >网站</string>
+    <string name="write_personal_message" >写个人信息</string>
+    <string name="favourites" >收藏夹</string>
+    <string name="your_name" >您的姓名</string>
+    <string name="your_recent_call_and_meeting_history_is_nnot_here" >您最近的通话和会议历史记录\10不在这里</string>
+    <string name="select_sim" >选择 SIM 卡</string>
+    <string name="no_sim_card_found" >未找到 SIM 卡</string>
+    <string name="please_enter_message" >请输入留言内容</string>
+    <string name="contact_app_not_found" >未找到联系应用</string>
+    <string name="sendWhatsAppMessage" >发送 WhatsApp 消息</string>
+
+    <string name="start_video_record" >开始视频录制</string>
+    <string name="start_audio_record" >开始录音</string>
+    <string name="private_number" >私人号码</string>
+
+    <string name="str_after_call_screen" >通话后屏幕</string>
+    <string name="others">其他的</string>
+
+    <string name="str_fea_title0" >欢迎！</string>
+    <string name="str_fea_des0" >此应用附带通话后功能，让您能够在每次通话后访问您的应用。要使用通话后功能，请执行以下操作：需要以下权限</string>
+
+    <string name="str_fea_title4" >电话状态</string>
+    <string name="str_fea_des4" >帮助识别来电和去电状态。</string>
+
+    <string name="str_fea_title5" >覆盖</string>
+    <string name="str_fea_des5" >用于使后续呼叫功能正常运行。</string>
+
+    <string name="str_fea_title6" >通知</string>
+    <string name="str_fea_des6" >保持更新！</string>
+
+    <string name="str_turm_condition" >\u0020</string>
+    <string name="str_privacy_olicy" ><u>Privacy Policy</u></string>
+    <string name="str_decline" >衰退</string>
+    <string name="str_accept" >继续</string>
+    <string name="str_by_accepting" >继续即表示您同意</string>
+    <string name="str_and" >\u0020 和</string>
+
+    <string name="str_enable_display_permission" >启用显示权限</string>
+    <string name="str_enable_to_unlock_feature" >启用解锁功能</string>
+    <string name="str_enable_feature_detail" >启用“显示在其他应用之上（显示在最上面）”权限。某些设备的名称可能有所不同。请使用上述方法之一。</string>
+    <string name="done" >完毕</string>
+
+
+    <string name="set_reminder">设置提醒</string>
+    <string name="no_reminders">无提醒</string>
+    <string name="contact">接触</string>
+    <string name="calendar">日历</string>
+    <string name="reminde_me_about">提醒我</string>
+    <string name="reminder_alert">提醒警报！</string>
+    <string name="please_select_a_future_date_and_time">请选择未来的日期和时间！</string>
+    <string name="fill_the_content_of_the_reminder">填写提醒内容</string>
+    <string name="reminder_set_successfully">提醒设置成功！</string>
+    <string name="reminder_deleted">提醒已删除！</string>
+
+
+    <string name="str_back_to_close_text" >再按一次退出</string>
+    <string name="select_language">选择语言</string>
+    <string name="str_next">下一个</string>
+    <string name="str_done">完毕</string>
+
+    <string name="str_keyboard_size">键盘尺寸</string>
+    <string name="str_tune_volume">调整音量</string>
+    <string name="str_tune_speed">调速</string>
+    <string name="str_metronome_settings">节拍器设置</string>
+    <string name="str_highlight_all_notes">突出显示所有注释</string>
+    <string name="str_autoscroll">自动滚动</string>
+    <string name="str_reset_setting">重置设置</string>
+    <string name="str_reset">重置</string>
+    <string name="str_enter">进入</string>
+</resources>

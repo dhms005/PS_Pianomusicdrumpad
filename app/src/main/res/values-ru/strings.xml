@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Disclaimer" ><u>Disclaimer</u></string>
+    <string name="Disclaimer_title">Отказ от ответственности</string>
+
+
+    <string name="disclaimer_discption" >- This Application is developed for convenience of app user to get piano keyboard at one place \n\n
+- All the images or sound are copied or downloaded from the internet or free domain , app do not claiming to be an owner of any assets\n\n
+- App not taking any money or will not responsible for any kind of transaction fail or success or any kind of payment issue\n\n
+- For any privacy or copyrights related issue please mail us at :- </string>
+
+    <string name="share_text" translatable="false">«Привет, я использую приложение «Piano Music Drum Pad: Piano Keyboard», нажмите, чтобы получить его сейчас:-»</string>
+
+    <string name="Privacy_Policy" ><u>Privacy Policy</u></string>
+
+    <string name="change_beat">Изменить ритм</string>
+    <string name="change_sound">Изменить звук</string>
+    <string name="check_notes">Проверять</string>
+    <string name="chip_text">Текст чипа</string>
+    <string name="choose_tune">Выберите масштаб</string>
+    <string name="chords_game_help">Учебник / Помощь по игре в аккорды</string>
+    <string name="chords_game_information1">Проверьте свои знания аккордов в этой игре. Результаты можно посмотреть на кнопке прогресса в главном меню.</string>
+    <string name="chords_game_tutorial1">Нажмите кнопку «Воспроизвести», чтобы начать испытание. Приложение случайным образом выберет аккорд из выбранного вами уровня и основного тона.</string>
+    <string name="chords_game_tutorial2">Нажмите кнопку «Проверить», чтобы проверить, правильно ли вы сыграли аккорд. Это происходит автоматически, поэтому это можно использовать для досрочного завершения задания.</string>
+    <string name="clear_text_end_icon_content_description">Открытый текст</string>
+    <string name="close">Закрывать</string>
+    <string name="enter_filename">Введите имя файла:</string>
+    <string name="error_icon_content_description">Ошибка</string>
+    <string name="help">Помощь</string>
+    <string name="jam_help">Учебное пособие / Помощь по Jam</string>
+    <string name="menu">Меню</string>
+    <string name="metronome">Метроном</string>
+    <string name="metronome_settings">Настройки метронома</string>
+    <string name="minus">-</string>
+    <string name="open_tune">Открытая мелодия</string>
+    <string name="options">Параметры</string>
+    <string name="password_toggle_content_description">Показать пароль</string>
+    <string name="play_tune">Воспроизвести / Стоп</string>
+    <string name="plus">+</string>
+    <string name="recognition_help">Учебное пособие / Помощь в распознавании</string>
+    <string name="record_stop">Запись / Стоп</string>
+
+    <string name="scale_highlight">Масштабировать для показа</string>
+    <string name="scales_game_help">Учебник / Помощь по игре Scales</string>
+    <string name="search_menu_title">Поиск</string>
+    <string name="select_beat">Выбрать бит</string>
+    <string name="select_key_to_highlight">Выберите клавишу для джема</string>
+    <string name="select_note_count">Выберите количество нот для воспроизведения</string>
+    <string name="select_sound">выберите_звук</string>
+    <string name="select_tune">Выберите масштаб</string>
+    <string name="select_user_tune">Выберите мелодию</string>
+    <string name="sound">Звук</string>
+    <string name="volume">Объем</string>
+    <string name="wrong">НЕПРАВИЛЬНЫЙ</string>
+
+    <string name="back_arrow">Стрелка назад</string>
+    <string name="chords_game_tutorial3">Нажмите кнопку «Уровень», чтобы изменить уровень. Вы можете запрограммировать, какие аккорды будут включены в пункт «Моя фокус-группа».</string>
+    <string name="chords_game_tutorial4">Нажмите кнопку «Основная нота», чтобы изменить основную ноту (например, C, F, Eb и т.д.). Это станет основой для аккордов.</string>
+    <string name="chords_information1">Выучите аккорды. Играйте и повторяйте, или используйте в качестве справочного материала.</string>
+
+    <string name="chords_tutorial1">Нажмите кнопку «Основная нота», чтобы изменить основную ноту (например, C, F, Eb и т.д.). Это станет основой для аккордов.</string>
+    <string name="chords_tutorial2">Нажмите кнопку «Выбрать аккорд» и выберите аккорд, который вы хотите выучить или просмотреть в качестве справочного материала.</string>
+    <string name="chords_tutorial3">Нажмите кнопку «Воспроизвести», чтобы воспроизвести аккорд. После прослушивания сыграйте аккорд на клавиатуре.</string>
+    <string name="chords_tutorial4">Затем нажмите кнопку «Проверить», чтобы проверить, правильно ли вы сыграли аккорд.</string>
+    <string name="chords_tutorial5">Нажмите кнопку «Справочник», чтобы увидеть схему аккордов в качестве ориентира. При проверке гамм её следует отключить.</string>
+    <string name="chords_help">Учебник / Помощь по аккордам</string>
+    <string name="beat">Бить</string>
+    <string name="scales_game_information1">Проверьте свои знания по шкалам в этой игре. Результаты можно посмотреть на кнопке прогресса в главном меню.</string>
+    <string name="scales_game_tutorial1">Нажмите кнопку «Воспроизвести», чтобы начать испытание. Приложение случайным образом выберет гамму на основе выбранного вами уровня и основного тона.</string>
+    <string name="scales_game_tutorial2">Нажмите кнопку «Проверить», чтобы проверить, правильно ли вы сыграли гамму. Это происходит автоматически, поэтому это можно использовать для досрочного завершения испытания.</string>
+    <string name="scales_game_tutorial3">Нажмите кнопку «Уровень», чтобы изменить уровень. Вы можете запрограммировать, какие шкалы будут включены в пункт «Моя фокус-группа».</string>
+    <string name="scales_game_tutorial4">Нажмите кнопку «Основная нота», чтобы изменить основную ноту (например, C, F, Eb и т.д.). Это станет основой для гамм.</string>
+    <string name="scales_game_tutorial5">\'Направление гаммы\', если вы хотите выполнить гаммы по убыванию или и по возрастанию, и по убыванию.</string>
+    <string name="scales_help">Учебное пособие / Помощь по весам</string>
+    <string name="scales_information1">Выучите гаммы. Играйте и повторяйте, или используйте их в качестве справочного материала.</string>
+    <string name="scales_tutorial1">Нажмите кнопку «Основная нота», чтобы изменить основную ноту (например, C, F, Eb и т.д.). Это станет основой для гамм.</string>
+    <string name="scales_tutorial2">Нажмите кнопку «Выбрать шкалу» и выберите шкалу, которую вы хотите изучить или использовать в качестве справочного материала.</string>
+    <string name="scales_tutorial3">Нажмите кнопку «Воспроизведение-Стоп», чтобы воспроизвести гамму. После прослушивания воспроизведите её на клавиатуре.</string>
+    <string name="scales_tutorial4">Затем нажмите кнопку «Проверить», чтобы проверить, правильно ли вы сыграли гамму.</string>
+    <string name="scales_tutorial5">Нажмите кнопку «Ссылка», чтобы увидеть рисунок весов в качестве образца. При проверке веса на весах эту кнопку следует отключить.</string>
+    <string name="scales_tutorial6">\'Направление гаммы\', если вы хотите выполнить гаммы по убыванию или и по возрастанию, и по убыванию.</string>
+
+    <string name="correct">ВЫ ЭТОГО СПРАВИЛИСЬ!</string>
+    <string name="jam_information1">Научитесь импровизировать и импровизировать в любой тональности. Выберите тональность и играйте в рамках выделенных нот, чтобы создать мелодию или последовательность аккордов. Начните с основной ноты тональности, затем добавьте другую, а затем постепенно увеличивайте.</string>
+    <string name="jam_tutorial1">Нажмите кнопку «Основная нота», чтобы изменить основную ноту (например, C, F, Eb и т.д.). Это ляжет в основу тональностей.</string>
+    <string name="jam_tutorial2">Нажмите кнопку «Тональность» и выберите тональность, в которой хотите импровизировать. (Например, «до мажор», «до минор», если тоника — «до»). Затем импровизируйте.</string>
+    <string name="jam_tutorial3">Хотите записать мелодию? Нажмите кнопку «Запись» и начните воспроизведение. Чтобы остановить запись, нажмите кнопку «Запись» ещё раз.</string>
+    <string name="jam_tutorial4">Нажмите кнопку «Воспроизвести-Стоп», чтобы воспроизвести запись или воспроизвести сохраненную запись, которую вы только что открыли.</string>
+    <string name="jam_tutorial5">Нажмите кнопку «Открыть-Сохранить», чтобы открыть ранее сохраненную мелодию или сохранить только что записанную вами мелодию.</string>
+    <string name="jam_tutorial6">Нажмите кнопку «Метроном», чтобы начать ритм. Длительное нажатие откроет настройки метронома.</string>
+    <string name="jam_tutorial7">Нажмите кнопку аккорда, чтобы выделить основные ноты аккорда в пределах тональности.</string>
+    <string name="jam_tutorial8">Выберите кнопку рекомендуемого аккорда. Рекомендуемые кнопки аккорда соответствуют стандартной формуле аккордовой последовательности для данной тональности.</string>
+    <string name="user_solos_help">Учебное пособие/помощь для пользователей-одиночек</string>
+    <string name="user_solos_information1">Послушайте и выучите некоторые из лучших пользовательских мелодий.</string>
+    <string name="user_solos_tutorial1">Нажмите кнопку «Выбрать мелодию» и выберите мелодию, которую хотите прослушать.</string>
+    <string name="user_solos_tutorial2">Нажмите кнопку «Воспроизведение-Стоп», чтобы воспроизвести песню. После прослушивания снова воспроизведите её на клавиатуре.</string>
+    <string name="user_solos_tutorial3">Затем нажмите кнопку «Проверить», чтобы проверить, правильно ли вы воспроизвели песню.</string>
+    <string name="user_solos_tutorial4">Нажмите кнопку «Числа», чтобы ограничить количество воспроизводимых нот.</string>
+    <string name="recognition_information1">Приложение распознает, какие гаммы/аккорды вы играете.</string>
+    <string name="recognition_tutorial1">Сыграйте гамму или аккорд, а затем нажмите кнопку «Запись», чтобы остановить прослушивание. Приложение сообщит вам, что вы сыграли.</string>
+    <string name="recognition_tutorial2">Нажмите кнопку «Диез-Бемоль», чтобы переключить названия нот на бемоль или диез.</string>
+    <string name="recognition_tutorial3">Нажмите кнопку «Обновить», чтобы обновить экран и снять выделение с заметок.</string>
+    <string name="note_count">Количество заметок</string>
+
+
+    <string name="use_cat">истинный</string>
+    <string name="str_orange">#fe7b27</string>
+    <string name="basic_action_1">Удалить</string>
+    <string name="basic_action_2">Действие_2</string>
+    <string name="title_activity_category_selection">Выбор категории</string>
+    <string name="ad_attribution">Объявление</string>
+
+    <string name="str_green">#3cac69</string>
+    <string name="str_red">#FF4444</string>
+    <string name="str_yellow">#FFBB33</string>
+    <string name="str_sky_blue">#33B5E5</string>
+    <string name="basic_del">Удалить</string>
+
+
+    <string name="rate_app">ОЦЕНИТЬ ПРИЛОЖЕНИЕ</string>
+    <string name="exit_app">ВЫХОД ИЗ ПРИЛОЖЕНИЯ</string>
+    <string name="do_you_want_to_exit">Вы хотите выйти?</string>
+
+    <string name="exitscreen">Пожалуйста, уделите немного времени, чтобы оценить нас и оставить свой ценный отзыв, прежде чем уйти.</string>
+
+
+    <string name="mobile" >Мобильный</string>
+    <string name="incoming_call" >Входящий звонок</string>
+    <string name="duration" >Продолжительность</string>
+    <string name="edit_contact" >Редактировать контакт</string>
+    <string name="message" >Сообщение</string>
+    <string name="send_mail" >Отправить письмо</string>
+    <string name="web" >Веб-сайт</string>
+    <string name="write_personal_message" >Написать личное сообщение</string>
+    <string name="favourites" >Избранное</string>
+    <string name="your_name" >Ваше имя</string>
+    <string name="your_recent_call_and_meeting_history_is_nnot_here" >Ваша недавняя история звонков и встреч\10не здесь</string>
+    <string name="select_sim" >Выберите SIM-карту</string>
+    <string name="no_sim_card_found" >Сим-карта не найдена</string>
+    <string name="please_enter_message" >Пожалуйста, введите сообщение</string>
+    <string name="contact_app_not_found" >Приложение «Контакты» не найдено</string>
+    <string name="sendWhatsAppMessage" >Отправить сообщение WhatsApp</string>
+
+    <string name="start_video_record" >Начать запись видео</string>
+    <string name="start_audio_record" >Начать аудиозапись</string>
+    <string name="private_number" >Частный номер</string>
+
+    <string name="str_after_call_screen" >Экран после вызова</string>
+    <string name="others">Другие</string>
+
+    <string name="str_fea_title0" >Добро пожаловать!</string>
+    <string name="str_fea_des0" >Это приложение поддерживает функцию «дозвона», позволяющую вам получать доступ к приложению после каждого телефонного звонка. Для использования функции «дозвона» необходимы следующие разрешения.</string>
+
+    <string name="str_fea_title4" >Статус телефона</string>
+    <string name="str_fea_des4" >Помогает определить состояния входящих и исходящих вызовов.</string>
+
+    <string name="str_fea_title5" >Наложение</string>
+    <string name="str_fea_des5" >Используется для корректной работы функции послезвона.</string>
+
+    <string name="str_fea_title6" >Уведомление</string>
+    <string name="str_fea_des6" >Чтобы оставаться в курсе событий!</string>
+
+    <string name="str_turm_condition" >\u0020</string>
+    <string name="str_privacy_olicy" ><u>Privacy Policy</u></string>
+    <string name="str_decline" >ОТКЛОНИТЬ</string>
+    <string name="str_accept" >Продолжать</string>
+    <string name="str_by_accepting" >Продолжая, вы соглашаетесь с</string>
+    <string name="str_and" >\u0020 и</string>
+
+    <string name="str_enable_display_permission" >Включить разрешение на отображение</string>
+    <string name="str_enable_to_unlock_feature" >Включить, чтобы разблокировать функцию</string>
+    <string name="str_enable_feature_detail" >Включите разрешение «Поверх других приложений». На некоторых устройствах оно может называться иначе. Используйте один из указанных выше методов.</string>
+    <string name="done" >Сделанный</string>
+
+
+    <string name="set_reminder">Установить напоминание</string>
+    <string name="no_reminders">Никаких напоминаний</string>
+    <string name="contact">Контакт</string>
+    <string name="calendar">Календарь</string>
+    <string name="reminde_me_about">Напомни мне о</string>
+    <string name="reminder_alert">Напоминание!</string>
+    <string name="please_select_a_future_date_and_time">Пожалуйста, выберите будущую дату и время!</string>
+    <string name="fill_the_content_of_the_reminder">Заполните содержание напоминания</string>
+    <string name="reminder_set_successfully">Напоминание успешно установлено!</string>
+    <string name="reminder_deleted">Напоминание удалено!</string>
+
+
+    <string name="str_back_to_close_text" >Нажмите еще раз, чтобы выйти</string>
+    <string name="select_language">Выберите язык</string>
+    <string name="str_next">Следующий</string>
+    <string name="str_done">Сделанный</string>
+
+    <string name="str_keyboard_size">Размер клавиатуры</string>
+    <string name="str_tune_volume">Громкость мелодии</string>
+    <string name="str_tune_speed">Скорость настройки</string>
+    <string name="str_metronome_settings">Настройки метронома</string>
+    <string name="str_highlight_all_notes">Выделить все заметки</string>
+    <string name="str_autoscroll">Автопрокрутка</string>
+    <string name="str_reset_setting">Сбросить настройки</string>
+    <string name="str_reset">Перезагрузить</string>
+    <string name="str_enter">Входить</string>
+
+</resources>

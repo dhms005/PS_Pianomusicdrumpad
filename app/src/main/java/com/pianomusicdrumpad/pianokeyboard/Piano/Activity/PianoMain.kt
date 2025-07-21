@@ -10,7 +10,9 @@ import androidx.core.view.PointerIconCompat
 import com.pianomusicdrumpad.pianokeyboard.Piano.SuperClasses.C0934b
 import com.pianomusicdrumpad.pianokeyboard.R
 import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
+import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils.getString
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils.putString
+import com.pianomusicdrumpad.pianokeyboard.Utils.Utility.setLocale
 
 class PianoMain : Activity() {
     private var temp = 1
@@ -183,7 +185,7 @@ class PianoMain : Activity() {
 
     override fun onResume() {
         super.onResume()
-
+        setLocale(this, getString(ConstantAd.LANGUAGE_CODE, "en"))
         putString(ConstantAd.AD_CHECK_RESUME, "1")
     }
 }

@@ -37,6 +37,7 @@ import com.pianomusicdrumpad.pianokeyboard.Piano.managers.SoundManager;
 import com.pianomusicdrumpad.pianokeyboard.Piano.models.Note;
 import com.pianomusicdrumpad.pianokeyboard.Piano.models.Scale;
 import com.pianomusicdrumpad.pianokeyboard.R;
+import com.pianomusicdrumpad.pianokeyboard.Utils.Utility;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -1223,6 +1224,7 @@ public class ScalesActivity extends Activity implements View.OnClickListener, Vi
         int uiOptions = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
                 | View.SYSTEM_UI_FLAG_FULLSCREEN;
         decorView.setSystemUiVisibility(uiOptions);
+        Utility.setLocale(this, SharePrefUtils.getString(ConstantAd.LANGUAGE_CODE, "en"));
         setContentView(R.layout.scales);
 
 
@@ -1373,6 +1375,7 @@ public class ScalesActivity extends Activity implements View.OnClickListener, Vi
     public void onResume() {
         super.onResume();
         SharePrefUtils.putString(ConstantAd.AD_CHECK_RESUME, "1");
+
         bringInDefaultPrefs();
         this.scalesManager.initScales(rootNote);
         scaleNames = this.scalesManager.getScalesNamesArray();

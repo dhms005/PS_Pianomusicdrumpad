@@ -34,6 +34,7 @@ import com.pianomusicdrumpad.pianokeyboard.R
 import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils.getString
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils.putString
+import com.pianomusicdrumpad.pianokeyboard.Utils.Utility.setLocale
 import java.util.Arrays
 
 class ChordsActivity : Activity(), View.OnClickListener, OnTouchListener,
@@ -1811,6 +1812,7 @@ class ChordsActivity : Activity(), View.OnClickListener, OnTouchListener,
     public override fun onResume() {
         super.onResume()
         putString(ConstantAd.AD_CHECK_RESUME, "1")
+        setLocale(this, getString(ConstantAd.LANGUAGE_CODE, "en"))
         bringInDefaultPrefs()
         chordManager!!.initChords(rootNote)
         chordNames = chordManager!!.chordNamesArray

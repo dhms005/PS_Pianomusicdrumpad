@@ -29,6 +29,8 @@ import com.pianomusicdrumpad.pianokeyboard.Piano.views.a
 import com.pianomusicdrumpad.pianokeyboard.R
 import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils
+import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils.getString
+import com.pianomusicdrumpad.pianokeyboard.Utils.Utility.setLocale
 import com.pianomusicdrumpad.pianokeyboard.ads.MainInterfaceV2
 import java.io.File
 import java.io.FileNotFoundException
@@ -484,6 +486,7 @@ class PianoPlayScreen : Activity() {
 
     public override fun onResume() {
         super.onResume()
+        setLocale(this, getString(ConstantAd.LANGUAGE_CODE, "en"))
         if (this.isplay) {
             playScreenTimeView!!.mo19615b()
         }

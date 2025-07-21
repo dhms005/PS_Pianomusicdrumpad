@@ -12,11 +12,12 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
-import com.airbnb.lottie.utils.Utils
 import com.pianomusicdrumpad.pianokeyboard.Piano.Activity.MenuActivity
 import com.pianomusicdrumpad.pianokeyboard.R
 import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils
+import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils.getString
+import com.pianomusicdrumpad.pianokeyboard.Utils.Utility.setLocale
 import com.pianomusicdrumpad.pianokeyboard.ads.MainInterfaceV2
 import com.pianomusicdrumpad.pianokeyboard.callafterscreen.common.CommonUtils
 import com.pianomusicdrumpad.pianokeyboard.exit.Utility
@@ -241,5 +242,10 @@ class OverlayScreenActivity : AppCompatActivity() {
             adNativeBannerSimmer = R.layout.ad_native_adptive_banner_simmer,
             bannerId = ConstantAd.AD_PERMISSION_BANNER
         )
+    }
+
+    override fun onResume() {
+        setLocale(this, getString(ConstantAd.LANGUAGE_CODE, "en"))
+        super.onResume()
     }
 }

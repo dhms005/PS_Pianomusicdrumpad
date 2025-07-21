@@ -17,6 +17,14 @@ import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdSize
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.LoadAdError
+import com.google.android.material.tabs.TabLayoutMediator
+import com.google.firebase.analytics.FirebaseAnalytics
+import com.pianomusicdrumpad.pianokeyboard.Piano.Activity.MenuActivity
+import com.pianomusicdrumpad.pianokeyboard.R
+import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
+import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils
+import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils.getString
+import com.pianomusicdrumpad.pianokeyboard.Utils.Utility.setLocale
 import com.pianomusicdrumpad.pianokeyboard.callafterscreen.ViewModel.RecentCallViewModel
 import com.pianomusicdrumpad.pianokeyboard.callafterscreen.adapter.MyFragmentStatePagerAdapter
 import com.pianomusicdrumpad.pianokeyboard.callafterscreen.common.CommonUtils
@@ -24,12 +32,6 @@ import com.pianomusicdrumpad.pianokeyboard.callafterscreen.common.CommonUtils.ge
 import com.pianomusicdrumpad.pianokeyboard.callafterscreen.common.CommonUtils.getSharedPreferencesData
 import com.pianomusicdrumpad.pianokeyboard.callafterscreen.common.CommonUtils.logCallAfterScreenEvent
 import com.pianomusicdrumpad.pianokeyboard.callafterscreen.common.CommonUtils.openDialer
-import com.google.android.material.tabs.TabLayoutMediator
-import com.google.firebase.analytics.FirebaseAnalytics
-import com.pianomusicdrumpad.pianokeyboard.Piano.Activity.MenuActivity
-import com.pianomusicdrumpad.pianokeyboard.R
-import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
-import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils
 import com.pianomusicdrumpad.pianokeyboard.databinding.ActivityCallCutPopupBinding
 
 class CallCutPopupActivity : AppCompatActivity() {
@@ -167,6 +169,7 @@ class CallCutPopupActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         adView?.resume()
+        setLocale(this, getString(ConstantAd.LANGUAGE_CODE, "en"))
         val window = window
         window.statusBarColor = ContextCompat.getColor(this, R.color.colorPrimary)
 

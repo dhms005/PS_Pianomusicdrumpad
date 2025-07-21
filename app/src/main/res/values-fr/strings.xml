@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Disclaimer" ><u>Disclaimer</u></string>
+    <string name="Disclaimer_title">Clause de non-responsabilité</string>
+
+
+    <string name="disclaimer_discption" >- This Application is developed for convenience of app user to get piano keyboard at one place \n\n
+- All the images or sound are copied or downloaded from the internet or free domain , app do not claiming to be an owner of any assets\n\n
+- App not taking any money or will not responsible for any kind of transaction fail or success or any kind of payment issue\n\n
+- For any privacy or copyrights related issue please mail us at :- </string>
+
+    <string name="share_text" translatable="false">"Bonjour, j\'utilise l\'application « Piano Music Drum Pad : Piano Keyboard », cliquez pour l\'obtenir maintenant :-"</string>
+
+    <string name="Privacy_Policy" ><u>Privacy Policy</u></string>
+
+    <string name="change_beat">Changer de rythme</string>
+    <string name="change_sound">Changer le son</string>
+    <string name="check_notes">Vérifier</string>
+    <string name="chip_text">Texte de la puce</string>
+    <string name="choose_tune">Choisir l\'échelle</string>
+    <string name="chords_game_help">Tutoriel / Aide pour le jeu d\'accords</string>
+    <string name="chords_game_information1">Testez vos connaissances des accords avec ce jeu. Vérifiez vos résultats à partir du bouton de progression dans le menu principal.</string>
+    <string name="chords_game_tutorial1">Appuyez sur le bouton « Jouer » pour lancer le défi. L\'application choisira aléatoirement un accord du niveau et de la note fondamentale sélectionnés.</string>
+    <string name="chords_game_tutorial2">Appuyez sur le bouton « Vérifier » pour vérifier si vous avez joué l\'accord correctement. Cette fonction sera automatique et vous permettra de terminer le défi plus tôt que prévu.</string>
+    <string name="clear_text_end_icon_content_description">Texte clair</string>
+    <string name="close">Fermer</string>
+    <string name="enter_filename">Tapez un nom pour le fichier :</string>
+    <string name="error_icon_content_description">Erreur</string>
+    <string name="help">Aide</string>
+    <string name="jam_help">Tutoriel / Aide pour Jam</string>
+    <string name="menu">Menu</string>
+    <string name="metronome">Métronome</string>
+    <string name="metronome_settings">Paramètres du métronome</string>
+    <string name="minus">-</string>
+    <string name="open_tune">Air ouvert</string>
+    <string name="options">Options</string>
+    <string name="password_toggle_content_description">Afficher le mot de passe</string>
+    <string name="play_tune">Lecture / Arrêt</string>
+    <string name="plus">+</string>
+    <string name="recognition_help">Tutoriel / Aide à la reconnaissance</string>
+    <string name="record_stop">Enregistrer / Arrêter</string>
+
+    <string name="scale_highlight">Échelle pour montrer</string>
+    <string name="scales_game_help">Tutoriel / Aide pour le jeu des échelles</string>
+    <string name="search_menu_title">Recherche</string>
+    <string name="select_beat">Sélectionner le rythme</string>
+    <string name="select_key_to_highlight">Sélectionnez la touche pour jouer</string>
+    <string name="select_note_count">Sélectionnez le nombre de notes à jouer</string>
+    <string name="select_sound">sélectionner_son</string>
+    <string name="select_tune">Sélectionner l\'échelle</string>
+    <string name="select_user_tune">Sélectionnez la mélodie</string>
+    <string name="sound">Son</string>
+    <string name="volume">Volume</string>
+    <string name="wrong">FAUX</string>
+
+    <string name="back_arrow">Flèche de retour</string>
+    <string name="chords_game_tutorial3">Sélectionnez le bouton « Niveau » pour modifier le niveau. Vous pouvez programmer les accords à inclure dans l\'élément « Mon groupe de discussion ».</string>
+    <string name="chords_game_tutorial4">Appuyez sur le bouton « Note fondamentale » pour modifier la note fondamentale (par exemple, do, fa, mi bémol, etc.). Elle constitue la base des accords.</string>
+    <string name="chords_information1">Apprenez vos accords. Jouez-les et répétez-les, ou utilisez-les comme référence.</string>
+
+    <string name="chords_tutorial1">Appuyez sur le bouton « Note fondamentale » pour modifier la note fondamentale (par exemple, do, fa, mi bémol, etc.). Elle constitue la base des accords.</string>
+    <string name="chords_tutorial2">Appuyez sur le bouton « Choisir un accord » et sélectionnez l’accord que vous souhaitez apprendre ou afficher comme référence.</string>
+    <string name="chords_tutorial3">Sélectionnez le bouton « Jouer » pour jouer l\'accord. Après l\'avoir écouté, jouez-le à nouveau sur le clavier.</string>
+    <string name="chords_tutorial4">Ensuite, sélectionnez le bouton « Vérifier » pour vérifier si vous avez joué l’accord correctement.</string>
+    <string name="chords_tutorial5">Sélectionnez le bouton « Référence » pour afficher le modèle d\'accords comme référence. Il est conseillé de le désactiver lorsque vous testez les gammes.</string>
+    <string name="chords_help">Tutoriel / Aide pour les accords</string>
+    <string name="beat">Battre</string>
+    <string name="scales_game_information1">Testez vos connaissances sur les échelles avec ce jeu. Vérifiez vos résultats à partir du bouton de progression dans le menu principal.</string>
+    <string name="scales_game_tutorial1">Appuyez sur le bouton « Jouer » pour lancer le défi. L\'application choisira aléatoirement une gamme parmi le niveau et la note fondamentale sélectionnés.</string>
+    <string name="scales_game_tutorial2">Appuyez sur le bouton « Vérifier » pour vérifier si vous avez joué la gamme correctement. Cette opération sera automatisée et vous permettra de terminer le défi plus tôt que prévu.</string>
+    <string name="scales_game_tutorial3">Sélectionnez le bouton « Niveau » pour modifier le niveau. Vous pouvez programmer les échelles à inclure dans l\'élément « Mon groupe de discussion ».</string>
+    <string name="scales_game_tutorial4">Appuyez sur le bouton « Note fondamentale » pour modifier la note fondamentale (par exemple, do, fa, mi bémol, etc.). Elle constitue la base des gammes.</string>
+    <string name="scales_game_tutorial5">Direction de l\'échelle\' si vous souhaitez exécuter les échelles de manière descendante ou ascendante et descendante.</string>
+    <string name="scales_help">Tutoriel / Aide pour les échelles</string>
+    <string name="scales_information1">Apprenez vos gammes. Jouez-les et répétez-les, ou utilisez-les comme référence.</string>
+    <string name="scales_tutorial1">Appuyez sur le bouton « Note fondamentale » pour modifier la note fondamentale (par exemple, do, fa, mi bémol, etc.). Elle constitue la base des gammes.</string>
+    <string name="scales_tutorial2">Appuyez sur le bouton « Choisir l\'échelle » et sélectionnez l\'échelle que vous souhaitez apprendre ou afficher comme référence.</string>
+    <string name="scales_tutorial3">Sélectionnez le bouton « Lecture-Arrêt » pour jouer la gamme. Après l\'écoute, jouez-la à nouveau sur le clavier.</string>
+    <string name="scales_tutorial4">Ensuite, sélectionnez le bouton « Vérifier » pour vérifier si vous avez joué la gamme correctement.</string>
+    <string name="scales_tutorial5">Sélectionnez le bouton « Référence » pour visualiser le modèle de la balance comme référence. Il est conseillé de le désactiver lorsque vous vous testez sur la balance.</string>
+    <string name="scales_tutorial6">Direction de l\'échelle\' si vous souhaitez exécuter les échelles de manière descendante ou ascendante et descendante.</string>
+
+    <string name="correct">VOUS L\'AVEZ MAÎTRISÉ !</string>
+    <string name="jam_information1">Apprenez à improviser dans n\'importe quelle tonalité. Choisissez une tonalité et jouez sur les notes sélectionnées pour créer une mélodie ou une progression d\'accords. Commencez par la note fondamentale de la tonalité, puis ajoutez-en une autre, puis progressez.</string>
+    <string name="jam_tutorial1">Appuyez sur le bouton « Note fondamentale » pour modifier la note fondamentale (par exemple, do, fa, mi bémol, etc.). Elle constitue la base des tonalités.</string>
+    <string name="jam_tutorial2">Appuyez sur le bouton « Key » et sélectionnez la tonalité que vous souhaitez utiliser (par exemple, do majeur, do mineur si do était la note fondamentale). Puis, jouez.</string>
+    <string name="jam_tutorial3">Vous souhaitez enregistrer une mélodie ? Sélectionnez le bouton « Enregistrer » et lancez la lecture. Appuyez à nouveau sur le bouton « Enregistrer » pour arrêter l\'enregistrement.</string>
+    <string name="jam_tutorial4">Sélectionnez le bouton « Lecture-Arrêt » pour lire l’enregistrement ou lire un enregistrement sauvegardé que vous venez d’ouvrir.</string>
+    <string name="jam_tutorial5">Sélectionnez le bouton « Ouvrir-Enregistrer » pour ouvrir un morceau précédemment enregistré ou enregistrer le morceau que vous venez d\'enregistrer.</string>
+    <string name="jam_tutorial6">Sélectionnez le bouton « Métronome » pour démarrer le rythme. Un appui long permet d\'accéder aux paramètres du métronome.</string>
+    <string name="jam_tutorial7">Sélectionnez un bouton d’accord pour mettre en évidence les notes principales de l’accord dans la tonalité.</string>
+    <string name="jam_tutorial8">Sélectionnez un accord recommandé. Les accords recommandés suivent la formule de progression d\'accords standard de la touche.</string>
+    <string name="user_solos_help">Tutoriel / Aide pour les utilisateurs solos</string>
+    <string name="user_solos_information1">Écoutez et apprenez certaines des meilleures mélodies d’utilisateurs.</string>
+    <string name="user_solos_tutorial1">Appuyez sur le bouton « Choisir la mélodie » et sélectionnez la mélodie que vous souhaitez écouter.</string>
+    <string name="user_solos_tutorial2">Sélectionnez le bouton « Lecture-Arrêt » pour écouter le morceau. Après l\'écoute, réécoutez-le au clavier.</string>
+    <string name="user_solos_tutorial3">Ensuite, sélectionnez le bouton « Vérifier » pour vérifier si vous avez lu la chanson correctement.</string>
+    <string name="user_solos_tutorial4">Sélectionnez le bouton « Nombres » pour limiter le nombre de notes à lire.</string>
+    <string name="recognition_information1">L\'application reconnaîtra les gammes/accords que vous jouez.</string>
+    <string name="recognition_tutorial1">Jouez une gamme ou un accord, puis appuyez sur le bouton « Enregistrer » pour arrêter l\'écoute. L\'application vous indiquera alors ce que vous avez joué.</string>
+    <string name="recognition_tutorial2">Appuyez sur le bouton « Dièse-Bémol » pour basculer les noms des notes entre bémol et dièse.</string>
+    <string name="recognition_tutorial3">Sélectionnez le bouton « Actualiser » pour actualiser l’écran et désactiver les notes.</string>
+    <string name="note_count">Nombre de notes</string>
+
+
+    <string name="use_cat">vrai</string>
+    <string name="str_orange">#fe7b27</string>
+    <string name="basic_action_1">Supprimer</string>
+    <string name="basic_action_2">Action_2</string>
+    <string name="title_activity_category_selection">Sélection de catégorie</string>
+    <string name="ad_attribution">Annonce</string>
+
+    <string name="str_green">#3cac69</string>
+    <string name="str_red">#FF4444</string>
+    <string name="str_yellow">#FFBB33</string>
+    <string name="str_sky_blue">#33B5E5</string>
+    <string name="basic_del">Supprimer</string>
+
+
+    <string name="rate_app">ÉVALUER L\'APPLICATION</string>
+    <string name="exit_app">SORTIE DE L\'APPLICATION</string>
+    <string name="do_you_want_to_exit">Voulez-vous sortir ?</string>
+
+    <string name="exitscreen">Veuillez prendre un moment pour nous évaluer et nous donner vos précieux commentaires avant de partir.</string>
+
+
+    <string name="mobile" >Mobile</string>
+    <string name="incoming_call" >Appel entrant</string>
+    <string name="duration" >Durée</string>
+    <string name="edit_contact" >Modifier le contact</string>
+    <string name="message" >Message</string>
+    <string name="send_mail" >Envoyer un courrier</string>
+    <string name="web" >Site web</string>
+    <string name="write_personal_message" >Écrire un message personnel</string>
+    <string name="favourites" >Favoris</string>
+    <string name="your_name" >Votre nom</string>
+    <string name="your_recent_call_and_meeting_history_is_nnot_here" >Votre historique d\'appels et de réunions récents n\'est pas ici</string>
+    <string name="select_sim" >Sélectionnez la carte SIM</string>
+    <string name="no_sim_card_found" >Aucune carte SIM trouvée</string>
+    <string name="please_enter_message" >Veuillez saisir un message</string>
+    <string name="contact_app_not_found" >Application de contact introuvable</string>
+    <string name="sendWhatsAppMessage" >Envoyer un message WhatsApp</string>
+
+    <string name="start_video_record" >Démarrer l\'enregistrement vidéo</string>
+    <string name="start_audio_record" >Démarrer l\'enregistrement audio</string>
+    <string name="private_number" >Numéro privé</string>
+
+    <string name="str_after_call_screen" >Écran après appel</string>
+    <string name="others">Autres</string>
+
+    <string name="str_fea_title0" >Accueillir!</string>
+    <string name="str_fea_des0" >Cette application est dotée d\'une fonction « après appel », vous permettant d\'y accéder après chaque appel. Pour utiliser cette fonction, les autorisations suivantes sont requises.</string>
+
+    <string name="str_fea_title4" >État du téléphone</string>
+    <string name="str_fea_des4" >Aide à identifier les états des appels entrants et sortants.</string>
+
+    <string name="str_fea_title5" >Recouvrir</string>
+    <string name="str_fea_des5" >Utilisé pour que la fonction d\'appel ultérieur fonctionne correctement.</string>
+
+    <string name="str_fea_title6" >Notification</string>
+    <string name="str_fea_des6" >Pour rester informé !</string>
+
+    <string name="str_turm_condition" >\u0020</string>
+    <string name="str_privacy_olicy" ><u>Privacy Policy</u></string>
+    <string name="str_decline" >DÉCLIN</string>
+    <string name="str_accept" >Continuer</string>
+    <string name="str_by_accepting" >En continuant, vous acceptez</string>
+    <string name="str_and" >\u0020 et</string>
+
+    <string name="str_enable_display_permission" >Activer l\'autorisation d\'affichage</string>
+    <string name="str_enable_to_unlock_feature" >Activer pour déverrouiller la fonctionnalité</string>
+    <string name="str_enable_feature_detail" >Activez l\'autorisation « Afficher par-dessus les autres applications ». Certains appareils peuvent utiliser un nom différent. Utilisez l\'une des méthodes ci-dessus. »</string>
+    <string name="done" >Fait</string>
+
+
+    <string name="set_reminder">Définir un rappel</string>
+    <string name="no_reminders">Aucun rappel</string>
+    <string name="contact">Contact</string>
+    <string name="calendar">Calendrier</string>
+    <string name="reminde_me_about">Rappelle-moi</string>
+    <string name="reminder_alert">Alerte de rappel !</string>
+    <string name="please_select_a_future_date_and_time">Veuillez sélectionner une date et une heure futures !</string>
+    <string name="fill_the_content_of_the_reminder">Remplissez le contenu du rappel</string>
+    <string name="reminder_set_successfully">Rappel défini avec succès !</string>
+    <string name="reminder_deleted">Rappel supprimé !</string>
+
+
+    <string name="str_back_to_close_text" >Appuyez à nouveau pour quitter</string>
+    <string name="select_language">Sélectionner la langue</string>
+    <string name="str_next">Suivant</string>
+    <string name="str_done">Fait</string>
+
+    <string name="str_keyboard_size">Taille du clavier</string>
+    <string name="str_tune_volume">Régler le volume</string>
+    <string name="str_tune_speed">Vitesse de réglage</string>
+    <string name="str_metronome_settings">Paramètres du métronome</string>
+    <string name="str_highlight_all_notes">Surligner toutes les notes</string>
+    <string name="str_autoscroll">Défilement automatique</string>
+    <string name="str_reset_setting">Réinitialiser les paramètres</string>
+    <string name="str_reset">Réinitialiser</string>
+    <string name="str_enter">Entrer</string>
+
+</resources>

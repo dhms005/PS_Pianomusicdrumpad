@@ -20,7 +20,9 @@ import com.pianomusicdrumpad.pianokeyboard.Piano.models.C0946f
 import com.pianomusicdrumpad.pianokeyboard.Piano.views.TimeView
 import com.pianomusicdrumpad.pianokeyboard.R
 import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
+import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils.getString
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils.putString
+import com.pianomusicdrumpad.pianokeyboard.Utils.Utility.setLocale
 import java.io.FileInputStream
 import java.io.FileNotFoundException
 import java.io.IOException
@@ -298,7 +300,7 @@ class RecordedSound : Activity() {
 
     override fun onResume() {
         super.onResume()
-
+        setLocale(this, getString(ConstantAd.LANGUAGE_CODE, "en"))
         putString(ConstantAd.AD_CHECK_RESUME, "1")
     }
 }

@@ -48,6 +48,7 @@ import com.pianomusicdrumpad.pianokeyboard.Piano.managers.SoundManager;
 import com.pianomusicdrumpad.pianokeyboard.Piano.models.Note;
 import com.pianomusicdrumpad.pianokeyboard.Piano.models.Scale;
 import com.pianomusicdrumpad.pianokeyboard.R;
+import com.pianomusicdrumpad.pianokeyboard.Utils.Utility;
 
 public class ScalesGameActivity extends Activity implements View.OnClickListener, View.OnTouchListener, SeekBar.OnSeekBarChangeListener {
     public static final int DURATION = 400;
@@ -1755,6 +1756,7 @@ public class ScalesGameActivity extends Activity implements View.OnClickListener
 
     public void onPause() {
         SharePrefUtils.putString(ConstantAd.AD_CHECK_RESUME, "0");
+        Utility.setLocale(this, SharePrefUtils.getString(ConstantAd.LANGUAGE_CODE, "en"));
         isStopDesired = true;
         isResultDialogInView = false;
         SoundManager soundManager2 = this.soundManager;

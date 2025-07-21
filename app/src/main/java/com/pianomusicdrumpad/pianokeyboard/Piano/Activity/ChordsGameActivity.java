@@ -40,6 +40,7 @@ import com.pianomusicdrumpad.pianokeyboard.Piano.managers.SoundManager;
 import com.pianomusicdrumpad.pianokeyboard.Piano.models.Chord;
 import com.pianomusicdrumpad.pianokeyboard.Piano.models.Note;
 import com.pianomusicdrumpad.pianokeyboard.R;
+import com.pianomusicdrumpad.pianokeyboard.Utils.Utility;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -1656,6 +1657,7 @@ public class ChordsGameActivity extends Activity implements View.OnClickListener
     public void onResume() {
         super.onResume();
         SharePrefUtils.putString(ConstantAd.AD_CHECK_RESUME, "1");
+        Utility.setLocale(this, SharePrefUtils.getString(ConstantAd.LANGUAGE_CODE, "en"));
         bringInDefaultPrefs();
     }
 

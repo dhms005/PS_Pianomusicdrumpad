@@ -165,6 +165,11 @@ object ConstantAd {
     @JvmField
     var LANGUAGE_CODE = "language_code"
 
+    var LANGUAGE_CODE_FOR_SELECTION = "language_code_for_selection"
+
+    @JvmField
+    var OPEN_APP_FIRST_TIME = "open_app_first_time"
+
     var AUTO_NOTI_ENABLE = "auto_notification_enable"
 
     @JvmField
@@ -185,5 +190,7 @@ object ConstantAd {
 
     @JvmField
     var APP_OPEN_RECENT_ADS_SHOW = "app_open_recent_ad_show"
+
+
 }
 

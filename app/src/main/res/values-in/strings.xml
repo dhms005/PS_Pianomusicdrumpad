@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Disclaimer" ><u>Disclaimer</u></string>
+    <string name="Disclaimer_title">Penafian</string>
+
+
+    <string name="disclaimer_discption" >- This Application is developed for convenience of app user to get piano keyboard at one place \n\n
+- All the images or sound are copied or downloaded from the internet or free domain , app do not claiming to be an owner of any assets\n\n
+- App not taking any money or will not responsible for any kind of transaction fail or success or any kind of payment issue\n\n
+- For any privacy or copyrights related issue please mail us at :- </string>
+
+    <string name="share_text" translatable="false">"Hai, saya menggunakan aplikasi “Piano Music Drum Pad : Piano Keyboard”, klik untuk mendapatkannya sekarang:-"</string>
+
+    <string name="Privacy_Policy" ><u>Privacy Policy</u></string>
+
+    <string name="change_beat">Ubah Ketukan</string>
+    <string name="change_sound">Ubah Suara</string>
+    <string name="check_notes">Memeriksa</string>
+    <string name="chip_text">Teks chip</string>
+    <string name="choose_tune">Pilih Skala</string>
+    <string name="chords_game_help">Tutorial / Bantuan untuk Permainan Chord</string>
+    <string name="chords_game_information1">Uji pengetahuanmu tentang akord dengan permainan ini. Periksa hasilmu melalui tombol progres di menu utama.</string>
+    <string name="chords_game_tutorial1">Tekan tombol "Putar" untuk memulai tantangan. Aplikasi akan secara acak memilih akor dari level yang Anda pilih dan nada dasar yang Anda pilih.</string>
+    <string name="chords_game_tutorial2">Tekan tombol "Periksa" untuk memeriksa apakah Anda telah memainkan akor dengan benar. Ini akan otomatis, sehingga dapat digunakan untuk mengakhiri tantangan lebih awal.</string>
+    <string name="clear_text_end_icon_content_description">Teks yang jelas</string>
+    <string name="close">Menutup</string>
+    <string name="enter_filename">Ketikkan nama untuk berkas:</string>
+    <string name="error_icon_content_description">Kesalahan</string>
+    <string name="help">Membantu</string>
+    <string name="jam_help">Tutorial / Bantuan untuk Jam</string>
+    <string name="menu">Menu</string>
+    <string name="metronome">Metronom</string>
+    <string name="metronome_settings">Pengaturan Metronom</string>
+    <string name="minus">-</string>
+    <string name="open_tune">Buka Lagu</string>
+    <string name="options">Pilihan</string>
+    <string name="password_toggle_content_description">Tampilkan kata sandi</string>
+    <string name="play_tune">Putar / Hentikan</string>
+    <string name="plus">+</string>
+    <string name="recognition_help">Tutorial / Bantuan untuk Pengenalan</string>
+    <string name="record_stop">Rekam / Hentikan</string>
+
+    <string name="scale_highlight">Skala untuk Menunjukkan</string>
+    <string name="scales_game_help">Tutorial / Bantuan untuk Game Timbangan</string>
+    <string name="search_menu_title">Mencari</string>
+    <string name="select_beat">Pilih Ketukan</string>
+    <string name="select_key_to_highlight">Pilih Kunci Untuk Macet Ke</string>
+    <string name="select_note_count">Pilih jumlah nada yang akan dimainkan</string>
+    <string name="select_sound">pilih_suara</string>
+    <string name="select_tune">Pilih Skala</string>
+    <string name="select_user_tune">Pilih Lagu</string>
+    <string name="sound">Suara</string>
+    <string name="volume">Volume</string>
+    <string name="wrong">SALAH</string>
+
+    <string name="back_arrow">Panah Kembali</string>
+    <string name="chords_game_tutorial3">Pilih tombol \'Level\' untuk mengubah level. Anda dapat memprogram akord mana yang akan disertakan dalam item \\\'Grup Fokus Saya\\\'.</string>
+    <string name="chords_game_tutorial4">Tekan tombol \'Root Note\' untuk mengubah nada dasar (misalnya C, F, Eb, dll.). Ini membentuk dasar untuk akord.</string>
+    <string name="chords_information1">Pelajari akordmu. Mainkan dan ulangi, atau gunakan sebagai referensi.</string>
+
+    <string name="chords_tutorial1">Tekan tombol \'Root Note\' untuk mengubah nada dasar (misalnya C, F, Eb, dll.). Ini membentuk dasar untuk akord.</string>
+    <string name="chords_tutorial2">Tekan tombol \'Pilih Akord\' dan pilih akord yang ingin Anda pelajari atau lihat sebagai referensi.</string>
+    <string name="chords_tutorial3">Pilih tombol "Putar" untuk memainkan akor. Setelah mendengarkan, mainkan kembali akor tersebut pada keyboard.</string>
+    <string name="chords_tutorial4">Kemudian, pilih tombol \'Periksa\' untuk memeriksa apakah Anda memainkan akord dengan benar.</string>
+    <string name="chords_tutorial5">Pilih tombol "Referensi" untuk melihat pola akord sebagai referensi. Anda harus menonaktifkannya saat menguji diri pada tangga nada.</string>
+    <string name="chords_help">Tutorial / Bantuan untuk Chord</string>
+    <string name="beat">Mengalahkan</string>
+    <string name="scales_game_information1">Uji pengetahuanmu tentang Timbangan dengan permainan ini. Periksa hasilmu melalui tombol progres di menu utama.</string>
+    <string name="scales_game_tutorial1">Tekan tombol "Mainkan" untuk memulai tantangan. Aplikasi akan secara acak memilih skala dari level yang Anda pilih dan nada dasar yang Anda pilih.</string>
+    <string name="scales_game_tutorial2">Tekan tombol "Periksa" untuk memeriksa apakah Anda telah memainkan tangga nada dengan benar. Ini akan otomatis, sehingga dapat digunakan untuk mengakhiri tantangan lebih awal.</string>
+    <string name="scales_game_tutorial3">Pilih tombol "Level" untuk mengubah level. Anda dapat memprogram skala mana yang akan disertakan dalam item "Grup Fokus Saya".</string>
+    <string name="scales_game_tutorial4">Tekan tombol \'Root Note\' untuk mengubah nada dasar (misalnya C, F, Eb, dll.). Ini membentuk dasar tangga nada.</string>
+    <string name="scales_game_tutorial5">\'Arah Skala\' jika Anda ingin menjalankan skala menurun atau gabungan antara naik dan turun.</string>
+    <string name="scales_help">Tutorial / Bantuan untuk Timbangan</string>
+    <string name="scales_information1">Pelajari tangga nada Anda. Mainkan dan ulangi, atau gunakan sebagai referensi.</string>
+    <string name="scales_tutorial1">Tekan tombol \'Root Note\' untuk mengubah nada dasar (misalnya C, F, Eb, dll.). Ini membentuk dasar tangga nada.</string>
+    <string name="scales_tutorial2">Tekan tombol \'Pilih Skala\' dan pilih skala yang ingin Anda pelajari atau lihat sebagai referensi.</string>
+    <string name="scales_tutorial3">Pilih tombol "Play-Stop" untuk memainkan tangga nada. Setelah mendengarkan, putar kembali tangga nada tersebut pada keyboard.</string>
+    <string name="scales_tutorial4">Kemudian, pilih tombol \'Periksa\' untuk memeriksa apakah Anda memainkan tangga nada dengan benar.</string>
+    <string name="scales_tutorial5">Pilih tombol "Referensi" untuk melihat pola timbangan sebagai referensi. Anda harus menonaktifkannya saat menguji diri sendiri pada timbangan.</string>
+    <string name="scales_tutorial6">\'Arah Skala\' jika Anda ingin menjalankan skala menurun atau gabungan antara naik dan turun.</string>
+
+    <string name="correct">ANDA TELAH MENGUASAINYA!</string>
+    <string name="jam_information1">Belajarlah bermain jamming dan berimprovisasi di kunci apa pun. Pilih kunci dan mainkan di dalam not yang disorot untuk menciptakan melodi atau progresi akor. Mulailah dengan nada inti kunci tersebut dengan nada lain, lalu tingkatkan.</string>
+    <string name="jam_tutorial1">Tekan tombol \'Root Note\' untuk mengubah nada dasar (misalnya C, F, Eb, dll.). Ini membentuk dasar untuk kunci-kunci.</string>
+    <string name="jam_tutorial2">Tekan tombol \'Key\' dan pilih kunci yang ingin Anda gunakan untuk jamming. (Misalnya C Mayor, C Minor jika C adalah nada dasar). Lalu, jamming.</string>
+    <string name="jam_tutorial3">Ingin merekam melodi? Pilih tombol "Rekam" dan putar. Pilih tombol "Rekam" lagi untuk berhenti merekam.</string>
+    <string name="jam_tutorial4">Pilih tombol \'Play-Stop\' untuk memutar rekaman atau memutar rekaman tersimpan yang baru saja Anda buka.</string>
+    <string name="jam_tutorial5">Pilih tombol \'Buka-Simpan\' untuk membuka lagu yang disimpan sebelumnya atau menyimpan lagu yang baru saja Anda rekam.</string>
+    <string name="jam_tutorial6">Pilih tombol "Metronom" untuk memulai ketukan. Tekan lama untuk masuk ke pengaturan metronom.</string>
+    <string name="jam_tutorial7">Pilih tombol akor untuk menyorot not utama dalam akor di dalam kunci.</string>
+    <string name="jam_tutorial8">Pilih tombol akor yang direkomendasikan. Tombol akor yang direkomendasikan mengikuti rumus progresi akor standar kunci tersebut.</string>
+    <string name="user_solos_help">Tutorial / Bantuan untuk Pengguna Solo</string>
+    <string name="user_solos_information1">Dengarkan dan pelajari beberapa melodi pengguna terbaik.</string>
+    <string name="user_solos_tutorial1">Tekan tombol \'Pilih Nada\' dan pilih melodi yang ingin Anda dengarkan.</string>
+    <string name="user_solos_tutorial2">Pilih tombol "Play-Stop" untuk memutar lagu. Setelah mendengarkan, putar kembali lagu tersebut di keyboard.</string>
+    <string name="user_solos_tutorial3">Kemudian, pilih tombol \'Periksa\' untuk memeriksa apakah Anda memutar lagu tersebut dengan benar.</string>
+    <string name="user_solos_tutorial4">Pilih tombol \'Angka\' untuk membatasi jumlah not yang akan diputar.</string>
+    <string name="recognition_information1">Aplikasi akan mengenali tangga nada/kord yang Anda mainkan.</string>
+    <string name="recognition_tutorial1">Mainkan tangga nada atau akor, lalu tekan tombol "Rekam" untuk berhenti mendengarkan. Aplikasi akan memberi tahu Anda apa yang Anda mainkan.</string>
+    <string name="recognition_tutorial2">Tekan tombol \'Sharp-Flat\' untuk mengubah nama nada menjadi flat atau sharp.</string>
+    <string name="recognition_tutorial3">Pilih tombol \'Refresh\' untuk menyegarkan layar, dan hapus sorotan pada catatan.</string>
+    <string name="note_count">Jumlah Catatan</string>
+
+
+    <string name="use_cat">BENAR</string>
+    <string name="str_orange">#fe7b27</string>
+    <string name="basic_action_1">Menghapus</string>
+    <string name="basic_action_2">Aksi_2</string>
+    <string name="title_activity_category_selection">Pemilihan Kategori</string>
+    <string name="ad_attribution">Iklan</string>
+
+    <string name="str_green">#3cac69</string>
+    <string name="str_red">#FF4444</string>
+    <string name="str_yellow">#FFBB33</string>
+    <string name="str_sky_blue">#33B5E5</string>
+    <string name="basic_del">Menghapus</string>
+
+
+    <string name="rate_app">NILAI APLIKASI</string>
+    <string name="exit_app">KELUAR DARI APLIKASI</string>
+    <string name="do_you_want_to_exit">Apakah Anda Ingin Keluar?</string>
+
+    <string name="exitscreen">Silakan luangkan waktu untuk menilai dan memberikan masukan berharga Anda kepada kami sebelum pergi.</string>
+
+
+    <string name="mobile" >Seluler</string>
+    <string name="incoming_call" >Panggilan Masuk</string>
+    <string name="duration" >Lamanya</string>
+    <string name="edit_contact" >Edit Kontak</string>
+    <string name="message" >Pesan</string>
+    <string name="send_mail" >Kirim Email</string>
+    <string name="web" >Situs web</string>
+    <string name="write_personal_message" >Tulis pesan pribadi</string>
+    <string name="favourites" >Favorit</string>
+    <string name="your_name" >Nama Anda</string>
+    <string name="your_recent_call_and_meeting_history_is_nnot_here" >Riwayat panggilan dan rapat terbaru Anda tidak ada di sini</string>
+    <string name="select_sim" >Pilih SIM</string>
+    <string name="no_sim_card_found" >Tidak ada kartu SIM yang ditemukan</string>
+    <string name="please_enter_message" >Silakan Masukkan Pesan</string>
+    <string name="contact_app_not_found" >Aplikasi kontak tidak ditemukan</string>
+    <string name="sendWhatsAppMessage" >Kirim Pesan WhatsApp</string>
+
+    <string name="start_video_record" >Mulai Merekam Video</string>
+    <string name="start_audio_record" >Mulai Rekaman Audio</string>
+    <string name="private_number" >Nomor Pribadi</string>
+
+    <string name="str_after_call_screen" >Layar Setelah Panggilan</string>
+    <string name="others">Yang lain</string>
+
+    <string name="str_fea_title0" >Selamat datang!</string>
+    <string name="str_fea_des0" >Aplikasi ini dilengkapi dengan fitur aftercall, yang memungkinkan Anda mengakses aplikasi setelah setiap panggilan telepon. Untuk menggunakan fitur aftercall, diperlukan izin berikut:</string>
+
+    <string name="str_fea_title4" >Status Telepon</string>
+    <string name="str_fea_des4" >Membantu mengidentifikasi status panggilan masuk dan keluar.</string>
+
+    <string name="str_fea_title5" >Hamparan</string>
+    <string name="str_fea_des5" >Digunakan agar fitur aftercall berfungsi dengan baik.</string>
+
+    <string name="str_fea_title6" >Pemberitahuan</string>
+    <string name="str_fea_des6" >Untuk tetap mendapat informasi terkini!</string>
+
+    <string name="str_turm_condition" >\u0020</string>
+    <string name="str_privacy_olicy" ><u>Privacy Policy</u></string>
+    <string name="str_decline" >MENOLAK</string>
+    <string name="str_accept" >Melanjutkan</string>
+    <string name="str_by_accepting" >Dengan melanjutkan Anda setuju untuk</string>
+    <string name="str_and" >\u0020 dan</string>
+
+    <string name="str_enable_display_permission" >Aktifkan Izin Tampilan</string>
+    <string name="str_enable_to_unlock_feature" >Aktifkan untuk Membuka Fitur</string>
+    <string name="str_enable_feature_detail" >Aktifkan izin "Tampilkan di atas aplikasi lain (Tampil di atas). Beberapa perangkat mungkin menamainya berbeda. Gunakan salah satu metode di atas.</string>
+    <string name="done" >Selesai</string>
+
+
+    <string name="set_reminder">Atur pengingat</string>
+    <string name="no_reminders">Tidak ada pengingat</string>
+    <string name="contact">Kontak</string>
+    <string name="calendar">Kalender</string>
+    <string name="reminde_me_about">Ingatkan saya tentang</string>
+    <string name="reminder_alert">Peringatan Pengingat!</string>
+    <string name="please_select_a_future_date_and_time">Silakan pilih tanggal dan waktu mendatang!</string>
+    <string name="fill_the_content_of_the_reminder">Isi konten pengingat</string>
+    <string name="reminder_set_successfully">Pengingat berhasil diatur!</string>
+    <string name="reminder_deleted">Pengingat dihapus!</string>
+
+
+    <string name="str_back_to_close_text" >Tekan lagi untuk keluar</string>
+    <string name="select_language">Pilih Bahasa</string>
+    <string name="str_next">Berikutnya</string>
+    <string name="str_done">Selesai</string>
+
+    <string name="str_keyboard_size">Ukuran Papan Ketik</string>
+    <string name="str_tune_volume">Volume Nada</string>
+    <string name="str_tune_speed">Kecepatan Lagu</string>
+    <string name="str_metronome_settings">Pengaturan Metronom</string>
+    <string name="str_highlight_all_notes">Sorot Semua Catatan</string>
+    <string name="str_autoscroll">Gulir otomatis</string>
+    <string name="str_reset_setting">Atur Ulang Pengaturan</string>
+    <string name="str_reset">Mengatur ulang</string>
+    <string name="str_enter">Memasuki</string>
+
+</resources>

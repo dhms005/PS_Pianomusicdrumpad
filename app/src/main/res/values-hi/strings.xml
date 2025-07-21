@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Disclaimer" ><u>Disclaimer</u></string>
+    <string name="Disclaimer_title">अस्वीकरण</string>
+
+
+    <string name="disclaimer_discption" >- This Application is developed for convenience of app user to get piano keyboard at one place \n\n
+- All the images or sound are copied or downloaded from the internet or free domain , app do not claiming to be an owner of any assets\n\n
+- App not taking any money or will not responsible for any kind of transaction fail or success or any kind of payment issue\n\n
+- For any privacy or copyrights related issue please mail us at :- </string>
+
+    <string name="share_text" translatable="false">"नमस्ते, मैं "पियानो संगीत ड्रम पैड: पियानो कीबोर्ड" ऐप का उपयोग कर रहा हूं, इसे अभी प्राप्त करने के लिए क्लिक करें:-"</string>
+
+    <string name="Privacy_Policy" ><u>Privacy Policy</u></string>
+
+    <string name="change_beat">परिवर्तन बीट</string>
+    <string name="change_sound">ध्वनि बदलें</string>
+    <string name="check_notes">जाँच करना</string>
+    <string name="chip_text">चिप पाठ</string>
+    <string name="choose_tune">पैमाना चुनें</string>
+    <string name="chords_game_help">कॉर्ड्स गेम के लिए ट्यूटोरियल / सहायता</string>
+    <string name="chords_game_information1">इस गेम के साथ कॉर्ड्स के अपने ज्ञान का परीक्षण करें। मुख्य मेनू पर प्रगति बटन से अपने परिणाम देखें।</string>
+    <string name="chords_game_tutorial1">चुनौती शुरू करने के लिए \'प्ले\' बटन दबाएँ। ऐप आपके द्वारा चुने गए लेवल और रूट नोट में से रैंडमली एक कॉर्ड चुन लेगा।</string>
+    <string name="chords_game_tutorial2">यह देखने के लिए कि आपने कॉर्ड सही बजाया है या नहीं, \'चेक\' बटन दबाएँ। यह स्वचालित होगा, इसलिए इसका इस्तेमाल चुनौती को जल्दी खत्म करने के लिए किया जा सकता है।</string>
+    <string name="clear_text_end_icon_content_description">स्पष्ट पाठ</string>
+    <string name="close">बंद करना</string>
+    <string name="enter_filename">फ़ाइल के लिए नाम लिखें:</string>
+    <string name="error_icon_content_description">गलती</string>
+    <string name="help">मदद</string>
+    <string name="jam_help">जैम के लिए ट्यूटोरियल / सहायता</string>
+    <string name="menu">मेनू</string>
+    <string name="metronome">ताल-मापनी</string>
+    <string name="metronome_settings">मेट्रोनोम सेटिंग्स</string>
+    <string name="minus">-</string>
+    <string name="open_tune">ओपन ट्यून</string>
+    <string name="options">विकल्प</string>
+    <string name="password_toggle_content_description">पासवर्ड दिखाए</string>
+    <string name="play_tune">चलाएँ / रोकें</string>
+    <string name="plus">+</string>
+    <string name="recognition_help">ट्यूटोरियल / पहचान के लिए सहायता</string>
+    <string name="record_stop">रिकॉर्ड / रोकें</string>
+
+    <string name="scale_highlight">दिखाने के लिए पैमाना</string>
+    <string name="scales_game_help">तराजू खेल के लिए ट्यूटोरियल / सहायता</string>
+    <string name="search_menu_title">खोज</string>
+    <string name="select_beat">बीट चुनें</string>
+    <string name="select_key_to_highlight">जाम करने के लिए कुंजी का चयन करें</string>
+    <string name="select_note_count">बजाने के लिए नोटों की संख्या चुनें</string>
+    <string name="select_sound">ध्वनि का चयन करें</string>
+    <string name="select_tune">स्केल चुनें</string>
+    <string name="select_user_tune">धुन चुनें</string>
+    <string name="sound">आवाज़</string>
+    <string name="volume">आयतन</string>
+    <string name="wrong">गलत</string>
+
+    <string name="back_arrow">पीछे का तीर</string>
+    <string name="chords_game_tutorial3">स्तर बदलने के लिए \'स्तर\' बटन चुनें। आप प्रोग्राम कर सकते हैं कि \'मेरा फ़ोकस समूह\' आइटम में कौन से कॉर्ड शामिल किए जाएँगे।</string>
+    <string name="chords_game_tutorial4">मूल स्वर (जैसे, C, F, Eb आदि) बदलने के लिए \'रूट नोट\' बटन दबाएँ। यह कॉर्ड्स का आधार बनता है।</string>
+    <string name="chords_information1">अपने कॉर्ड्स सीखें। या तो बजाएँ और दोहराएँ, या संदर्भ के तौर पर इस्तेमाल करें।</string>
+
+    <string name="chords_tutorial1">मूल स्वर (जैसे, C, F, Eb आदि) बदलने के लिए \'रूट नोट\' बटन दबाएँ। यह कॉर्ड्स का आधार बनता है।</string>
+    <string name="chords_tutorial2">\'कॉर्ड चुनें\' बटन दबाएं और उस कॉर्ड का चयन करें जिसे आप सीखना चाहते हैं या संदर्भ के रूप में देखना चाहते हैं।</string>
+    <string name="chords_tutorial3">कॉर्ड बजाने के लिए \'प्ले\' बटन चुनें। सुनने के बाद, कॉर्ड को कीबोर्ड पर दोबारा बजाएँ।</string>
+    <string name="chords_tutorial4">फिर, यह जांचने के लिए \'चेक\' बटन का चयन करें कि क्या आपने कॉर्ड सही ढंग से बजाया है।</string>
+    <string name="chords_tutorial5">कॉर्ड्स के पैटर्न को संदर्भ के रूप में देखने के लिए \'रेफरेंस\' बटन चुनें। स्केल पर खुद को परखते समय आपको इसे बंद कर देना चाहिए।</string>
+    <string name="chords_help">ट्यूटोरियल / कॉर्ड्स के लिए सहायता</string>
+    <string name="beat">मारो</string>
+    <string name="scales_game_information1">इस गेम के साथ तराजू के अपने ज्ञान का परीक्षण करें। मुख्य मेनू पर प्रगति बटन से अपने परिणाम देखें।</string>
+    <string name="scales_game_tutorial1">चुनौती शुरू करने के लिए \'प्ले\' बटन दबाएँ। ऐप आपके द्वारा चुने गए लेवल और रूट नोट में से बेतरतीब ढंग से एक स्केल चुन लेगा।</string>
+    <string name="scales_game_tutorial2">यह देखने के लिए कि आपने स्केल सही ढंग से बजाया है या नहीं, \'चेक\' बटन दबाएँ। यह स्वचालित होगा, इसलिए इसका इस्तेमाल चुनौती को जल्दी खत्म करने के लिए किया जा सकता है।</string>
+    <string name="scales_game_tutorial3">स्तर बदलने के लिए \'स्तर\' बटन चुनें। आप प्रोग्राम कर सकते हैं कि \'मेरा फ़ोकस समूह\' आइटम में कौन से स्केल शामिल किए जाएँगे।</string>
+    <string name="scales_game_tutorial4">मूल स्वर (जैसे C, F, Eb आदि) बदलने के लिए \'रूट नोट\' बटन दबाएँ। यह स्केल का आधार बनता है।</string>
+    <string name="scales_game_tutorial5">यदि आप स्केल को अवरोही या आरोही और अवरोही दोनों तरह से निष्पादित करना चाहते हैं तो \'स्केल दिशा\' चुनें।</string>
+    <string name="scales_help">तराजू के लिए ट्यूटोरियल / सहायता</string>
+    <string name="scales_information1">अपने स्केल सीखें। या तो बजाएँ और दोहराएँ, या संदर्भ के रूप में इस्तेमाल करें।</string>
+    <string name="scales_tutorial1">मूल स्वर (जैसे C, F, Eb आदि) बदलने के लिए \'रूट नोट\' बटन दबाएँ। यह स्केल का आधार बनता है।</string>
+    <string name="scales_tutorial2">\'स्केल चुनें\' बटन दबाएं और वह स्केल चुनें जिसे आप सीखना चाहते हैं या संदर्भ के रूप में देखना चाहते हैं।</string>
+    <string name="scales_tutorial3">स्केल बजाने के लिए \'प्ले-स्टॉप\' बटन चुनें। सुनने के बाद, स्केल को कीबोर्ड पर वापस चलाएँ।</string>
+    <string name="scales_tutorial4">फिर, यह जांचने के लिए \'चेक\' बटन का चयन करें कि क्या आपने स्केल सही ढंग से बजाया है।</string>
+    <string name="scales_tutorial5">तराजू के पैटर्न को संदर्भ के रूप में देखने के लिए \'संदर्भ\' बटन चुनें। तराजू पर खुद का परीक्षण करते समय आपको इसे बंद कर देना चाहिए।</string>
+    <string name="scales_tutorial6">यदि आप स्केल को अवरोही या आरोही और अवरोही दोनों तरह से निष्पादित करना चाहते हैं तो \'स्केल दिशा\' चुनें।</string>
+
+    <string name="correct">आपने इसमें महारत हासिल कर ली है!</string>
+    <string name="jam_information1">किसी भी कुंजी में जैम और इम्प्रोवाइज़ करना सीखें। एक कुंजी चुनें और हाइलाइट किए गए स्वरों के भीतर बजाकर एक धुन या कॉर्ड प्रोग्रेस बनाएँ। कुंजी के मुख्य स्वर से शुरुआत करें और फिर आगे बढ़ें।</string>
+    <string name="jam_tutorial1">मूल स्वर (जैसे, C, F, Eb आदि) बदलने के लिए \'रूट नोट\' बटन दबाएँ। यह कुंजियों का आधार बनता है।</string>
+    <string name="jam_tutorial2">\'की\' बटन दबाएँ और वह कुंजी चुनें जिसमें आप जैम करना चाहते हैं। (उदाहरण: सी मेजर, सी माइनर, यदि सी मूल स्वर है)। फिर जैम बजाएँ।</string>
+    <string name="jam_tutorial3">कोई धुन रिकॉर्ड करना चाहते हैं? \'रिकॉर्ड\' बटन चुनें और बजाएँ। रिकॉर्डिंग रोकने के लिए फिर से \'रिकॉर्ड\' बटन चुनें।</string>
+    <string name="jam_tutorial4">रिकॉर्डिंग चलाने के लिए \'प्ले-स्टॉप\' बटन का चयन करें या आपके द्वारा अभी-अभी खोली गई सहेजी गई रिकॉर्डिंग चलाएं।</string>
+    <string name="jam_tutorial5">पहले से सहेजे गए धुन को खोलने या अभी-अभी रिकॉर्ड की गई धुन को सहेजने के लिए \'ओपन-सेव\' बटन का चयन करें।</string>
+    <string name="jam_tutorial6">बीट शुरू करने के लिए \'मेट्रोनोम\' बटन चुनें। देर तक दबाने पर मेट्रोनोम सेटिंग्स में चला जाएगा।</string>
+    <string name="jam_tutorial7">कुंजी के भीतर कॉर्ड में मुख्य नोट्स को हाइलाइट करने के लिए कॉर्ड बटन का चयन करें।</string>
+    <string name="jam_tutorial8">एक अनुशंसित कॉर्ड बटन चुनें। अनुशंसित कॉर्ड बटन कुंजी के मानक कॉर्ड प्रगति सूत्र का पालन करते हैं।</string>
+    <string name="user_solos_help">उपयोगकर्ता सोलोस के लिए ट्यूटोरियल / सहायता</string>
+    <string name="user_solos_information1">कुछ बेहतरीन उपयोगकर्ता धुनें सुनें और सीखें।</string>
+    <string name="user_solos_tutorial1">\'धुन चुनें\' बटन दबाएं और वह धुन चुनें जिसे आप सुनना चाहते हैं।</string>
+    <string name="user_solos_tutorial2">गाना बजाने के लिए \'प्ले-स्टॉप\' बटन चुनें। सुनने के बाद, कीबोर्ड पर गाना वापस चलाएँ।</string>
+    <string name="user_solos_tutorial3">फिर, यह जांचने के लिए \'चेक\' बटन का चयन करें कि क्या आपने गाना सही ढंग से चलाया है।</string>
+    <string name="user_solos_tutorial4">प्लेबैक हेतु नोट्स की संख्या सीमित करने के लिए \'नंबर\' बटन का चयन करें।</string>
+    <string name="recognition_information1">ऐप पहचान लेगा कि आप कौन सा स्केल/कॉर्ड बजाते हैं।</string>
+    <string name="recognition_tutorial1">कोई स्केल या कॉर्ड बजाएँ और फिर सुनना बंद करने के लिए \'रिकॉर्ड\' बटन दबाएँ। फिर ऐप आपको बताएगा कि आपने क्या बजाया।</string>
+    <string name="recognition_tutorial2">नोट नामों को फ्लैट या शार्प करने के लिए \'शार्प-फ्लैट\' बटन दबाएँ।</string>
+    <string name="recognition_tutorial3">स्क्रीन को रिफ्रेश करने के लिए \'रिफ्रेश\' बटन का चयन करें, और नोट्स को अनहाइलाइट करें।</string>
+    <string name="note_count">नोट गिनती</string>
+
+
+    <string name="use_cat">सत्य</string>
+    <string name="str_orange">#fe7b27</string>
+    <string name="basic_action_1">मिटाना</string>
+    <string name="basic_action_2">क्रिया_2</string>
+    <string name="title_activity_category_selection">श्रेणी चयन</string>
+    <string name="ad_attribution">विज्ञापन</string>
+
+    <string name="str_green">#3cac69</string>
+    <string name="str_red">#एफएफ4444</string>
+    <string name="str_yellow">#एफएफबीबी33</string>
+    <string name="str_sky_blue">#33बी5ई5</string>
+    <string name="basic_del">मिटाना</string>
+
+
+    <string name="rate_app">एप्प का मूल्यांकन</string>
+    <string name="exit_app">ऐप से बाहर निकलें</string>
+    <string name="do_you_want_to_exit">क्या आपको बाहर निकलना है?</string>
+
+    <string name="exitscreen">कृपया जाने से पहले हमें रेटिंग देने और अपना बहुमूल्य फीडबैक देने के लिए कुछ समय निकालें।</string>
+
+
+    <string name="mobile" >गतिमान</string>
+    <string name="incoming_call" >एक फोन आ रहा है</string>
+    <string name="duration" >अवधि</string>
+    <string name="edit_contact" >संपादित संपर्क</string>
+    <string name="message" >संदेश</string>
+    <string name="send_mail" >मेल भेजने</string>
+    <string name="web" >वेबसाइट</string>
+    <string name="write_personal_message" >व्यक्तिगत संदेश लिखें</string>
+    <string name="favourites" >पसंदीदा</string>
+    <string name="your_name" >आपका नाम</string>
+    <string name="your_recent_call_and_meeting_history_is_nnot_here" >आपका हालिया कॉल और मीटिंग इतिहास यहां नहीं है</string>
+    <string name="select_sim" >सिम चुनें</string>
+    <string name="no_sim_card_found" >कोई भी सिम कार्ड नहीं मिला</string>
+    <string name="please_enter_message" >कृपया संदेश दर्ज करें</string>
+    <string name="contact_app_not_found" >संपर्क ऐप नहीं मिला</string>
+    <string name="sendWhatsAppMessage" >व्हाट्सएप संदेश भेजें</string>
+
+    <string name="start_video_record" >वीडियो रिकॉर्ड शुरू करें</string>
+    <string name="start_audio_record" >ऑडियो रिकॉर्ड शुरू करें</string>
+    <string name="private_number" >निजी नंबर</string>
+
+    <string name="str_after_call_screen" >कॉल स्क्रीन के बाद</string>
+    <string name="others">अन्य</string>
+
+    <string name="str_fea_title0" >स्वागत!</string>
+    <string name="str_fea_des0" >यह ऐप एक आफ्टरकॉल सुविधा के साथ आता है, जिससे आप हर फ़ोन कॉल के बाद अपने ऐप को एक्सेस कर सकते हैं। आफ्टरकॉल सुविधा का इस्तेमाल करने के लिए निम्नलिखित अनुमतियों की आवश्यकता होती है।</string>
+
+    <string name="str_fea_title4" >फ़ोन स्थिति</string>
+    <string name="str_fea_des4" >इनकमिंग और आउटगोइंग कॉल की स्थिति की पहचान करने में मदद करता है।</string>
+
+    <string name="str_fea_title5" >उपरिशायी</string>
+    <string name="str_fea_des5" >आफ्टरकॉल सुविधा को ठीक से काम करने के लिए उपयोग किया जाता है।</string>
+
+    <string name="str_fea_title6" >अधिसूचना</string>
+    <string name="str_fea_des6" >अद्यतन रहने के लिए!</string>
+
+    <string name="str_turm_condition" >\u0020</string>
+    <string name="str_privacy_olicy" ><u>Privacy Policy</u></string>
+    <string name="str_decline" >गिरावट</string>
+    <string name="str_accept" >जारी रखना</string>
+    <string name="str_by_accepting" >जारी रखकर आप सहमत होते हैं</string>
+    <string name="str_and" >\u0020 और</string>
+
+    <string name="str_enable_display_permission" >प्रदर्शन अनुमति सक्षम करें</string>
+    <string name="str_enable_to_unlock_feature" >अनलॉक सुविधा सक्षम करें</string>
+    <string name="str_enable_feature_detail" >अन्य ऐप पर प्रदर्शित करें (सबसे ऊपर दिखाई दें) अनुमति सक्षम करें। कुछ डिवाइस इसका नाम अलग रख सकते हैं। ऊपर दिए गए तरीकों में से किसी एक का उपयोग करें।</string>
+    <string name="done" >हो गया</string>
+
+
+    <string name="set_reminder">अनुस्मारक सेट करें</string>
+    <string name="no_reminders">कोई अनुस्मारक नहीं</string>
+    <string name="contact">संपर्क</string>
+    <string name="calendar">कैलेंडर</string>
+    <string name="reminde_me_about">मुझे याद दिलाएं</string>
+    <string name="reminder_alert">अनुस्मारक चेतावनी!</string>
+    <string name="please_select_a_future_date_and_time">कृपया भविष्य की तारीख और समय चुनें!</string>
+    <string name="fill_the_content_of_the_reminder">अनुस्मारक की सामग्री भरें</string>
+    <string name="reminder_set_successfully">अनुस्मारक सफलतापूर्वक सेट किया गया!</string>
+    <string name="reminder_deleted">अनुस्मारक हटा दिया गया!</string>
+
+
+    <string name="str_back_to_close_text" >बाहर निकलने के लिए फिर से दबाएँ</string>
+    <string name="select_language">भाषा चुने</string>
+    <string name="str_next">अगला</string>
+    <string name="str_done">हो गया</string>
+
+    <string name="str_keyboard_size">कीबोर्ड का आकार</string>
+    <string name="str_tune_volume">वॉल्यूम ट्यून करें</string>
+    <string name="str_tune_speed">ट्यून स्पीड</string>
+    <string name="str_metronome_settings">मेट्रोनोम सेटिंग्स</string>
+    <string name="str_highlight_all_notes">सभी नोट्स हाइलाइट करें</string>
+    <string name="str_autoscroll">स्वतः स्क्रॉल</string>
+    <string name="str_reset_setting">सेटिंग्स फिर से करिए</string>
+    <string name="str_reset">रीसेट करें</string>
+    <string name="str_enter">प्रवेश करना</string>
+
+</resources>

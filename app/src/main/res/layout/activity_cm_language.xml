@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/Admob_Native_Frame_two"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/headerRl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_48sdp"
+            android:paddingHorizontal="@dimen/_10sdp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="@dimen/back_arrow_width"
+                    android:layout_height="@dimen/back_arrow_height"
+                    android:layout_centerVertical="true"
+                    android:background="?attr/actionBarItemBackground"
+                    android:src="@drawable/arrow_back_24"
+                    android:tint="@color/black" />
+
+                <TextView
+                    android:id="@+id/tx_nm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_23sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_toRightOf="@+id/back"
+                    android:layout_weight="1"
+                    android:ellipsize="marquee"
+                    android:fontFamily="@font/popins_semibold"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:text="@string/select_language"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold" />
+
+                <com.pianomusicdrumpad.pianokeyboard.Utils.PulsatorLayout
+                    android:id="@+id/pulsator"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignStart="@+id/tx_done"
+                    android:layout_alignEnd="@+id/tx_done"
+                    android:layout_marginLeft="@dimen/_minus10sdp"
+                    android:layout_marginTop="@dimen/_minus10sdp"
+                    android:layout_marginRight="@dimen/_minus10sdp"
+                    android:layout_marginBottom="@dimen/_minus10sdp"
+                    app:pulse_color="@color/colorLightText"
+                    app:pulse_count="4"
+                    app:pulse_duration="1500"
+                    app:pulse_interpolator="Linear"
+                    app:pulse_repeat="0"
+                    app:pulse_startFromScratch="false"></com.pianomusicdrumpad.pianokeyboard.Utils.PulsatorLayout>
+
+
+                <TextView
+                    android:id="@+id/tx_done"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/donenext"
+                    android:ellipsize="marquee"
+                    android:fontFamily="@font/ads_font_bold"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:text="@string/str_next"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:id="@+id/donenext"
+                    android:layout_width="@dimen/_12sdp"
+                    android:layout_height="@dimen/_16sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:src="@drawable/back"
+                    android:visibility="visible"
+                    app:tint="@color/black" />
+
+                <ImageView
+                    android:id="@+id/doneBtn"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:src="@drawable/tick"
+                    android:visibility="gone"
+                    app:tint="@color/white" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:descendantFocusability="blocksDescendants"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="@dimen/_15sdp">
+
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rec_language"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:orientation="vertical" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/Admob_Native_Frame_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_2sdp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="1dp"
+        android:visibility="visible" />
+</RelativeLayout>

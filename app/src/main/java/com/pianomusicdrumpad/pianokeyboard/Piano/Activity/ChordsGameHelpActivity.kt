@@ -7,6 +7,7 @@ import com.pianomusicdrumpad.pianokeyboard.R
 import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils.getString
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils.putString
+import com.pianomusicdrumpad.pianokeyboard.Utils.Utility.setLocale
 
 class ChordsGameHelpActivity : Activity(), View.OnClickListener {
     override fun onClick(view: View) {
@@ -34,6 +35,7 @@ class ChordsGameHelpActivity : Activity(), View.OnClickListener {
 
     override fun onPause() {
         putString(ConstantAd.AD_CHECK_RESUME, "0")
+        setLocale(this, getString(ConstantAd.LANGUAGE_CODE, "en"))
         super.onPause()
     }
 

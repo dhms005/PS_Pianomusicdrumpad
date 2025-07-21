@@ -33,10 +33,10 @@ import com.pianomusicdrumpad.pianokeyboard.Piano.managers.ProgressHelper
 import com.pianomusicdrumpad.pianokeyboard.Piano.managers.SoundManager
 import com.pianomusicdrumpad.pianokeyboard.R
 import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
-import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils.getString
+import com.pianomusicdrumpad.pianokeyboard.Utils.Utility.setLocale
 import com.pianomusicdrumpad.pianokeyboard.ads.MainInterfaceV2
-import org.json.JSONObject
+import com.pianomusicdrumpad.pianokeyboard.language.LanguageActivity
 import java.util.TreeMap
 import kotlin.math.sqrt
 
@@ -425,6 +425,7 @@ class MenuActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onResume() {
         super.onResume()
+        setLocale(this, getString(ConstantAd.LANGUAGE_CODE, "en"))
         mAppUpdateManager!!.appUpdateInfo.addOnSuccessListener { appUpdateInfo: AppUpdateInfo ->
             if (appUpdateInfo.updateAvailability() == UpdateAvailability.DEVELOPER_TRIGGERED_UPDATE_IN_PROGRESS) {
                 try {

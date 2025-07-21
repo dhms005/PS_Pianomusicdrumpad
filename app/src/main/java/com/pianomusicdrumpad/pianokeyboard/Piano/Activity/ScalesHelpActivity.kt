@@ -8,6 +8,7 @@ import com.pianomusicdrumpad.pianokeyboard.R
 import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils.getString
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils.putString
+import com.pianomusicdrumpad.pianokeyboard.Utils.Utility.setLocale
 
 class ScalesHelpActivity : Activity(), View.OnClickListener {
     private val mediation: String? = null
@@ -28,6 +29,7 @@ class ScalesHelpActivity : Activity(), View.OnClickListener {
                 View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or
                         View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
         }
+
         setContentView(R.layout.scales_help)
 
 
@@ -47,5 +49,6 @@ class ScalesHelpActivity : Activity(), View.OnClickListener {
     override fun onResume() {
         super.onResume()
         putString(ConstantAd.AD_CHECK_RESUME, "1")
+        setLocale(this, getString(ConstantAd.LANGUAGE_CODE, "en"))
     }
 }

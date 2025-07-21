@@ -1,19 +1,8 @@
 <resources>
-    <string name="app_name">Piano Music Drum Pad : Piano Keyboard</string>
+    <string name="app_name" translatable="false">Piano Music Drum Pad : Piano Keyboard</string>
     <string name="in_app_name" translatable="false">Piano Music Drum Pad : Piano Keyboard</string>
 
-    <string name="Disclaimer" translatable="false"><u>Disclaimer</u></string>
-    <string name="Disclaimer_title" translatable="false">Disclaimer</string>
 
-
-    <string name="disclaimer_discption" translatable="false">- This Application is developed for convenience of app user to get piano keyboard at one place \n\n
-- All the images or sound are copied or downloaded from the internet or free domain , app do not claiming to be an owner of any assets\n\n
-- App not taking any money or will not responsible for any kind of transaction fail or success or any kind of payment issue\n\n
-- For any privacy or copyrights related issue please mail us at :- </string>
-
-    <string name="share_text" translatable="false">"Hi there, I'm using “Piano Music Drum Pad : Piano Keyboard” app , click to get it now:-"</string>
-
-    <string name="Privacy_Policy" translatable="false"><u>Privacy Policy</u></string>
 
     <string name="BottomA" translatable="false">A3</string>
     <string name="BottomASharp" translatable="false">A#3</string>
@@ -53,6 +42,20 @@
     <string name="MiddleG" translatable="false">G4</string>
     <string name="MiddleGSharp" translatable="false">G#4</string>
     <string name="bpm_title" translatable="false">BPM</string>
+    <string name="numberPick" translatable="false">%s</string>
+
+    <string name="Disclaimer" ><u>Disclaimer</u></string>
+    <string name="Disclaimer_title">Disclaimer</string>
+
+
+    <string name="disclaimer_discption" >- This Application is developed for convenience of app user to get piano keyboard at one place \n\n
+- All the images or sound are copied or downloaded from the internet or free domain , app do not claiming to be an owner of any assets\n\n
+- App not taking any money or will not responsible for any kind of transaction fail or success or any kind of payment issue\n\n
+- For any privacy or copyrights related issue please mail us at :- </string>
+
+    <string name="share_text" translatable="false">"Hi there, I'm using “Piano Music Drum Pad : Piano Keyboard” app , click to get it now:-"</string>
+
+    <string name="Privacy_Policy" ><u>Privacy Policy</u></string>
 
     <string name="change_beat">Change Beat</string>
     <string name="change_sound">Change Sound</string>
@@ -80,13 +83,7 @@
     <string name="plus">+</string>
     <string name="recognition_help">Tutorial / Help for Recognition</string>
     <string name="record_stop">Record / Stop</string>
-    <string name="s1">Save image</string>
-    <string name="s2">Allow Ad to store image in Picture gallery?</string>
-    <string name="s3">Accept</string>
-    <string name="s4">Decline</string>
-    <string name="s5">Create calendar event</string>
-    <string name="s6">Allow Ad to create a calendar event?</string>
-    <string name="s7">Test Ad</string>
+
     <string name="scale_highlight">Scale to Show</string>
     <string name="scales_game_help">Tutorial / Help for Scales Game</string>
     <string name="search_menu_title">Search</string>
@@ -219,7 +216,7 @@
     <string name="str_enable_feature_detail" >Enable \'Display over other app (Appear on top) permission.Some devices may name it differently. Use one of the method above.\' </string>
     <string name="done" >Done</string>
 
-    <string name="numberPick">%s</string>
+
     <string name="set_reminder">Set reminder</string>
     <string name="no_reminders">No reminders</string>
     <string name="contact">Contact</string>
@@ -233,4 +230,18 @@
 
 
     <string name="str_back_to_close_text" >Press again to exit</string>
+    <string name="select_language">Select Language</string>
+    <string name="str_next">Next</string>
+    <string name="str_done">Done</string>
+
+    <string name="str_keyboard_size">Keyboard Size</string>
+    <string name="str_tune_volume">Tune Volume</string>
+    <string name="str_tune_speed">Tune Speed</string>
+    <string name="str_metronome_settings">Metronome Settings</string>
+    <string name="str_highlight_all_notes">Highlight All Notes</string>
+    <string name="str_autoscroll">Autoscroll</string>
+    <string name="str_reset_setting">Reset Settings</string>
+    <string name="str_reset">Reset</string>
+    <string name="str_enter">Enter</string>
+
 </resources>

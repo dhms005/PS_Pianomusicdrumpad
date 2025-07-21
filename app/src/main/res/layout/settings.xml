@@ -75,7 +75,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="5dp"
-                        android:text="Keyboard Size"
+                        android:text="@string/str_keyboard_size"
                         android:textColor="@color/colorPrimary"
                         android:textSize="20sp" />
 
@@ -113,7 +113,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="5dp"
-                        android:text="Tune Volume"
+                        android:text="@string/str_tune_volume"
                         android:textColor="@color/colorPrimary"
                         android:textSize="20sp" />
 
@@ -151,7 +151,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingTop="1dp"
-                        android:text="Tune Speed"
+                        android:text="@string/str_tune_speed"
                         android:textColor="@color/colorPrimary"
                         android:textSize="20sp" />
 
@@ -277,7 +277,7 @@
                         android:paddingTop="1dp"
                         android:paddingRight="5dp"
                         android:paddingBottom="1dp"
-                        android:text="Metronome Settings"
+                        android:text="@string/str_metronome_settings"
                         android:textColor="@color/colorPrimary"
                         android:textSize="20sp" />
 
@@ -287,7 +287,7 @@
                         android:layout_height="40dp"
                         android:layout_marginLeft="10dp"
                         android:background="@drawable/background_button"
-                        android:text="Enter"
+                        android:text="@string/str_enter"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
                 </LinearLayout>
@@ -307,7 +307,7 @@
                         android:paddingTop="1dp"
                         android:paddingRight="5dp"
                         android:paddingBottom="1dp"
-                        android:text="Highlight All Notes"
+                        android:text="@string/str_highlight_all_notes"
                         android:textColor="@color/colorPrimary"
                         android:textSize="20sp" />
 
@@ -335,7 +335,7 @@
                         android:layout_weight="1"
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
-                        android:text="Autoscroll"
+                        android:text="@string/str_autoscroll"
                         android:textColor="@color/colorPrimary"
                         android:textSize="20sp" />
 
@@ -410,7 +410,7 @@
                         android:paddingTop="1dp"
                         android:paddingRight="5dp"
                         android:paddingBottom="1dp"
-                        android:text="Reset Settings"
+                        android:text="@string/str_reset_setting"
                         android:textColor="@color/colorPrimary"
                         android:textSize="20sp" />
 
@@ -420,9 +420,44 @@
                         android:layout_height="40dp"
                         android:layout_marginLeft="10dp"
                         android:background="@drawable/background_button"
-                        android:text="Reset"
+                        android:text="@string/str_reset"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llSelectLanguage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/value_5"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/value_5">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="1dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="1dp"
+                        android:text="@string/select_language"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tvSelectLanguage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="1dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="1dp"
+                        android:text="English"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp" />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -523,8 +558,6 @@
                         android:textSize="25sp" />
                 </LinearLayout>
             </LinearLayout>
-
-
 
 
         </RelativeLayout>

@@ -16,6 +16,7 @@ import android.view.WindowManager
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.pianomusicdrumpad.pianokeyboard.language.LanguageActivitySplash
 import com.pianomusicdrumpad.pianokeyboard.Piano.Activity.MenuActivity
 import com.pianomusicdrumpad.pianokeyboard.R
 import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
@@ -27,7 +28,6 @@ import com.pianomusicdrumpad.pianokeyboard.callafterscreen.common.CommonUtils
 import org.json.JSONObject
 import java.util.Arrays
 import java.util.Random
-import java.util.concurrent.TimeUnit
 
 
 /**
@@ -196,11 +196,14 @@ class Splash_Screen : AppCompatActivity() {
 
 //        startActivity(Intent(this@Splash_Screen, MenuActivity::class.java))
 
+
         if (CommonUtils.hasPermissions(permissions, this)) {
             val i = Intent(this@Splash_Screen, MenuActivity::class.java)
             startActivity(i)
             finish()
 
+        } else if (SharePrefUtils.getString(ConstantAd.OPEN_APP_FIRST_TIME, "0") == "0") {
+            startActivity(Intent(this@Splash_Screen, LanguageActivitySplash::class.java))
         } else if (!SharePrefUtils.getBoolean(ConstantAd.AGREE_SCREEN, false)) {
             startActivity(Intent(this@Splash_Screen, AgreeScreenActivity::class.java))
             finish()

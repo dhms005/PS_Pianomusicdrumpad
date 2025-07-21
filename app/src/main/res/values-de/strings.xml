@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Disclaimer" ><u>Disclaimer</u></string>
+    <string name="Disclaimer_title">Haftungsausschluss</string>
+
+
+    <string name="disclaimer_discption" >- This Application is developed for convenience of app user to get piano keyboard at one place \n\n
+- All the images or sound are copied or downloaded from the internet or free domain , app do not claiming to be an owner of any assets\n\n
+- App not taking any money or will not responsible for any kind of transaction fail or success or any kind of payment issue\n\n
+- For any privacy or copyrights related issue please mail us at :- </string>
+
+    <string name="share_text" translatable="false">„Hallo zusammen, ich verwende die App „Piano Music Drum Pad: Piano Keyboard“. Klicken Sie hier, um sie jetzt zu erhalten:-“</string>
+
+    <string name="Privacy_Policy" ><u>Privacy Policy</u></string>
+
+    <string name="change_beat">Beat ändern</string>
+    <string name="change_sound">Ton ändern</string>
+    <string name="check_notes">Überprüfen</string>
+    <string name="chip_text">Chiptext</string>
+    <string name="choose_tune">Wählen Sie den Maßstab</string>
+    <string name="chords_game_help">Tutorial / Hilfe zum Akkordspiel</string>
+    <string name="chords_game_information1">Testen Sie Ihr Akkordwissen mit diesem Spiel. Überprüfen Sie Ihre Ergebnisse über die Fortschrittsschaltfläche im Hauptmenü.</string>
+    <string name="chords_game_tutorial1">Drücken Sie die Play-Taste, um die Herausforderung zu starten. Die App wählt zufällig einen Akkord aus der von Ihnen gewählten Ebene und dem von Ihnen gewählten Grundton aus.</string>
+    <string name="chords_game_tutorial2">Drücken Sie die Schaltfläche „Überprüfen“, um zu überprüfen, ob Sie den Akkord richtig gespielt haben. Dies geschieht automatisch und kann daher dazu genutzt werden, die Herausforderung vorzeitig zu beenden.</string>
+    <string name="clear_text_end_icon_content_description">Klartext</string>
+    <string name="close">Schließen</string>
+    <string name="enter_filename">Geben Sie einen Namen für die Datei ein:</string>
+    <string name="error_icon_content_description">Fehler</string>
+    <string name="help">Helfen</string>
+    <string name="jam_help">Tutorial / Hilfe für Jam</string>
+    <string name="menu">Speisekarte</string>
+    <string name="metronome">Metronom</string>
+    <string name="metronome_settings">Metronomeinstellungen</string>
+    <string name="minus">-</string>
+    <string name="open_tune">Melodie öffnen</string>
+    <string name="options">Optionen</string>
+    <string name="password_toggle_content_description">Passwort anzeigen</string>
+    <string name="play_tune">Abspielen / Stoppen</string>
+    <string name="plus">+</string>
+    <string name="recognition_help">Tutorial / Hilfe zur Erkennung</string>
+    <string name="record_stop">Aufnehmen / Stopp</string>
+
+    <string name="scale_highlight">Zum Anzeigen skalieren</string>
+    <string name="scales_game_help">Tutorial / Hilfe zum Scales-Spiel</string>
+    <string name="search_menu_title">Suchen</string>
+    <string name="select_beat">Beat auswählen</string>
+    <string name="select_key_to_highlight">Wählen Sie die Taste zum Jammen aus</string>
+    <string name="select_note_count">Wählen Sie die Anzahl der zu spielenden Noten</string>
+    <string name="select_sound">Ton auswählen</string>
+    <string name="select_tune">Maßstab auswählen</string>
+    <string name="select_user_tune">Melodie auswählen</string>
+    <string name="sound">Klang</string>
+    <string name="volume">Volumen</string>
+    <string name="wrong">FALSCH</string>
+
+    <string name="back_arrow">Zurück-Pfeil</string>
+    <string name="chords_game_tutorial3">Wählen Sie die Schaltfläche „Level“, um den Level zu ändern. Sie können programmieren, welche Akkorde im Element „Meine Fokusgruppe“ enthalten sein sollen.</string>
+    <string name="chords_game_tutorial4">Mit der Taste „Root Note“ können Sie den Grundton (z. B. C, F, Eb usw.) ändern. Dieser bildet die Grundlage für die Akkorde.</string>
+    <string name="chords_information1">Lernen Sie Ihre Akkorde. Spielen und wiederholen Sie sie oder verwenden Sie sie als Referenz.</string>
+
+    <string name="chords_tutorial1">Mit der Taste „Root Note“ können Sie den Grundton (z. B. C, F, Eb usw.) ändern. Dieser bildet die Grundlage für die Akkorde.</string>
+    <string name="chords_tutorial2">Drücken Sie die Schaltfläche „Akkord auswählen“ und wählen Sie den Akkord aus, den Sie lernen oder als Referenz anzeigen möchten.</string>
+    <string name="chords_tutorial3">Wählen Sie die Schaltfläche „Play“, um den Akkord abzuspielen. Spielen Sie den Akkord nach dem Anhören erneut auf der Tastatur.</string>
+    <string name="chords_tutorial4">Wählen Sie dann die Schaltfläche „Überprüfen“, um zu überprüfen, ob Sie den Akkord richtig gespielt haben.</string>
+    <string name="chords_tutorial5">Wählen Sie die Schaltfläche „Referenz“, um das Muster der Akkorde als Referenz anzuzeigen. Sie sollten diese Schaltfläche deaktivieren, wenn Sie sich an den Tonleitern testen.</string>
+    <string name="chords_help">Tutorial / Hilfe für Akkorde</string>
+    <string name="beat">Schlagen</string>
+    <string name="scales_game_information1">Testen Sie Ihr Wissen über Tonleitern mit diesem Spiel. Überprüfen Sie Ihre Ergebnisse über die Fortschrittsschaltfläche im Hauptmenü.</string>
+    <string name="scales_game_tutorial1">Drücken Sie die Play-Taste, um die Herausforderung zu starten. Die App wählt zufällig eine Tonleiter aus dem von Ihnen gewählten Niveau und dem von Ihnen gewählten Grundton aus.</string>
+    <string name="scales_game_tutorial2">Drücken Sie die Schaltfläche „Überprüfen“, um zu überprüfen, ob Sie die Tonleiter korrekt gespielt haben. Dies geschieht automatisch und kann daher dazu verwendet werden, die Herausforderung vorzeitig zu beenden.</string>
+    <string name="scales_game_tutorial3">Wählen Sie die Schaltfläche „Level“, um das Level zu ändern. Sie können programmieren, welche Skalen im Element „Meine Fokusgruppe“ enthalten sein sollen.</string>
+    <string name="scales_game_tutorial4">Drücken Sie die Taste „Grundton“, um den Grundton (z. B. C, F, Eb usw.) zu ändern. Dieser bildet die Grundlage für die Tonleitern.</string>
+    <string name="scales_game_tutorial5">„Skalenrichtung“, wenn Sie die Skalen absteigend oder aufsteigend und absteigend ausführen möchten.</string>
+    <string name="scales_help">Tutorial / Hilfe für Skalen</string>
+    <string name="scales_information1">Lernen Sie Ihre Tonleitern. Spielen und wiederholen Sie sie oder verwenden Sie sie als Referenz.</string>
+    <string name="scales_tutorial1">Drücken Sie die Taste „Grundton“, um den Grundton (z. B. C, F, Eb usw.) zu ändern. Dieser bildet die Grundlage für die Tonleitern.</string>
+    <string name="scales_tutorial2">Drücken Sie die Schaltfläche „Tonleiter auswählen“ und wählen Sie die Tonleiter aus, die Sie lernen oder als Referenz anzeigen möchten.</string>
+    <string name="scales_tutorial3">Wählen Sie die Schaltfläche „Wiedergabe/Stopp“, um die Tonleiter abzuspielen. Spielen Sie die Tonleiter nach dem Anhören erneut auf der Tastatur.</string>
+    <string name="scales_tutorial4">Wählen Sie dann die Schaltfläche „Überprüfen“, um zu überprüfen, ob Sie die Tonleiter richtig gespielt haben.</string>
+    <string name="scales_tutorial5">Wählen Sie die Schaltfläche „Referenz“, um das Muster der Skalen als Referenz anzuzeigen. Sie sollten diese Funktion deaktivieren, wenn Sie sich selbst auf der Waage testen.</string>
+    <string name="scales_tutorial6">„Skalenrichtung“, wenn Sie die Skalen absteigend oder aufsteigend und absteigend ausführen möchten.</string>
+
+    <string name="correct">DU HAST ES GEMEISTERT!</string>
+    <string name="jam_information1">Lerne, in jeder Tonart zu jammen und zu improvisieren. Wähle eine Tonart und spiele innerhalb der markierten Noten, um eine Melodie oder Akkordfolge zu erstellen. Beginne mit dem Grundton der Tonart und spiele dann einen weiteren Ton und steigere dich dann.</string>
+    <string name="jam_tutorial1">Drücken Sie die Taste „Root Note“, um den Grundton (z. B. C, F, Eb usw.) zu ändern. Dieser bildet die Grundlage für die Tonarten.</string>
+    <string name="jam_tutorial2">Drücken Sie die Taste „Key“ und wählen Sie die Tonart aus, in der Sie jammen möchten. (Zum Beispiel C-Dur oder C-Moll, wenn C der Grundton war). Dann jammen Sie los.</string>
+    <string name="jam_tutorial3">Möchten Sie eine Melodie aufnehmen? Wählen Sie die Schaltfläche „Aufnehmen“ und starten Sie die Wiedergabe. Um die Aufnahme zu beenden, wählen Sie erneut die Schaltfläche „Aufnehmen“.</string>
+    <string name="jam_tutorial4">Wählen Sie die Schaltfläche „Wiedergabe-Stopp“, um die Aufnahme abzuspielen, oder spielen Sie eine gespeicherte Aufnahme ab, die Sie gerade geöffnet haben.</string>
+    <string name="jam_tutorial5">Wählen Sie die Schaltfläche „Öffnen-Speichern“, um eine zuvor gespeicherte Melodie zu öffnen oder die Melodie zu speichern, die Sie gerade aufgenommen haben.</string>
+    <string name="jam_tutorial6">Wählen Sie die Taste „Metronom“, um den Takt zu starten. Durch langes Drücken gelangen Sie in die Metronomeinstellungen.</string>
+    <string name="jam_tutorial7">Wählen Sie eine Akkordschaltfläche aus, um die Hauptnoten im Akkord innerhalb der Tonart hervorzuheben.</string>
+    <string name="jam_tutorial8">Wählen Sie eine empfohlene Akkordtaste aus. Die empfohlenen Akkordtasten folgen der Standard-Akkordfolgeformel der Tonart.</string>
+    <string name="user_solos_help">Tutorial / Hilfe für Benutzersoli</string>
+    <string name="user_solos_information1">Hören Sie zu und lernen Sie einige der besten Benutzermelodien.</string>
+    <string name="user_solos_tutorial1">Drücken Sie die Schaltfläche „Melodie auswählen“ und wählen Sie die Melodie aus, die Sie hören möchten.</string>
+    <string name="user_solos_tutorial2">Wählen Sie die Schaltfläche „Wiedergabe/Stopp“, um das Lied abzuspielen. Spielen Sie das Lied nach dem Anhören auf der Tastatur erneut ab.</string>
+    <string name="user_solos_tutorial3">Wählen Sie dann die Schaltfläche „Überprüfen“, um zu überprüfen, ob Sie das Lied richtig wiedergegeben haben.</string>
+    <string name="user_solos_tutorial4">Wählen Sie die Schaltfläche „Zahlen“, um die Anzahl der wiederzugebenden Noten zu begrenzen.</string>
+    <string name="recognition_information1">Die App erkennt, welche Tonleitern/Akkorde Sie spielen.</string>
+    <string name="recognition_tutorial1">Spielen Sie eine Tonleiter oder einen Akkord und drücken Sie dann die Aufnahmetaste, um die Wiedergabe zu beenden. Die App zeigt Ihnen dann an, was Sie gespielt haben.</string>
+    <string name="recognition_tutorial2">Drücken Sie die Schaltfläche „Kreuz-B“, um die Notennamen zwischen B und Kreuz umzuschalten.</string>
+    <string name="recognition_tutorial3">Wählen Sie die Schaltfläche „Aktualisieren“, um den Bildschirm zu aktualisieren und die Markierung der Notizen aufzuheben.</string>
+    <string name="note_count">Anzahl der Notizen</string>
+
+
+    <string name="use_cat">WAHR</string>
+    <string name="str_orange">#fe7b27</string>
+    <string name="basic_action_1">Löschen</string>
+    <string name="basic_action_2">Aktion_2</string>
+    <string name="title_activity_category_selection">Kategorieauswahl</string>
+    <string name="ad_attribution">Anzeige</string>
+
+    <string name="str_green">#3cac69</string>
+    <string name="str_red">#FF4444</string>
+    <string name="str_yellow">#FFBB33</string>
+    <string name="str_sky_blue">#33B5E5</string>
+    <string name="basic_del">Löschen</string>
+
+
+    <string name="rate_app">APP BEWERTEN</string>
+    <string name="exit_app">APP BEENDEN</string>
+    <string name="do_you_want_to_exit">Möchten Sie aussteigen?</string>
+
+    <string name="exitscreen">Bitte nehmen Sie sich einen Moment Zeit, um uns zu bewerten und Ihr wertvolles Feedback zu geben, bevor Sie gehen.</string>
+
+
+    <string name="mobile" >Mobile</string>
+    <string name="incoming_call" >Eingehender Anruf</string>
+    <string name="duration" >Dauer</string>
+    <string name="edit_contact" >Kontakt bearbeiten</string>
+    <string name="message" >Nachricht</string>
+    <string name="send_mail" >E-Mail senden</string>
+    <string name="web" >Webseite</string>
+    <string name="write_personal_message" >Persönliche Nachricht schreiben</string>
+    <string name="favourites" >Favoriten</string>
+    <string name="your_name" >Ihr Name</string>
+    <string name="your_recent_call_and_meeting_history_is_nnot_here" >Ihr aktueller Anruf- und Besprechungsverlauf ist\10nicht hier</string>
+    <string name="select_sim" >SIM auswählen</string>
+    <string name="no_sim_card_found" >Keine SIM-Karte gefunden</string>
+    <string name="please_enter_message" >Bitte geben Sie eine Nachricht ein</string>
+    <string name="contact_app_not_found" >Kontakt-App nicht gefunden</string>
+    <string name="sendWhatsAppMessage" >WhatsApp-Nachricht senden</string>
+
+    <string name="start_video_record" >Videoaufnahme starten</string>
+    <string name="start_audio_record" >Audioaufnahme starten</string>
+    <string name="private_number" >Private Nummer</string>
+
+    <string name="str_after_call_screen" >Bildschirm nach dem Anruf</string>
+    <string name="others">Sonstiges</string>
+
+    <string name="str_fea_title0" >Willkommen!</string>
+    <string name="str_fea_des0" >Diese App verfügt über eine Aftercall-Funktion, mit der Sie nach jedem Anruf auf die App zugreifen können. Um die Aftercall-Funktion zu nutzen, sind folgende Berechtigungen erforderlich:</string>
+
+    <string name="str_fea_title4" >Telefonstatus</string>
+    <string name="str_fea_des4" >Hilft bei der Identifizierung des Status eingehender und ausgehender Anrufe.</string>
+
+    <string name="str_fea_title5" >Überlagerung</string>
+    <string name="str_fea_des5" >Wird verwendet, damit die Aftercall-Funktion ordnungsgemäß funktioniert.</string>
+
+    <string name="str_fea_title6" >Benachrichtigung</string>
+    <string name="str_fea_des6" >Um auf dem Laufenden zu bleiben!</string>
+
+    <string name="str_turm_condition" >\u0020</string>
+    <string name="str_privacy_olicy" ><u>Privacy Policy</u></string>
+    <string name="str_decline" >ABFALL</string>
+    <string name="str_accept" >Weitermachen</string>
+    <string name="str_by_accepting" >Indem Sie fortfahren, stimmen Sie zu</string>
+    <string name="str_and" >\u0020 und</string>
+
+    <string name="str_enable_display_permission" >Anzeigeberechtigung aktivieren</string>
+    <string name="str_enable_to_unlock_feature" >Aktivieren zum Entsperren der Funktion</string>
+    <string name="str_enable_feature_detail" >Aktivieren Sie die Berechtigung „Über anderen Apps anzeigen (Im Vordergrund erscheinen)“. Manche Geräte haben möglicherweise eine andere Bezeichnung. Verwenden Sie eine der oben genannten Methoden.</string>
+    <string name="done" >Erledigt</string>
+
+
+    <string name="set_reminder">Erinnerung festlegen</string>
+    <string name="no_reminders">Keine Erinnerungen</string>
+    <string name="contact">Kontakt</string>
+    <string name="calendar">Kalender</string>
+    <string name="reminde_me_about">Erinnere mich an</string>
+    <string name="reminder_alert">Erinnerungsalarm!</string>
+    <string name="please_select_a_future_date_and_time">Bitte wählen Sie ein zukünftiges Datum und eine zukünftige Uhrzeit aus!</string>
+    <string name="fill_the_content_of_the_reminder">Füllen Sie den Inhalt der Erinnerung</string>
+    <string name="reminder_set_successfully">Erinnerung erfolgreich eingerichtet!</string>
+    <string name="reminder_deleted">Erinnerung gelöscht!</string>
+
+
+    <string name="str_back_to_close_text" >Zum Beenden erneut drücken</string>
+    <string name="select_language">Sprache auswählen</string>
+    <string name="str_next">Nächste</string>
+    <string name="str_done">Erledigt</string>
+
+    <string name="str_keyboard_size">Tastaturgröße</string>
+    <string name="str_tune_volume">Lautstärke einstellen</string>
+    <string name="str_tune_speed">Geschwindigkeit einstellen</string>
+    <string name="str_metronome_settings">Metronomeinstellungen</string>
+    <string name="str_highlight_all_notes">Alle Notizen hervorheben</string>
+    <string name="str_autoscroll">Automatisches Scrollen</string>
+    <string name="str_reset_setting">Einstellungen zurücksetzen</string>
+    <string name="str_reset">Zurücksetzen</string>
+    <string name="str_enter">Eingeben</string>
+
+</resources>

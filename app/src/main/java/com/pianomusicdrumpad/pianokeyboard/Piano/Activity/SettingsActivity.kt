@@ -18,6 +18,8 @@ import com.pianomusicdrumpad.pianokeyboard.R
 import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils.getString
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils.putString
+import com.pianomusicdrumpad.pianokeyboard.Utils.Utility.setLocale
+import com.pianomusicdrumpad.pianokeyboard.language.LanguageActivity
 
 class SettingsActivity : Activity(), View.OnClickListener, CompoundButton.OnCheckedChangeListener,
     OnSeekBarChangeListener {
@@ -53,6 +55,19 @@ class SettingsActivity : Activity(), View.OnClickListener, CompoundButton.OnChec
     private val mediation: String? = null
     private val full_ad: Any? = null
     var adBannerAd: LinearLayout? = null
+
+    private val languageName = arrayOf(
+        "English",
+        "Chinese",
+        "Spanish",
+        "French",
+        "Hindi",
+        "Indonesian",
+        "Russian",
+        "German",
+        "Portuguese"
+    )
+    private val lanCode = arrayOf("en", "zh", "es", "fr", "hi", "in", "ru", "de", "pt")
 
 
     override fun onStartTrackingTouch(seekBar: SeekBar) {
@@ -100,6 +115,7 @@ class SettingsActivity : Activity(), View.OnClickListener, CompoundButton.OnChec
     override fun onResume() {
         super.onResume()
         putString(ConstantAd.AD_CHECK_RESUME, "1")
+        setLocale(this, getString(ConstantAd.LANGUAGE_CODE, "en"))
     }
 
 
@@ -277,6 +293,37 @@ class SettingsActivity : Activity(), View.OnClickListener, CompoundButton.OnChec
             this.pressureFromPrefs = z3
             pressureCheckBox!!.isChecked = z3
         }
+        findViewById<View>(R.id.llSelectLanguage).setOnClickListener {
+            val intent_lng = Intent(this@SettingsActivity, LanguageActivity::class.java)
+            startActivity(intent_lng)
+        }
+
+
+        val tvSelectLanguage = findViewById<TextView>(R.id.tvSelectLanguage) as TextView
+
+        if (getString(ConstantAd.LANGUAGE_CODE, "en") == lanCode[0]) {
+            tvSelectLanguage.text = languageName[0]
+        } else if (getString(ConstantAd.LANGUAGE_CODE, "en") == lanCode[1]) {
+            tvSelectLanguage.text = languageName[1]
+        } else if (getString(ConstantAd.LANGUAGE_CODE, "en") == lanCode[2]) {
+            tvSelectLanguage.text = languageName[2]
+        } else if (getString(ConstantAd.LANGUAGE_CODE, "en") == lanCode[3]) {
+            tvSelectLanguage.text = languageName[3]
+        } else if (getString(ConstantAd.LANGUAGE_CODE, "en") == lanCode[4]) {
+            tvSelectLanguage.text = languageName[4]
+        } else if (getString(ConstantAd.LANGUAGE_CODE, "en") == lanCode[5]) {
+            tvSelectLanguage.text = languageName[5]
+        } else if (getString(ConstantAd.LANGUAGE_CODE, "en") == lanCode[6]) {
+            tvSelectLanguage.text = languageName[6]
+        } else if (getString(ConstantAd.LANGUAGE_CODE, "en") == lanCode[7]) {
+            tvSelectLanguage.text = languageName[7]
+        } else if (getString(ConstantAd.LANGUAGE_CODE, "en") == lanCode[8]) {
+            tvSelectLanguage.text = languageName[8]
+        } else {
+            tvSelectLanguage.text = languageName[0]
+        }
+
+
     }
 
     override fun onProgressChanged(seekBar: SeekBar, i: Int, z: Boolean) {
