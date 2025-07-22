@@ -199,5 +199,6 @@
     <string name="str_reset_setting">Atur Ulang Pengaturan</string>
     <string name="str_reset">Mengatur ulang</string>
     <string name="str_enter">Memasuki</string>
+    <string name="str_play">Bermain</string>
 
 </resources>

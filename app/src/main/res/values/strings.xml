@@ -243,5 +243,6 @@
     <string name="str_reset_setting">Reset Settings</string>
     <string name="str_reset">Reset</string>
     <string name="str_enter">Enter</string>
+    <string name="str_play">Play</string>
 
 </resources>

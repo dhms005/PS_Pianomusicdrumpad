@@ -1,6 +1,8 @@
 package com.pianomusicdrumpad.pianokeyboard.ads
 
 import android.app.Activity
+import android.graphics.Color
+import android.graphics.drawable.GradientDrawable
 import android.os.Build
 import android.view.WindowInsets
 import android.widget.FrameLayout
@@ -10,6 +12,7 @@ import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdSize
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.LoadAdError
+import androidx.core.graphics.toColorInt
 
 class Admob_Banner_Ad {
     var adView: AdView? = null
@@ -68,7 +71,20 @@ class Admob_Banner_Ad {
                 // Replace ad container with new ad view.
                 adViewShimmer.stopShimmer()
                 adContainer.removeAllViews()
-                adContainer.addView(adView)
+
+                // Create a wrapper FrameLayout to add border
+                val borderWrapper = FrameLayout(context).apply {
+                    setPadding(2, 2, 2, 2) // Padding inside the border
+                    background = GradientDrawable().apply {
+                        setStroke(3, "#95BCBBBB".toColorInt()) // Border thickness & color
+                        cornerRadius = 0f // Optional rounded corners
+                        setColor(Color.WHITE) // Background color inside border
+                    }
+                    addView(adView)
+                }
+
+
+                adContainer.addView(borderWrapper)
                 // [END create_ad_view]
             }
 

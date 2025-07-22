@@ -200,5 +200,6 @@
     <string name="str_reset_setting">Einstellungen zurücksetzen</string>
     <string name="str_reset">Zurücksetzen</string>
     <string name="str_enter">Eingeben</string>
+    <string name="str_play">Spielen</string>
 
 </resources>

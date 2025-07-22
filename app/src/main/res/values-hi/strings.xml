@@ -199,5 +199,6 @@
     <string name="str_reset_setting">सेटिंग्स फिर से करिए</string>
     <string name="str_reset">रीसेट करें</string>
     <string name="str_enter">प्रवेश करना</string>
+    <string name="str_play">चलाएँ</string>
 
 </resources>

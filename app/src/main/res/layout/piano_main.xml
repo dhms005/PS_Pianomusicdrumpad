@@ -27,14 +27,17 @@
                     android:layout_height="match_parent" />
             </LinearLayout>
 
-            <com.pianomusicdrumpad.pianokeyboard.Piano.viewgroup.HomeViewGroup
+            <LinearLayout
                 android:id="@+id/homeViewGroup1"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="3">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_weight="1.2"
                     android:gravity="right|center_vertical|center_horizontal|center"
                     android:orientation="vertical"
                     android:paddingRight="20dp">
@@ -50,6 +53,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_weight="0.75"
                     android:orientation="vertical">
 
                     <LinearLayout
@@ -131,36 +135,46 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_weight="1"
                     android:orientation="vertical">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_weight="0.4"
                         android:orientation="horizontal"
                         android:paddingTop="5dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
                             android:gravity="center"
                             android:orientation="vertical"
                             android:paddingBottom="5dp">
 
                             <ImageView
                                 android:id="@+id/homePlayButtonImageView2"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
+                                android:layout_width="@dimen/_60sdp"
+                                android:layout_height="@dimen/_60sdp"
                                 android:adjustViewBounds="true"
                                 android:clickable="true"
+                                android:focusable="true"
                                 android:onClick="pianoPlayScreen"
-                                android:padding="8dp"
+                                android:padding="0dp"
                                 android:src="@drawable/home_play_button_selector" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:onClick="pianoPlayScreen"
+                                android:text="@string/str_play"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_18ssp"
+                                android:textStyle="bold" />
                         </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
-            </com.pianomusicdrumpad.pianokeyboard.Piano.viewgroup.HomeViewGroup>
+
+            </LinearLayout>
         </RelativeLayout>
     </LinearLayout>
 </RelativeLayout>

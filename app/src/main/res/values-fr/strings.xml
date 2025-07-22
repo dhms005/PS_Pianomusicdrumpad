@@ -199,5 +199,6 @@
     <string name="str_reset_setting">Réinitialiser les paramètres</string>
     <string name="str_reset">Réinitialiser</string>
     <string name="str_enter">Entrer</string>
+    <string name="str_play">Jouer</string>
 
 </resources>

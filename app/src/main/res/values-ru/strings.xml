@@ -199,5 +199,5 @@
     <string name="str_reset_setting">Сбросить настройки</string>
     <string name="str_reset">Перезагрузить</string>
     <string name="str_enter">Входить</string>
-
+    <string name="str_play">Играть</string>
 </resources>
