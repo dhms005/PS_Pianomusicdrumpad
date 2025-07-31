@@ -5,7 +5,7 @@ pluginManagement {
         gradlePluginPortal()
         jcenter()
         maven { url "https://jitpack.io" }
-        maven { url 'https://artifacts.applovin.com/android' }
+//        maven { url 'https://artifacts.applovin.com/android' }
 
         resolutionStrategy {
             eachPlugin {

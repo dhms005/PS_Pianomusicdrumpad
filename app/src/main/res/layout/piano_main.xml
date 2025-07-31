@@ -153,7 +153,7 @@
 
                             <ImageView
                                 android:id="@+id/homePlayButtonImageView2"
-                                android:layout_width="@dimen/_60sdp"
+                                android:layout_width="@dimen/_160sdp"
                                 android:layout_height="@dimen/_60sdp"
                                 android:adjustViewBounds="true"
                                 android:clickable="true"
@@ -162,14 +162,14 @@
                                 android:padding="0dp"
                                 android:src="@drawable/home_play_button_selector" />
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:onClick="pianoPlayScreen"
-                                android:text="@string/str_play"
-                                android:textColor="@color/black"
-                                android:textSize="@dimen/_18ssp"
-                                android:textStyle="bold" />
+                            <!--                                                        <TextView-->
+                            <!--                                                            android:layout_width="wrap_content"-->
+                            <!--                                                            android:layout_height="wrap_content"-->
+                            <!--                                                            android:onClick="pianoPlayScreen"-->
+                            <!--                                                            android:text="@string/str_play"-->
+                            <!--                                                            android:textColor="@color/black"-->
+                            <!--                                                            android:textSize="@dimen/_18ssp"-->
+                            <!--                                                            android:textStyle="bold" />-->
                         </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>

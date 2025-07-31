@@ -66,32 +66,6 @@ class Splash_Screen : AppCompatActivity() {
 
 //        createTimer()
         ConstantAd.SPLASH_OPEN = false
-        MainInterfaceV2.initMain(this@Splash_Screen, object : MainInterfaceV2.LoadData {
-            override fun reLoad(reloadTxt: String?) {}
-            override fun onSuccess() {
-
-
-                val splashOpenAdsShow =
-                    SharePrefUtils.getString(ConstantAd.SPLASH_OPEN_ADS_SHOW, "1")
-
-                if (splashOpenAdsShow == "1") {
-                    if (!SharePrefUtils.getBoolean(ConstantAd.IS_PURCHASE, false)) {
-                        appOpenAdManager = AppOpenAdManager(this@Splash_Screen)
-                        appOpenAdManager.loadAndShowAd(this@Splash_Screen) {
-                            nextcall()
-                        }
-                    } else {
-                        nextcall()
-                    }
-                } else {
-                    createTimer()
-                }
-
-
-            }
-
-            override fun onExtraData(extData: JSONObject?) {}
-        })
 
 
         // Create a timer so the SplashActivity will be displayed for a fixed amount of time.
@@ -129,6 +103,34 @@ class Splash_Screen : AppCompatActivity() {
         dialog.show()
     }
 
+    private fun callApiData() {
+
+        MainInterfaceV2.initMain(this@Splash_Screen, object : MainInterfaceV2.LoadData {
+            override fun reLoad(reloadTxt: String?) {}
+            override fun onSuccess() {
+
+
+                val splashOpenAdsShow =
+                    SharePrefUtils.getString(ConstantAd.SPLASH_OPEN_ADS_SHOW, "1")
+
+                if (splashOpenAdsShow == "1") {
+                    if (!SharePrefUtils.getBoolean(ConstantAd.IS_PURCHASE, false)) {
+                        appOpenAdManager = AppOpenAdManager(this@Splash_Screen)
+                        appOpenAdManager.loadAndShowAd(this@Splash_Screen) {
+                            nextcall()
+                        }
+                    } else {
+                        nextcall()
+                    }
+                } else {
+                    createTimer()
+                }
+
+            }
+
+            override fun onExtraData(extData: JSONObject?) {}
+        })
+    }
     private fun nextcall() {
         Utility.temPValue = 0
 
@@ -217,16 +219,16 @@ class Splash_Screen : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-//        if (Utility.isNetworkAvailable(this@Splash_Screen)) {
-//            nextcall()
-//        } else {
-//            Internet_dialog()
-//        }
+        if (Utility.isNetworkAvailable(this@Splash_Screen)) {
+            callApiData()
+        } else {
+            Internet_dialog()
+        }
     }
 
     private fun check_internet() {
         if (Utility.isNetworkAvailable(this@Splash_Screen)) {
-            nextcall()
+            callApiData()
         } else {
             Internet_dialog()
         }
