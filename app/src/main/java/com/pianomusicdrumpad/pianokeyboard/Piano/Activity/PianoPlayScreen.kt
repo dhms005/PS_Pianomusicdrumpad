@@ -381,7 +381,14 @@ class PianoPlayScreen : Activity() {
     }
 
     fun myRecordings(view: View?) {
-        startActivityForResult(Intent(this, RecordedSound::class.java), 2531)
+//        startActivityForResult(Intent(this, RecordedSound::class.java), 2531)
+
+        this@PianoPlayScreen.startActivity(
+            Intent(
+                this@PianoPlayScreen,
+                RecordedSound::class.java
+            )
+        )
     }
 
 
