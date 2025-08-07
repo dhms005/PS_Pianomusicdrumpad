@@ -3,14 +3,18 @@ package com.pianomusicdrumpad.pianokeyboard.callafterscreen.service
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
+import android.os.Looper
 import android.preference.PreferenceManager
 import android.provider.Settings
 import android.telephony.TelephonyManager
 import android.util.Log
+import com.google.android.gms.ads.AdSize
 import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
+import com.pianomusicdrumpad.pianokeyboard.ads.AdManager
 import com.pianomusicdrumpad.pianokeyboard.callafterscreen.activity.CallCutPopupActivity
 import com.pianomusicdrumpad.pianokeyboard.callafterscreen.common.CommonUtils
 import com.pianomusicdrumpad.pianokeyboard.callafterscreen.common.CommonUtils.getSharedPreferencesData
+import java.util.logging.Handler
 
 class CallReceiver : BroadcastReceiver() {
 
@@ -59,6 +63,8 @@ class CallReceiver : BroadcastReceiver() {
 
                         if (Settings.canDrawOverlays(context)) {
 
+
+
                             val defaultSharedPreferences =
                                 PreferenceManager.getDefaultSharedPreferences(
                                     context
@@ -67,16 +73,32 @@ class CallReceiver : BroadcastReceiver() {
                                     "prefAfterCallScreen", true
                                 )
                             ) {
-                                ConstantAd.SPLASH_OPEN = false
-                                val newIntent =
-                                    Intent(context, CallCutPopupActivity::class.java).apply {
-                                        flags =
-                                            Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
+
+                                val displayMetrics = context.resources.displayMetrics
+                                val screenWidthDp = (displayMetrics.widthPixels / displayMetrics.density).toInt()
+                                val adSize = AdSize.getLandscapeInlineAdaptiveBannerAdSize(context, screenWidthDp)
+
+                                // Preload ad
+                                AdManager.preloadBannerAd(context, ConstantAd.CALL_END_SCREEN_BANNER, adSize)
+
+                                android.os.Handler(Looper.getMainLooper()).postDelayed({
+                                    // Code to run after 3 seconds
+                                    Log.d("Timer", "3 seconds passed!")
+
+                                    ConstantAd.SPLASH_OPEN = false
+                                    val newIntent =
+                                        Intent(context, CallCutPopupActivity::class.java).apply {
+                                            flags =
+                                                Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
 //                                    putExtra("callNumber", incomingNumber)
-                                        Log.e("@@@", "" + incomingNumber)
+                                            Log.e("@@@", "" + incomingNumber)
 //                                    putExtra("callNumber", "123")
-                                    }
-                                context.startActivity(newIntent)
+                                        }
+                                    context.startActivity(newIntent)
+
+                                }, 3000) // 3000 milliseconds = 3 seconds
+
+
                             }
 
                         }

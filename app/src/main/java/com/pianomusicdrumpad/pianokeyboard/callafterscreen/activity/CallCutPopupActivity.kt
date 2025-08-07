@@ -5,6 +5,7 @@ import android.app.Activity
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.FrameLayout
 import androidx.activity.OnBackPressedCallback
@@ -25,6 +26,7 @@ import com.pianomusicdrumpad.pianokeyboard.Utils.ConstantAd
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils.getString
 import com.pianomusicdrumpad.pianokeyboard.Utils.Utility.setLocale
+import com.pianomusicdrumpad.pianokeyboard.ads.AdManager
 import com.pianomusicdrumpad.pianokeyboard.callafterscreen.ViewModel.RecentCallViewModel
 import com.pianomusicdrumpad.pianokeyboard.callafterscreen.adapter.MyFragmentStatePagerAdapter
 import com.pianomusicdrumpad.pianokeyboard.callafterscreen.common.CommonUtils
@@ -80,7 +82,7 @@ class CallCutPopupActivity : AppCompatActivity() {
             SharePrefUtils.getString(ConstantAd.CALL_END_ADS_SHOW, "1")
 
         if (callEndAdsShow == "1") {
-            loadBanner()
+            showCachedBannerAd()
         }
 
         viewModelRecentAllCall = ViewModelProvider(this)[RecentCallViewModel::class.java]
@@ -188,6 +190,7 @@ class CallCutPopupActivity : AppCompatActivity() {
     override fun onDestroy() {
         ConstantAd.SPLASH_OPEN = true
         adView?.destroy()
+        clearCachedAd()
         super.onDestroy()
     }
 
@@ -197,6 +200,22 @@ class CallCutPopupActivity : AppCompatActivity() {
         homeIntent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
         startActivity(homeIntent)
         finish()
+    }
+
+    fun showCachedBannerAd() {
+        val cachedAd = AdManager.getPreloadedAdView()
+
+        adContainerView = binding.AdmobNativeFrameTwo
+        adContainerView.removeAllViews()
+
+        if (cachedAd != null && cachedAd.parent == null) {
+            // Add the cached ad to the container
+            adContainerView.addView(cachedAd)
+            Log.d("AdManager", "Showing cached banner ad.")
+        } else {
+            // Fallback: Load a new ad if not cached or already attached elsewhere
+            loadBanner()
+        }
     }
 
     private fun loadBanner() {
@@ -274,6 +293,10 @@ class CallCutPopupActivity : AppCompatActivity() {
                 // covers the screen.
             }
         }
+    }
+
+    fun clearCachedAd() {
+        AdManager.preloadedBannerAdView = null
     }
 
 }
