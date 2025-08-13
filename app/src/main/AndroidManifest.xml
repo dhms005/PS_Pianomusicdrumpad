@@ -176,7 +176,6 @@
             android:name=".callafterscreen.activity.CallCutPopupActivity"
             android:exported="true"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustPan"
             android:screenOrientation="portrait"
             android:taskAffinity="" />
 

@@ -64,7 +64,6 @@ class CallReceiver : BroadcastReceiver() {
                         if (Settings.canDrawOverlays(context)) {
 
 
-
                             val defaultSharedPreferences =
                                 PreferenceManager.getDefaultSharedPreferences(
                                     context
@@ -75,13 +74,21 @@ class CallReceiver : BroadcastReceiver() {
                             ) {
 
                                 val displayMetrics = context.resources.displayMetrics
-                                val screenWidthDp = (displayMetrics.widthPixels / displayMetrics.density).toInt()
-                                val adSize = AdSize.getLandscapeInlineAdaptiveBannerAdSize(context, screenWidthDp)
+                                val screenWidthDp =
+                                    (displayMetrics.widthPixels / displayMetrics.density).toInt()
+                                val adSize = AdSize.getLandscapeInlineAdaptiveBannerAdSize(
+                                    context,
+                                    screenWidthDp
+                                )
 
                                 // Preload ad
-                                AdManager.preloadBannerAd(context, ConstantAd.CALL_END_SCREEN_BANNER, adSize)
+                                AdManager.preloadBannerAd(
+                                    context,
+                                    ConstantAd.CALL_END_SCREEN_BANNER,
+                                    adSize
+                                )
 
-//                                android.os.Handler(Looper.getMainLooper()).postDelayed({
+                                android.os.Handler(Looper.getMainLooper()).postDelayed({
                                     // Code to run after 3 seconds
                                     Log.d("Timer", "3 seconds passed!")
 
@@ -95,12 +102,12 @@ class CallReceiver : BroadcastReceiver() {
                                             addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
                                             addFlags(Intent.FLAG_ACTIVITY_BROUGHT_TO_FRONT)
                                             addFlags(Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS)
-                                            Log.e("@@@", "" + incomingNumber)
+//                                            Log.e("@@@", "" + incomingNumber)
 //                                    putExtra("callNumber", "123")
                                         }
                                     context.startActivity(newIntent)
 
-//                                }, 100) // 3000 milliseconds = 3 seconds
+                                }, 100) // 3000 milliseconds = 3 seconds
 
 
                             }

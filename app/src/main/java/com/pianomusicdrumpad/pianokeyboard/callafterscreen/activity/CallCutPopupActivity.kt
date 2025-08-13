@@ -208,20 +208,22 @@ class CallCutPopupActivity : AppCompatActivity() {
         finish()
     }
 
-    fun showCachedBannerAd() {
-        val cachedAd = AdManager.getPreloadedAdView()
+    private fun showCachedBannerAd() {
 
-        adContainerView = binding.AdmobNativeFrameTwo
-        adContainerView.removeAllViews()
-
-        if (cachedAd != null && cachedAd.parent == null) {
-            // Add the cached ad to the container
-            adContainerView.addView(cachedAd)
-            Log.d("AdManager", "Showing cached banner ad.")
-        } else {
-            // Fallback: Load a new ad if not cached or already attached elsewhere
-            loadBanner()
-        }
+//        val cachedAd = AdManager.getPreloadedAdView()
+//
+//        adContainerView = binding.AdmobNativeFrameTwo
+//        adContainerView.removeAllViews()
+//
+//        if (cachedAd != null && cachedAd.parent == null) {
+//            // Add the cached ad to the container
+//            adContainerView.addView(cachedAd)
+//            Log.d("AdManager", "Showing cached banner ad.")
+//        } else {
+//            // Fallback: Load a new ad if not cached or already attached elsewhere
+//            loadBanner()
+//        }
+        loadBanner()
     }
 
     private fun loadBanner() {

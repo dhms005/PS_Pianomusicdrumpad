@@ -170,6 +170,7 @@ object ConstantAd {
     @JvmField
     var OPEN_APP_FIRST_TIME = "open_app_first_time"
 
+    @JvmField
     var AUTO_NOTI_ENABLE = "auto_notification_enable"
 
     @JvmField
