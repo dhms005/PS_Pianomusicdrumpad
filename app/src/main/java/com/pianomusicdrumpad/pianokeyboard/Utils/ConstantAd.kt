@@ -191,6 +191,12 @@ object ConstantAd {
     @JvmField
     var APP_OPEN_RECENT_ADS_SHOW = "app_open_recent_ad_show"
 
+    @JvmField
+    var navBarEnableAfterCallScreen = "navBar_enable_afterCall_screen"
+
+    @JvmField
+    var navBarEnablePermissionScreen = "navBar_enable_permission_screen"
+
 
 }
 

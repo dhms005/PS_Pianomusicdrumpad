@@ -141,6 +141,15 @@ object GetDataApi {
             FirebaseRemoteConfig.getInstance().getString("app_open_recent_ad_show")
         )
 
+        SharePrefUtils.putString(
+            ConstantAd.navBarEnableAfterCallScreen,
+            FirebaseRemoteConfig.getInstance().getString("navBar_enable_afterCall_screen")
+        )
+        SharePrefUtils.putString(
+            ConstantAd.navBarEnablePermissionScreen,
+            FirebaseRemoteConfig.getInstance().getString("navBar_enable_permission_screen")
+        )
+
 
         //       SharePrefUtils.putString(ConstantAd.START_SCREEN_COUNT, FirebaseRemoteConfig.getInstance().getString("start_screen"));
 //         SharePrefUtils.putString(ConstantAd.QUREKA_BTN, FirebaseRemoteConfig.getInstance().getString("qureka_btn"));

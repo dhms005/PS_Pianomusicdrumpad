@@ -57,6 +57,12 @@ class CallCutPopupActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         binding = ActivityCallCutPopupBinding.inflate(layoutInflater)
+
+        if (SharePrefUtils.getString(ConstantAd.navBarEnableAfterCallScreen, "0") == "1") {
+            window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or
+                    View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY or View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
+        }
+
         setContentView(binding.root)
 
 //        ConstantAd.SPLASH_OPEN = false
@@ -297,6 +303,10 @@ class CallCutPopupActivity : AppCompatActivity() {
 
     fun clearCachedAd() {
         AdManager.preloadedBannerAdView = null
+    }
+
+    override fun onBackPressed() {
+        finishAndRemoveTask()
     }
 
 }

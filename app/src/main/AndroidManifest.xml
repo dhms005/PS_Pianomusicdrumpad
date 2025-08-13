@@ -14,6 +14,7 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <uses-feature
         android:name="android.hardware.telephony"
         android:required="false" />
@@ -56,9 +57,9 @@
             android:name=".Activities.Privacypolicy_Action"
             android:theme="@style/Theme.AppCompat.NoActionBar" /> <!-- Start Browser -->
 
-<!--        <meta-data-->
-<!--            android:name="com.google.android.gms.ads.AD_MANAGER_APP"-->
-<!--            android:value="true" />-->
+        <!--        <meta-data-->
+        <!--            android:name="com.google.android.gms.ads.AD_MANAGER_APP"-->
+        <!--            android:value="true" />-->
 
         <property
             android:name="android.adservices.AD_SERVICES_CONFIG"
@@ -173,10 +174,11 @@
 
         <activity
             android:name=".callafterscreen.activity.CallCutPopupActivity"
-            android:excludeFromRecents="true"
+            android:exported="true"
             android:launchMode="singleTask"
-            android:noHistory="true"
-            android:screenOrientation="portrait" />
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"
+            android:taskAffinity="" />
 
         <activity
             android:name=".Activities.AgreeScreenActivity"
