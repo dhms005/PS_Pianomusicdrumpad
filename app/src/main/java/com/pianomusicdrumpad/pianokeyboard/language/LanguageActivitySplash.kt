@@ -78,6 +78,11 @@ class LanguageActivitySplash : AppCompatActivity() {
 //            window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or
 //                    View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
 //        }
+
+        if (SharePrefUtils.getString(ConstantAd.navBarEnableLanguageScreen, "0") == "1") {
+            window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or
+                    View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY or View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
+        }
         setContentView(R.layout.activity_cm_language)
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this)
         findViewById<View>(R.id.back).visibility = View.GONE

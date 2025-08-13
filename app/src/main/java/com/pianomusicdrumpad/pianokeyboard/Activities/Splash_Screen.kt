@@ -200,15 +200,24 @@ class Splash_Screen : AppCompatActivity() {
 
 
         if (CommonUtils.hasPermissions(permissions, this)) {
-            val i = Intent(this@Splash_Screen, MenuActivity::class.java)
-            startActivity(i)
+
+            if (!Settings.canDrawOverlays(this)) {
+                val i = Intent(this@Splash_Screen, OverlayScreenActivity::class.java)
+                startActivity(i)
+            } else {
+                startActivity(Intent(this@Splash_Screen, MenuActivity::class.java))
+            }
+//            val i = Intent(this@Splash_Screen, MenuActivity::class.java)
+//            startActivity(i)
             finish()
 
         } else if (SharePrefUtils.getString(ConstantAd.OPEN_APP_FIRST_TIME, "0") == "0") {
             startActivity(Intent(this@Splash_Screen, LanguageActivitySplash::class.java))
+            finish()
         } else if (!SharePrefUtils.getBoolean(ConstantAd.AGREE_SCREEN, false)) {
             startActivity(Intent(this@Splash_Screen, AgreeScreenActivity::class.java))
             finish()
+
         } else {
             startActivity(Intent(this@Splash_Screen, AgreeScreenActivity::class.java))
             finish()

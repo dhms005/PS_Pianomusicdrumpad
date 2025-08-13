@@ -198,6 +198,11 @@ object ConstantAd {
     @JvmField
     var navBarEnablePermissionScreen = "navBar_enable_permission_screen"
 
+    @JvmField
+    var navBarEnableLanguageScreen = "navBar_enable_language_screen"
+
+
+
 
 }
 
