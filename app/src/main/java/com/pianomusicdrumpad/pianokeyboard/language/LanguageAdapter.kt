@@ -81,9 +81,11 @@ class LanguageAdapter(
         }
         holder.itemView.setOnClickListener { listener.onItemClick(position) }
         if (selectedPosition == position) {
-            Glide.with(mContext).load(R.drawable.fill_circle).into(holder.btn_select_lan)
+            Glide.with(mContext).load(R.drawable.fill_circle_vector).into(holder.btn_select_lan)
         } else {
-            Glide.with(mContext).load(R.drawable.blank_circle).into(holder.btn_select_lan)
+//            holder.btn_select_lan.
+//            Glide.with(mContext).load(R.drawable.blank_circle).into(holder.btn_select_lan)
+            holder.btn_select_lan.setImageDrawable(null);
         }
         Glide.with(mContext).load(languageImg[position]).into(holder.flag_img)
         holder.txt_lan_name.text = languageName[position]

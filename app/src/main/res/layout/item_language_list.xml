@@ -30,15 +30,16 @@
                 android:layout_marginStart="@dimen/_15sdp"
                 android:textSize="@dimen/_15sdp"
                 android:textColor="@color/black"
+                android:fontFamily="@font/ads_font_bold"
                 android:layout_centerVertical="true"
                 android:layout_toRightOf="@+id/flag_img"/>
             <ImageView
                 android:id="@+id/btn_select_lan"
-                android:layout_width="@dimen/_15sdp"
-                android:layout_height="@dimen/_15sdp"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
-                android:src="@drawable/blank_circle"/>
+                android:src="@drawable/fill_circle_vector"/>
         </RelativeLayout>
     </RelativeLayout>
 
