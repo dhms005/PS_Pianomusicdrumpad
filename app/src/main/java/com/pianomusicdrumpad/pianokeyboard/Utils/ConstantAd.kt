@@ -130,6 +130,9 @@ object ConstantAd {
     var AD_LANG_BANNER_NATIVE = "ca-app-pub-2864503288124171/8106578895"
 
     @JvmField
+    var AD_LANG_BANNER = "ca-app-pub-2864503288124171/3174472951"
+
+    @JvmField
     var AD_INTER = "ca-app-pub-2864503288124171/4101268168"
 
     @JvmField

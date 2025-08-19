@@ -30,6 +30,7 @@ import com.pianomusicdrumpad.pianokeyboard.Utils.PulsatorLayout
 import com.pianomusicdrumpad.pianokeyboard.Utils.SharePrefUtils
 import com.pianomusicdrumpad.pianokeyboard.Utils.Utility
 import com.pianomusicdrumpad.pianokeyboard.ads.GoogleMobileAdsConsentManager
+import com.pianomusicdrumpad.pianokeyboard.ads.MainInterfaceV2
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -227,7 +228,8 @@ class LanguageActivitySplash : AppCompatActivity() {
             runOnUiThread {
                 // Load an ad on the main thread.
                 if (!SharePrefUtils.getBoolean(ConstantAd.IS_PURCHASE, false)) {
-                    refreshAd()
+//                    refreshAd()
+                    loadBanner()
                 }
             }
         }
@@ -245,6 +247,16 @@ class LanguageActivitySplash : AppCompatActivity() {
 //            })
 //            .start()
     }
+
+    private fun loadBanner() {
+        MainInterfaceV2.loadBanner(
+            this,
+            findViewById(R.id.Admob_Native_Frame_two),
+            adNativeBannerSimmer = R.layout.ad_native_adptive_banner_simmer,
+            bannerId = ConstantAd.AD_LANG_BANNER
+        )
+    }
+
 
     private fun refreshAd() {
         val frameLayout = findViewById<FrameLayout>(R.id.Admob_Native_Frame_two)
