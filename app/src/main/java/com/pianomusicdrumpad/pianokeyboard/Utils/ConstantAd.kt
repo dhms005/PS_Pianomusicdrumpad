@@ -130,7 +130,10 @@ object ConstantAd {
     var AD_LANG_BANNER_NATIVE = "ca-app-pub-2864503288124171/8106578895"
 
     @JvmField
-    var AD_LANG_BANNER = "ca-app-pub-2864503288124171/3174472951"
+    var AD_LANG_BANNER = "ca-app-pub-2864503288124171/4943034944"
+
+    @JvmField
+    var AD_LANG_BANNER_BIG = "ca-app-pub-2864503288124171/2975879987"
 
     @JvmField
     var AD_INTER = "ca-app-pub-2864503288124171/4101268168"
@@ -204,7 +207,8 @@ object ConstantAd {
     @JvmField
     var navBarEnableLanguageScreen = "navBar_enable_language_screen"
 
-
+    @JvmField
+    var langAdSetting = "lang_ad_setting"
 
 
 }

@@ -229,7 +229,39 @@ class LanguageActivitySplash : AppCompatActivity() {
                 // Load an ad on the main thread.
                 if (!SharePrefUtils.getBoolean(ConstantAd.IS_PURCHASE, false)) {
 //                    refreshAd()
-                    loadBanner()
+                    if (!SharePrefUtils.getBoolean(ConstantAd.IS_PURCHASE, false)) {
+//
+//Native Ad
+                        if (SharePrefUtils.getString(
+                                ConstantAd.langAdSetting,
+                                "2"
+                            ) == "1"
+                        ) {
+                            refreshAd()
+                            Log.e("Ads", "Native Ads")
+                        }
+//                    Banner ad small
+                        else if (SharePrefUtils.getString(
+                                ConstantAd.langAdSetting,
+                                "2"
+                            ) == "2"
+                        ) {
+                            loadBanner()
+                            Log.e("Ads", "Small Banner Ads")
+                        }
+//                    Banner Ad Big
+                        else if (SharePrefUtils.getString(
+                                ConstantAd.langAdSetting,
+                                "2"
+                            ) == "3"
+                        ) {
+                            loadBigBanner()
+                            Log.e("Ads", "Big Banner Ads")
+                        } else {
+                            Log.e("Ads", "No Ads")
+                        }
+
+                    }
                 }
             }
         }
@@ -257,6 +289,14 @@ class LanguageActivitySplash : AppCompatActivity() {
         )
     }
 
+    private fun loadBigBanner() {
+        MainInterfaceV2.loadBigBanner(
+            this,
+            findViewById(R.id.Admob_Native_Frame_two),
+            adNativeBannerSimmer = R.layout.ad_native_rectangle_adaptive_banner_simmer,
+            bannerId = ConstantAd.AD_LANG_BANNER_BIG
+        )
+    }
 
     private fun refreshAd() {
         val frameLayout = findViewById<FrameLayout>(R.id.Admob_Native_Frame_two)

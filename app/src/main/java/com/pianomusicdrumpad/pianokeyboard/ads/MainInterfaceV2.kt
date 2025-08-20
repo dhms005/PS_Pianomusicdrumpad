@@ -66,6 +66,32 @@ object MainInterfaceV2 {
         }
     }
 
+    fun loadBigBanner(
+        context: Activity,
+        adContainer: FrameLayout,
+        adNativeBannerSimmer: Int,
+        bannerId: String
+    ) {
+        if (!SharePrefUtils.getBoolean(
+                ConstantAd.IS_PURCHASE, false
+            )
+        ) {
+//            Admob_Banner_Ad.getInstance().loadBanner(
+//                context,
+//                adContainer = FrameLayout(context),
+//                R.layout.ad_native_adptive_banner_simmer
+//            )
+
+            Admob_Banner_Ad.getInstance().loadBigBanner(
+                context,
+                adContainer,
+                adNativeBannerSimmer,
+                bannerId
+            )
+        } else {
+        }
+    }
+
     interface LoadData {
         fun reLoad(reloadTxt: String?)
 

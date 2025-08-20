@@ -155,6 +155,11 @@ object GetDataApi {
             FirebaseRemoteConfig.getInstance().getString("navBar_enable_language_screen")
         )
 
+        SharePrefUtils.putString(
+            ConstantAd.langAdSetting,
+            FirebaseRemoteConfig.getInstance().getString("lang_ad_setting")
+        )
+
 
         //       SharePrefUtils.putString(ConstantAd.START_SCREEN_COUNT, FirebaseRemoteConfig.getInstance().getString("start_screen"));
 //         SharePrefUtils.putString(ConstantAd.QUREKA_BTN, FirebaseRemoteConfig.getInstance().getString("qureka_btn"));
