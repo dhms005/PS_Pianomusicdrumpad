@@ -107,6 +107,7 @@ class MenuActivity : AppCompatActivity(), View.OnClickListener {
         coordinatorLayout = findViewById(R.id.coordinatorLayout)
         checkForUpdate()
 
+        loadBanner()
 //        MainInterfaceV2.initMain(this@MenuActivity, object : MainInterfaceV2.LoadData {
 //            override fun reLoad(reloadTxt: String?) {}
 //            override fun onSuccess() {}
@@ -653,6 +654,15 @@ class MenuActivity : AppCompatActivity(), View.OnClickListener {
         }
         snackbar.setActionTextColor(resources.getColor(R.color.install_color))
         snackbar.show()
+    }
+
+    private fun loadBanner() {
+        MainInterfaceV2.loadBanner(
+            this,
+            findViewById(R.id.Admob_Native_Frame_two),
+            adNativeBannerSimmer = R.layout.ad_native_adptive_banner_simmer,
+            bannerId = ConstantAd.AD_MENU_LIST_BANNER
+        )
     }
 
 }

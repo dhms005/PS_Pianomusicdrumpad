@@ -163,6 +163,9 @@ object ConstantAd {
     var CALL_END_SCREEN_BANNER = "ca-app-pub-2864503288124171/2644716262"
 
     @JvmField
+    var AD_MENU_LIST_BANNER = "ca-app-pub-2864503288124171/4058102767"
+
+    @JvmField
     var FIRST_AFTER_CALL = "first_aftercall"
 
     @JvmField
